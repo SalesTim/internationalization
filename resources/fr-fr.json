@@ -1286,82 +1286,82 @@
 		"standalone": {
 			"name": {
 				"short": "SalesTim",
-				"full": "SalesTim Governance Automation"
+				"full": "SalesTim Gouvernance Automatisée"
 			},
 			"description": {
-				"short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
-				"full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+				"short": "Automatisation de la Gouvernance Microsoft Teams.",
+				"full": "Solutions métiers pour Microsoft Teams, automatisation de la gouvernance et de l'adoption."
 			},
 			"staticTabs": {
 				"0": {
-					"name": "Home"
+					"name": "Accueil"
 				},
 				"1": {
-					"name": "Catalog"
+					"name": "Catalogue"
 				},
 				"2": {
-					"name": "Settings"
+					"name": "Configuration"
 				}
 			}
 		},
 		"targeted": {
 			"home": {
 				"name": {
-					"short": "Home",
-					"full": "SalesTim Home."
+					"short": "Accueil",
+					"full": "Accueil pour Microsoft Teams."
 				},
 				"description": {
-					"short": "SalesTim homepage for Microsoft Teams",
-					"full": "SalesTim homepage for Microsoft Teams."
+					"short": "Accueil pour Microsoft Teams",
+					"full": "Page d'accueil pour Microsoft Teams."
 				},
 				"staticTabs": {
 					"0": {
-						"name": "Home"
+						"name": "Accueil"
 					}
 				}
 			},
 			"approval": {
 				"name": {
-					"short": "Home",
-					"full": "SalesTim Home."
+					"short": "Approbation",
+					"full": "Approbation pour Microsoft Teams."
 				},
 				"description": {
-					"short": "SalesTim approval for Microsoft Teams",
-					"full": "SalesTim approval for Microsoft Teams."
+					"short": "Application d'approbation",
+					"full": "Application d'approbation pour Microsoft Teams."
 				},
 				"staticTabs": {
 					"0": {
-						"name": "Approval"
+						"name": "Approbation"
 					}
 				}
 			},
 			"catalog": {
 				"name": {
-					"short": "Catalog",
-					"full": "SalesTim Catalog."
+					"short": "Catalogue",
+					"full": "Catalogue de modèles pour Microsoft Teams."
 				},
 				"description": {
-					"short": "SalesTim Business Solutions Catalog for Microsoft Teams",
-					"full": "SalesTim Business Solutions Catalog for Microsoft Teams."
+					"short": "Application de gestion de catalogue de modèles pour Microsoft Teams",
+					"full": "Application de gestion de catalogue de modèles pour Microsoft Teams."
 				},
 				"staticTabs": {
 					"0": {
-						"name": "Catalog"
+						"name": "Catalogue"
 					}
 				}
 			},
 			"settings": {
 				"name": {
-					"short": "Settings",
-					"full": "SalesTim Settings."
+					"short": "Configuration",
+					"full": "Configuration SalesTim."
 				},
 				"description": {
-					"short": "SalesTim Settings for Microsoft Teams",
-					"full": "SalesTim Settings for Microsoft Teams."
+					"short": "Application de configuration SalesTim",
+					"full": "Application de configuration SalesTim."
 				},
 				"staticTabs": {
 					"0": {
-						"name": "Settings"
+						"name": "Configuration"
 					}
 				}
 			}
