@@ -287,12 +287,12 @@
       "loggedOut": "Disconnessione..."
     },
     "settings": {
-      "approval":{
-				"panel":{
-					"opened":"Approval Settings"
-				},
-				"updated":"Approval Settings (updated)"
-			},
+      "approval": {
+        "panel": {
+          "opened": "Approval Settings"
+        },
+        "updated": "Approval Settings (updated)"
+      },
       "serviceAccount": {
         "panel": {
           "opened": "Account di servizio"
@@ -728,7 +728,7 @@
               "title": "Approvazione",
               "enable": {
                 "disabled": "⚠ L'approvazione è disattivata in quanto non autorizzata dall'amministratore. Il processo di approvazione sarà ignorato finché non verrà configurato.",
-		"title": "🏁 Impostazioni",
+                "title": "🏁 Impostazioni",
                 "label": "Attiva approvazione",
                 "help": "Attivando l'approvazione, potrai decidere chi saranno gli approvatori per i team creati da questo template"
               },
@@ -919,30 +919,30 @@
         "title": "<i class='fa fa-shield'></i> Sicurezza"
       },
       "approval": {
-				"tab": {
-					"title": "<i class='fa fa-check-circle-o'></i> Approvazione"
-				},
-				"actionableMessage": {
-					"navbar": {
-						"title": "<i class='fa fa-envelope-o'></i> Messaggio di convalida"
-					},
-					"save": {
-						"button": "<i class='fa fa-floppy-o'></i> Salva",
-						"waiting": "⏳ Salvataggio in corso..."
-					},
-					"help": "Messaggio di convalida: aiuto. Vedi <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow di approvazione</a></i></b> nel nostro Tech Hub.",
-					"providerMode": {
-						"label": "Attiva un provider al livello dell'organizzazione",
-						"help": "Selezionando quest'opzione, la notifica di approvazione sarà inviata dall'Account di servizio, usando il suo stesso indirizzo e-mail.",
-						"providerId": {
-							"input": {
-								"title": "Provider Id (creatore)",
-								"placeholder": "Incolla Id del provider"
-							}
-						}
-					}
-				}
-			},
+        "tab": {
+          "title": "<i class='fa fa-check-circle-o'></i> Approvazione"
+        },
+        "actionableMessage": {
+          "navbar": {
+            "title": "<i class='fa fa-envelope-o'></i> Messaggio di convalida"
+          },
+          "save": {
+            "button": "<i class='fa fa-floppy-o'></i> Salva",
+            "waiting": "⏳ Salvataggio in corso..."
+          },
+          "help": "Messaggio di convalida: aiuto. Vedi <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow di approvazione</a></i></b> nel nostro Tech Hub.",
+          "providerMode": {
+            "label": "Attiva un provider al livello dell'organizzazione",
+            "help": "Selezionando quest'opzione, la notifica di approvazione sarà inviata dall'Account di servizio, usando il suo stesso indirizzo e-mail.",
+            "providerId": {
+              "input": {
+                "title": "Provider Id (creatore)",
+                "placeholder": "Incolla Id del provider"
+              }
+            }
+          }
+        }
+      },
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Account di servizio",
         "help": "Account di servizio Microsoft 365: ",
@@ -1182,10 +1182,10 @@
         "title": "Successo!",
         "message": "La tua richiesta è stata salvata."
       },
-			"error": {
-				"title": "request.save.error.title",
-				"message": "request.save.error.message"
-			}
+      "error": {
+        "title": "request.save.error.title",
+        "message": "request.save.error.message"
+      }
     }
   },
   "user": {
@@ -1198,15 +1198,15 @@
   },
   "settings": {
     "save": {
-			"error": {
-				"title": "Errore",
-				"message": "Errore nel salvamento delle impostanzioni."
-			},
-			"success": {
-				"title": "Successo",
-				"message": "Le nuove impostazioni sono state salvate."
-			}
-		}
+      "error": {
+        "title": "Errore",
+        "message": "Errore nel salvamento delle impostanzioni."
+      },
+      "success": {
+        "title": "Successo",
+        "message": "Le nuove impostazioni sono state salvate."
+      }
+    }
   },
   "builtinTabs": {
     "website": {
@@ -1283,224 +1283,224 @@
     }
   },
   "manifests": {
-		"standalone": {
-			"name": {
-				"short": "SalesTim",
-				"full": "SalesTim Governance Automation"
-			},
-			"description": {
-				"short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
-				"full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
-			},
-			"staticTabs": {
-				"0": {
-					"name": "Home"
-				},
-				"1": {
-					"name": "Catalog"
-				},
-				"2": {
-					"name": "Settings"
-				}
-			}
-		},
-		"targeted": {
-			"home": {
-				"name": {
-					"short": "Home",
-					"full": "SalesTim Home."
-				},
-				"description": {
-					"short": "SalesTim homepage for Microsoft Teams",
-					"full": "SalesTim homepage for Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Home"
-					}
-				}
-			},
-			"approval": {
-				"name": {
-					"short": "Home",
-					"full": "SalesTim Home."
-				},
-				"description": {
-					"short": "SalesTim approval for Microsoft Teams",
-					"full": "SalesTim approval for Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Approval"
-					}
-				}
-			},
-			"catalog": {
-				"name": {
-					"short": "Catalog",
-					"full": "SalesTim Catalog."
-				},
-				"description": {
-					"short": "SalesTim Business Solutions Catalog for Microsoft Teams",
-					"full": "SalesTim Business Solutions Catalog for Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Catalog"
-					}
-				}
-			},
-			"settings": {
-				"name": {
-					"short": "Settings",
-					"full": "SalesTim Settings."
-				},
-				"description": {
-					"short": "SalesTim Settings for Microsoft Teams",
-					"full": "SalesTim Settings for Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Settings"
-					}
-				}
-			}
-		}
-	},
+    "standalone": {
+      "name": {
+        "short": "SalesTim",
+        "full": "SalesTim Governance Automation"
+      },
+      "description": {
+        "short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
+        "full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+      },
+      "staticTabs": {
+        "0": {
+          "name": "Home"
+        },
+        "1": {
+          "name": "Catalog"
+        },
+        "2": {
+          "name": "Settings"
+        }
+      }
+    },
+    "targeted": {
+      "home": {
+        "name": {
+          "short": "Home",
+          "full": "SalesTim Home."
+        },
+        "description": {
+          "short": "SalesTim homepage for Microsoft Teams",
+          "full": "SalesTim homepage for Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Home"
+          }
+        }
+      },
+      "approval": {
+        "name": {
+          "short": "Home",
+          "full": "SalesTim Home."
+        },
+        "description": {
+          "short": "SalesTim approval for Microsoft Teams",
+          "full": "SalesTim approval for Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Approval"
+          }
+        }
+      },
+      "catalog": {
+        "name": {
+          "short": "Catalog",
+          "full": "SalesTim Catalog."
+        },
+        "description": {
+          "short": "SalesTim Business Solutions Catalog for Microsoft Teams",
+          "full": "SalesTim Business Solutions Catalog for Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Catalog"
+          }
+        }
+      },
+      "settings": {
+        "name": {
+          "short": "Settings",
+          "full": "SalesTim Settings."
+        },
+        "description": {
+          "short": "SalesTim Settings for Microsoft Teams",
+          "full": "SalesTim Settings for Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Settings"
+          }
+        }
+      }
+    }
+  },
   "storeInstallPage": {
-		"title": "storeInstallPage.title"
-	},
-	"approval": {
-		"login": {
-			"title": "Richiesta di Approvazione",
-			"meta": "",
-			"message": "Connetersi a",
-			"button": {
-				"normal": "CONNETTITI",
-				"waiting": "⏳ CONNESSIONE IN CORSO..."
-			}
-		},
-		"notifications": {
-			"approvers": {
-				"subject": "<%= request.request.requester.name %> ti ha inviato una richiesta di approvazione"
-			},
-			"requester": {
-				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata presentata, in attesa di approvazione"
-			},
-			"approved": {
-				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata approvata"
-			},
-			"rejected": {
-				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata respinta"
-			}
-		},
-		"card": {
-			"requester": {
-				"jobTitle": "Titolo",
-				"department": "Dipartimento"
-			},
-			"request": {
-				"template": "Template",
-				"requester": "Richiedente",
-				"approver":"Approvatore",
-				"approvalDate":"Approvata il",
-				"rejectionDate":"Respinta il",
-				"rejectionMessage":"Messaggio",
-				"teamName": "Nome del Team",
-				"teamDescription": "Descrizione",
-				"welcomeMessage": "Messaggio di Benvenuto",
-				"teamNamePlaceholder": "Inserire nome del Team",
-				"teamDescriptionPlaceholder": "Inserire descrizione del Team",
-				"welcomeMessagePlaceholder": "Inserire messaggio di benvenuto",
-				"members": "Membri",
-				"owners": "Proprietari",
-				"noMembers": "Nessuno",
-				"noOwners": "Nessuno",
-				"approvers": "Approvatori",
-				"rejection": {
-					"from": "Messaggio da"
-				}
-			},
-			"actions": {
-				"approve": "Approva",
-				"approveMessage": "✅ La richiesta è stata approvata",
-				"edit": "Modifica la richiesta prima dell'approvazione",
-				"reject": "Respingi",
-				"rejectMessage": "⛔ La richiesta è stata respinta",
-				"comment": "Aggiungi un commento al respingimento della richiesta",
-				"open": "Apri Richiesta",
-				"infos": "Richiesta",
-				"chat": {
-					"button": "Discuti con gli approvatori",
-					"topic": "Richiesta: ",
-					"message": "Ciao, ho una domanda riguardo alla mia richiesta "
-				}
-			}
-		},
-		"email": {
-			"footer": "Per questioni di sicurezza, questo messaggio è accessibile unicamente da Outlook (Desktop, Web and Mobile). Se questa scheda non appare, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installare l'Actionable Messages Debugger di Outlook add-in</a> per risolvere il problema.",
-			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
-		}
-	},
-	"tags": {
-		"user": {
-			"profile": {
-				"id": "User > ID (Unique Azure AD identifier as a UUID)",
-				"city": "Utente > Città",
-				"companyName": "Utente > Nome Organizzazione",
-				"country": "Utente > Paese",
-				"department": "Utente > Dipartimento",
-				"displayName": "Utente > Nome Visualizzato. e.g: 'Alice Hawking'",
-				"employeeId": "Utente > ID Dipendente",
-				"givenName": "Utente > Nome",
-				"jobTitle": "Utente > Figura Professionale",
-				"mail": "Utente > Email",
-				"mailNickname": "Utente > Nome Utente Email. e.g 'alice.hawking'",
-				"mobilePhone": "Utente > Telefono",
-				"officeLocation": "Utente > Luogo Ufficio",
-				"postalCode": "Utente > Codice Postale",
-				"preferredLanguage": "Utente > Lingua Preferita. e.g 'en-US'",
-				"state": "Utente > Stato",
-				"streetAddress": "Utente > Indirizzo",
-				"surname": "Utente > Cognome",
-				"usageLocation": "Utente > Localizzazione. e.g 'US'",
-				"userPrincipalName": "Utente > Nome Principale dell'Utente.",
-				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "Utente > Estensione Attributo 'On-premises' 1",
-					"extensionAttribute2": "Utente > Estensione Attributo 'On-premises' 2",
-					"extensionAttribute3": "Utente > Estensione Attributo 'On-premises' 3",
-					"extensionAttribute4": "Utente > Estensione Attributo 'On-premises' 4",
-					"extensionAttribute5": "Utente > Estensione Attributo 'On-premises' 5",
-					"extensionAttribute6": "Utente > Estensione Attributo 'On-premises' 6",
-					"extensionAttribute7": "Utente > Estensione Attributo 'On-premises' 7",
-					"extensionAttribute8": "Utente > Estensione Attributo 'On-premises' 8",
-					"extensionAttribute9": "Utente > Estensione Attributo 'On-premises' 9",
-					"extensionAttribute10": "Utente > Estensione Attributo 'On-premises' 10",
-					"extensionAttribute11": "Utente > Estensione Attributo 'On-premises' 11",
-					"extensionAttribute12": "Utente > Estensione Attributo 'On-premises' 12",
-					"extensionAttribute13": "Utente > Estensione Attributo 'On-premises' 13",
-					"extensionAttribute14": "Utente > Estensione Attributo 'On-premises' 14",
-					"extensionAttribute15": "Utente > Estensione Attributo 'On-premises' 15"
-				}
-			},
-			"groups": {
-				"direct": "Gruppi > Tutti i gruppi di cui l'utente è un membro DIRETTO.",
-				"transitive": "Gruppi > Tutti i gruppi di cui l'utente è membro in quanto incluso via un'attività transitiva."
-			}
-		},
-		"request": {
-			"team": {
-				"name": "Richiesta > Nome del Team",
-				"description": "Richiesta > Descrizione del Team",
-				"welcomeMessage": "Richiesta > Messaggio di benvenuto"
-			},
-			"template": {
-				"name": "Richiesta > Nome del Template"
-			}
-		},
-		"uniqueId": {
-			"fromDate": "ID unico > Un unico ID generato la data corrente. e.g '1597065805024'",
-			"uuid": "ID unico > Un unico ID casualmente generato come un UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
-		}
-	}
+    "title": "storeInstallPage.title"
+  },
+  "approval": {
+    "login": {
+      "title": "Richiesta di Approvazione",
+      "meta": "",
+      "message": "Connetersi a",
+      "button": {
+        "normal": "CONNETTITI",
+        "waiting": "⏳ CONNESSIONE IN CORSO..."
+      }
+    },
+    "notifications": {
+      "approvers": {
+        "subject": "<%= request.request.requester.name %> ti ha inviato una richiesta di approvazione"
+      },
+      "requester": {
+        "subject": "La tua richiesta \"<%= request.team.name %>\" è stata presentata, in attesa di approvazione"
+      },
+      "approved": {
+        "subject": "La tua richiesta \"<%= request.team.name %>\" è stata approvata"
+      },
+      "rejected": {
+        "subject": "La tua richiesta \"<%= request.team.name %>\" è stata respinta"
+      }
+    },
+    "card": {
+      "requester": {
+        "jobTitle": "Titolo",
+        "department": "Dipartimento"
+      },
+      "request": {
+        "template": "Template",
+        "requester": "Richiedente",
+        "approver": "Approvatore",
+        "approvalDate": "Approvata il",
+        "rejectionDate": "Respinta il",
+        "rejectionMessage": "Messaggio",
+        "teamName": "Nome del Team",
+        "teamDescription": "Descrizione",
+        "welcomeMessage": "Messaggio di Benvenuto",
+        "teamNamePlaceholder": "Inserire nome del Team",
+        "teamDescriptionPlaceholder": "Inserire descrizione del Team",
+        "welcomeMessagePlaceholder": "Inserire messaggio di benvenuto",
+        "members": "Membri",
+        "owners": "Proprietari",
+        "noMembers": "Nessuno",
+        "noOwners": "Nessuno",
+        "approvers": "Approvatori",
+        "rejection": {
+          "from": "Messaggio da"
+        }
+      },
+      "actions": {
+        "approve": "Approva",
+        "approveMessage": "✅ La richiesta è stata approvata",
+        "edit": "Modifica la richiesta prima dell'approvazione",
+        "reject": "Respingi",
+        "rejectMessage": "⛔ La richiesta è stata respinta",
+        "comment": "Aggiungi un commento al respingimento della richiesta",
+        "open": "Apri Richiesta",
+        "infos": "Richiesta",
+        "chat": {
+          "button": "Discuti con gli approvatori",
+          "topic": "Richiesta: ",
+          "message": "Ciao, ho una domanda riguardo alla mia richiesta "
+        }
+      }
+    },
+    "email": {
+      "footer": "Per questioni di sicurezza, questo messaggio è accessibile unicamente da Outlook (Desktop, Web and Mobile). Se questa scheda non appare, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installare l'Actionable Messages Debugger di Outlook add-in</a> per risolvere il problema.",
+      "copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
+    }
+  },
+  "tags": {
+    "user": {
+      "profile": {
+        "id": "User > ID (Unique Azure AD identifier as a UUID)",
+        "city": "Utente > Città",
+        "companyName": "Utente > Nome Organizzazione",
+        "country": "Utente > Paese",
+        "department": "Utente > Dipartimento",
+        "displayName": "Utente > Nome Visualizzato. e.g: 'Alice Hawking'",
+        "employeeId": "Utente > ID Dipendente",
+        "givenName": "Utente > Nome",
+        "jobTitle": "Utente > Figura Professionale",
+        "mail": "Utente > Email",
+        "mailNickname": "Utente > Nome Utente Email. e.g 'alice.hawking'",
+        "mobilePhone": "Utente > Telefono",
+        "officeLocation": "Utente > Luogo Ufficio",
+        "postalCode": "Utente > Codice Postale",
+        "preferredLanguage": "Utente > Lingua Preferita. e.g 'en-US'",
+        "state": "Utente > Stato",
+        "streetAddress": "Utente > Indirizzo",
+        "surname": "Utente > Cognome",
+        "usageLocation": "Utente > Localizzazione. e.g 'US'",
+        "userPrincipalName": "Utente > Nome Principale dell'Utente.",
+        "onPremisesExtensionAttributes": {
+          "extensionAttribute1": "Utente > Estensione Attributo 'On-premises' 1",
+          "extensionAttribute2": "Utente > Estensione Attributo 'On-premises' 2",
+          "extensionAttribute3": "Utente > Estensione Attributo 'On-premises' 3",
+          "extensionAttribute4": "Utente > Estensione Attributo 'On-premises' 4",
+          "extensionAttribute5": "Utente > Estensione Attributo 'On-premises' 5",
+          "extensionAttribute6": "Utente > Estensione Attributo 'On-premises' 6",
+          "extensionAttribute7": "Utente > Estensione Attributo 'On-premises' 7",
+          "extensionAttribute8": "Utente > Estensione Attributo 'On-premises' 8",
+          "extensionAttribute9": "Utente > Estensione Attributo 'On-premises' 9",
+          "extensionAttribute10": "Utente > Estensione Attributo 'On-premises' 10",
+          "extensionAttribute11": "Utente > Estensione Attributo 'On-premises' 11",
+          "extensionAttribute12": "Utente > Estensione Attributo 'On-premises' 12",
+          "extensionAttribute13": "Utente > Estensione Attributo 'On-premises' 13",
+          "extensionAttribute14": "Utente > Estensione Attributo 'On-premises' 14",
+          "extensionAttribute15": "Utente > Estensione Attributo 'On-premises' 15"
+        }
+      },
+      "groups": {
+        "direct": "Gruppi > Tutti i gruppi di cui l'utente è un membro DIRETTO.",
+        "transitive": "Gruppi > Tutti i gruppi di cui l'utente è membro in quanto incluso via un'attività transitiva."
+      }
+    },
+    "request": {
+      "team": {
+        "name": "Richiesta > Nome del Team",
+        "description": "Richiesta > Descrizione del Team",
+        "welcomeMessage": "Richiesta > Messaggio di benvenuto"
+      },
+      "template": {
+        "name": "Richiesta > Nome del Template"
+      }
+    },
+    "uniqueId": {
+      "fromDate": "ID unico > Un unico ID generato la data corrente. e.g '1597065805024'",
+      "uuid": "ID unico > Un unico ID casualmente generato come un UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+    }
+  }
 }

@@ -287,11 +287,11 @@
 			"loggedOut": "Signing-out..."
 		},
 		"settings": {
-			"approval":{
-				"panel":{
-					"opened":"Approval Settings"
+			"approval": {
+				"panel": {
+					"opened": "Approval Settings"
 				},
-				"updated":"Approval Settings (updated)"
+				"updated": "Approval Settings (updated)"
 			},
 			"serviceAccount": {
 				"panel": {
@@ -1327,10 +1327,10 @@
 			"request": {
 				"template": "Template",
 				"requester": "Requester",
-				"approver":"Approver",
-				"approvalDate":"Approved on",
-				"rejectionDate":"Rejected on",
-				"rejectionMessage":"Message",
+				"approver": "Approver",
+				"approvalDate": "Approved on",
+				"rejectionDate": "Rejected on",
+				"rejectionMessage": "Message",
 				"teamName": "Team Name",
 				"teamDescription": "Description",
 				"welcomeMessage": "Welcome Message",

@@ -287,11 +287,11 @@
 			"loggedOut": "Déconnexion..."
 		},
 		"settings": {
-			"approval":{
-				"panel":{
-					"opened":"Paramètres d'approbation"
+			"approval": {
+				"panel": {
+					"opened": "Paramètres d'approbation"
 				},
-				"updated":"Paramètres d'approbation (mis à jour)"
+				"updated": "Paramètres d'approbation (mis à jour)"
 			},
 			"serviceAccount": {
 				"panel": {

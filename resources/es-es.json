@@ -287,11 +287,11 @@
 			"loggedOut": "Cerrando Sesión..."
 		},
 		"settings": {
-			"approval":{
-				"panel":{
-					"opened":"Approval Settings"
+			"approval": {
+				"panel": {
+					"opened": "Approval Settings"
 				},
-				"updated":"Approval Settings (updated)"
+				"updated": "Approval Settings (updated)"
 			},
 			"serviceAccount": {
 				"panel": {
@@ -1283,85 +1283,85 @@
 		}
 	},
 	"manifests": {
-        "standalone": {
-            "name": {
-                "short": "SalesTim",
-                "full": "Automatización de la gobernanza de SalesTim"
-            },
-            "description": {
-                "short": " SalesTim es una herramienta de adopción y gobernanza para Microsoft Teams.",
-                "full": " SalesTim es una herramienta de adopción y gobernanza para Microsoft Teams que ofrece un catálogo de servicios fácil de usar para usuarios comerciales, así como funciones de automatización de seguridad para profesionales de TI."
-            },
-            "staticTabs": {
-                "0": {
-                    "name": "Inicio"
-                },
-                "1": {
-                    "name": "Catálogo"
-                },
-                "2": {
-                    "name": "Configuración"
-                }
-            }
-        },
-        "targeted": {
-            "home": {
-                "name": {
-                    "short": "Inicio", 
-                    "full": "Página de inicio de SalesTim." 
-                },
-                "description": {
-                    "short": "Página de inicio de SalesTim para Microsoft Teams",
-                    "full": "Página de inicio de SalesTim para Microsoft Teams."
-                },
-                "staticTabs": {
-                    "0": {
-                        "name": "Inicio"
-                    }
-                }
-            },
-            "approval": {
-                "name": {
-                    "short": "Inicio ",
-                    "full": "Página de inicio de SalesTim."
-                },
-                "description": {
-                    "short": "Aprobación de SalesTim para Microsoft Teams",
-                    "full": " Aprobación de SalesTim para Microsoft Teams."
-                },
-                "staticTabs": {
-                    "0": {
-                        "name": "Aprobación"
-                    }
-                }
-            },
-            "catalog": {
-                "name": {
-                    "short": "Catálogo",
-                    "full": "Catálogo de SalesTim."
-                },
-                "description": {
-                    "short": "Catálogo de soluciones comerciales de SalesTim para Microsoft Teams",
-                    "full": "Catálogo de soluciones comerciales de SalesTim para Microsoft Teams."
-                },
-                "staticTabs": {
-                    "0": {
-                        "name": "Catálogo"
-                    }
-                }
-            },
-            "settings": {
-                "name": {
-                    "short": "Configuración",
-                    "full": "Configuración de SalesTim."
-                },
-                "description": {
-                    "short": "Configuración de SalesTim para Microsoft Teams",
-                    "full": "Configuración de SalesTim para Microsoft Teams."
-                },
-                "staticTabs": {
-                    "0": {
-                        "name": "Configuración"
+		"standalone": {
+			"name": {
+				"short": "SalesTim",
+				"full": "Automatización de la gobernanza de SalesTim"
+			},
+			"description": {
+				"short": " SalesTim es una herramienta de adopción y gobernanza para Microsoft Teams.",
+				"full": " SalesTim es una herramienta de adopción y gobernanza para Microsoft Teams que ofrece un catálogo de servicios fácil de usar para usuarios comerciales, así como funciones de automatización de seguridad para profesionales de TI."
+			},
+			"staticTabs": {
+				"0": {
+					"name": "Inicio"
+				},
+				"1": {
+					"name": "Catálogo"
+				},
+				"2": {
+					"name": "Configuración"
+				}
+			}
+		},
+		"targeted": {
+			"home": {
+				"name": {
+					"short": "Inicio",
+					"full": "Página de inicio de SalesTim."
+				},
+				"description": {
+					"short": "Página de inicio de SalesTim para Microsoft Teams",
+					"full": "Página de inicio de SalesTim para Microsoft Teams."
+				},
+				"staticTabs": {
+					"0": {
+						"name": "Inicio"
+					}
+				}
+			},
+			"approval": {
+				"name": {
+					"short": "Inicio ",
+					"full": "Página de inicio de SalesTim."
+				},
+				"description": {
+					"short": "Aprobación de SalesTim para Microsoft Teams",
+					"full": " Aprobación de SalesTim para Microsoft Teams."
+				},
+				"staticTabs": {
+					"0": {
+						"name": "Aprobación"
+					}
+				}
+			},
+			"catalog": {
+				"name": {
+					"short": "Catálogo",
+					"full": "Catálogo de SalesTim."
+				},
+				"description": {
+					"short": "Catálogo de soluciones comerciales de SalesTim para Microsoft Teams",
+					"full": "Catálogo de soluciones comerciales de SalesTim para Microsoft Teams."
+				},
+				"staticTabs": {
+					"0": {
+						"name": "Catálogo"
+					}
+				}
+			},
+			"settings": {
+				"name": {
+					"short": "Configuración",
+					"full": "Configuración de SalesTim."
+				},
+				"description": {
+					"short": "Configuración de SalesTim para Microsoft Teams",
+					"full": "Configuración de SalesTim para Microsoft Teams."
+				},
+				"staticTabs": {
+					"0": {
+						"name": "Configuración"
 					}
 				}
 			}
