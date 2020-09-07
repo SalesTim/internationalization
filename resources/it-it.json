@@ -1289,18 +1289,18 @@
         "full": "SalesTim Governance Automation"
       },
       "description": {
-        "short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
-        "full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+        "short": "SalesTim è un motore di adozione e governance per Microsoft Teams.",
+        "full": "SalesTim è un motore di adozione e governance per Microsoft Teams, mette a disposizione un catalogo di servizio semplice da usare per gli utenti business e più sicurezza per gli esperti dell'IT."
       },
       "staticTabs": {
         "0": {
           "name": "Home"
         },
         "1": {
-          "name": "Catalog"
+          "name": "Catalogo"
         },
         "2": {
-          "name": "Settings"
+          "name": "Impostazioni"
         }
       }
     },
@@ -1308,11 +1308,11 @@
       "home": {
         "name": {
           "short": "Home",
-          "full": "SalesTim Home."
+          "full": "Homepage di SalesTim."
         },
         "description": {
-          "short": "SalesTim homepage for Microsoft Teams",
-          "full": "SalesTim homepage for Microsoft Teams."
+          "short": "Homepage di SalesTim per Microsoft Teams",
+          "full": "Homepage di SalesTim per Microsoft Teams."
         },
         "staticTabs": {
           "0": {
@@ -1323,45 +1323,45 @@
       "approval": {
         "name": {
           "short": "Home",
-          "full": "SalesTim Home."
+          "full": "Homepage di SalesTim."
         },
         "description": {
-          "short": "SalesTim approval for Microsoft Teams",
-          "full": "SalesTim approval for Microsoft Teams."
+          "short": "Approvazione di SalesTim per Microsoft Teams",
+          "full": "Approvazione di SalesTim per Microsoft Teams."
         },
         "staticTabs": {
           "0": {
-            "name": "Approval"
+            "name": "Approvazione"
           }
         }
       },
       "catalog": {
         "name": {
-          "short": "Catalog",
-          "full": "SalesTim Catalog."
+          "short": "Catalogo",
+          "full": "Catalogo SalesTim."
         },
         "description": {
-          "short": "SalesTim Business Solutions Catalog for Microsoft Teams",
-          "full": "SalesTim Business Solutions Catalog for Microsoft Teams."
+          "short": "Catalogo Soluzioni Business di SalesTim per Microsoft Teams",
+          "full": "Catalogo Soluzioni Business di SalesTim per Microsoft Teams."
         },
         "staticTabs": {
           "0": {
-            "name": "Catalog"
+            "name": "Catalogo"
           }
         }
       },
       "settings": {
         "name": {
-          "short": "Settings",
-          "full": "SalesTim Settings."
+          "short": "Impostazioni",
+          "full": "Impostazioni di SalesTim."
         },
         "description": {
-          "short": "SalesTim Settings for Microsoft Teams",
-          "full": "SalesTim Settings for Microsoft Teams."
+          "short": "Impostazioni SalesTim per Microsoft Teams",
+          "full": "Impostazioni SalesTim per Microsoft Teams."
         },
         "staticTabs": {
           "0": {
-            "name": "Settings"
+            "name": "Impostazioni"
           }
         }
       }
