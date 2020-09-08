@@ -1124,7 +1124,7 @@
 			},
 			"postprocessing": {
 				"label": "🕙 Postprocesamiento",
-				"message": "3️⃣ Solicitud de posprocesamiento %s",
+				"message": "3️⃣ Solicitud de postprocesamiento %s",
 				"steps": {
 					"requesterMembership": "🔐 Agregando solicitante '%s (%s)' como miembro / propietario",
 					"requesterAsMemberOK": "🥇 Solicitante agregado como miembro: %s",
