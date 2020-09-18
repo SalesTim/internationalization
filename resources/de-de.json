@@ -3,35 +3,35 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='fa fa-comments-o'></i> Talk to our Support",
-        "defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
+        "button": "<i class='fa fa-comments-o'></i> Sprich mit unserem Support",
+        "defaultMessage": "Hi, Ich habe ein Problem 😱, Bitte helfen sie mir! [ Technical Information: %s ]"
       },
       "backToHome": {
-        "button": "<i class='fa fa-arrow-circle-o-left'></i> Back to Home"
+        "button": "<i class='fa fa-arrow-circle-o-left'></i> Zurück zum Hauptmenü"
       },
       "cancel": {
         "button": "<i class='fa fa-ban'></i> Cancel"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
-          "msg1": "I'm running a few tests...",
-          "msg2": "It can take a few seconds...",
-          "msg3": "Please be patient ;-)"
+          "msg1": "Ich teste einpaar sachen...",
+          "msg2": "Dieß kann einige Sekunden dauern...",
+          "msg3": "Bitte habe etwas Geduld ;-)"
         },
         "done": {
-          "msg1": "Done! Look at the results below."
+          "msg1": "Vorgang Abgeschlossen! Unten siehst du deine ergebnisse."
         },
         "empty": {
           "msg1": "Please type your audience targeting rules first!"
         },
         "results": {
           "testing": "👓 Testing your audience targeting rules against your own profile",
-          "accessOk": "😃 You would have access to this template!",
+          "accessOk": "😃 Du würdest zugriff auf diesen template bekommen!",
           "accessKo": "😱 You would <b>NOT</b> have access to this template!",
           "details": {
             "seeErrors": "See 👓 Technical Error Details...",
             "errorIntro": "🤬 Looks like there is an error in your audience targeting rule...",
-            "errorMessage": "📣 Message: ",
+            "errorMessage": "📣 Nachricht: ",
             "errorStack": "🎯 Details: ",
             "supportMessage": "Hi, I'm facing an issue 😱 creating an audience targeting rule, please help me!"
           }
@@ -75,7 +75,7 @@
             "errorMessage": "Be careful 💥, your service account is not an owner of this team!"
           },
           "error": {
-            "msg1": "I'm sorry but I can't update this team ownership.",
+            "msg1": "Ich kann leider nicht den Gruppen Besitzer ändern.",
             "support": {
               "message": "Hi, I'm facing an issue 😱 updating a group ownership, please help me!"
             }
@@ -98,11 +98,11 @@
   },
   "configurationPage": {
     "title": "SalesTim | Tab Configuration",
-    "headerMessage": "🧙🏼‍ Hey there!",
-    "termsAgreement": "By clicking the 'Save' button, you agree to our ",
+    "headerMessage": "🧙🏼‍ Hallo!",
+    "termsAgreement": "Mit dem klicken auf den 'Save' Knopft, akzeptierst du unsere Nutzungsbedingungen ",
     "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Terms of Use</a> and <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
-    "touTitle": "Terms of Use",
-    "privacyTitle": "Privacy Policy",
+    "touTitle": "Nutzungbedingungen",
+    "privacyTitle": "Datenschutzbedingungen",
     "welcome": "Just a friendly 💖 reminder...",
     "touUrl": "https://www.salestim.com/legal/tos",
     "privacyUrl": "https://www.salestim.com/legal/privacy",
