@@ -358,7 +358,7 @@
         },
         "userrights": {
           "panel": {
-            "opened": "Systeminformation \\Benutzerrechte"
+            "opened": "Systeminformation \\ Benutzerrechte"
           }
         }
       },
@@ -807,7 +807,7 @@
               "webHookPlaceholder": "Die Endpunkt-URL Ihrer Anfrage",
               "webHookHeader": "🔁 Webhook",
               "webHookPayloadPrepend": "📄 Beispiel Nutzlast",
-              "webHookPayloadTestButton": "📤Eine Testanfrage senden",
+              "webHookPayloadTestButton": "📤 Eine Testanfrage senden",
               "webHookHelp": "Bei jeder Verwendung dieser Vorlage wird eine HTTP-POST-Anfrage an diese URL gesendet",
               "templateIdCopyButton": "📋 Kopie",
               "templateIdHelp": "Sie können diese ID als Parameter verwenden, wenn Sie die API von SalesTim verwenden."
