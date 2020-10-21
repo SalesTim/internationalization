@@ -91,7 +91,7 @@
 			"unauthorized": {
 				"error": {
 					"msg1": "I'm sorry but I cannot let you enter...",
-					"msg2": "Please login with an Office 365 administrator account!"
+					"msg2": "Please login with an Microsoft 365 administrator account!"
 				}
 			}
 		}
@@ -120,7 +120,7 @@
 	"loginPage": {
 		"title": "SalesTim | Sign-in",
 		"headerMessage": "Welcome to SalesTim",
-		"welcome": "Please sign-in with your Office 365 account.",
+		"welcome": "Please sign-in with your Microsoft 365 account.",
 		"termsAgreement": "By clicking \"SIGN-IN\", you agree to our",
 		"tos": {
 			"url": "https://www.salestim.com/legal/tos",
@@ -143,7 +143,7 @@
 			"createCustomer": "An error occured while creating your customer profile",
 			"adminConsent": "Admin consent required. Please contact your administrator.",
 			"unexpected": "Unexpected error",
-			"adminRestricted": "Sorry, this page is restricted to Office 365 administrators",
+			"adminRestricted": "Sorry, this page is restricted to Microsoft 365 administrators",
 			"salestimRestricted": "Sorry, this page is restricted to SalesTim administrators",
 			"findUser": "I'm sorry but I cannot let you enter as you don't have a valid email address :-( You need a Microsoft Exchange licence and an active mailbox to access SalesTim.",
 			"findCustomer": "loginPage.error.findCustomer"
@@ -380,7 +380,7 @@
 			"newTeam": {
 				"button": "New Team",
 				"intro": "Please select a template:",
-				"zeroTemplate": "There is no available template. Please ask your Office 365 administrators, or if you're an Office 365 administrator, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>create a new template...</a></b>",
+				"zeroTemplate": "There is no available template. Please ask your Microsoft 365 administrators, or if you're an Microsoft 365 administrator, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>create a new template...</a></b>",
 				"title": "Create a new team",
 				"notification": {
 					"review": {
@@ -695,7 +695,7 @@
 								}
 							},
 							"email": {
-								"title": "Office 365 Group Email",
+								"title": "Microsoft 365 Group Email",
 								"convention": {
 									"label": "Email Convention",
 									"placeholder": "Enter only the local part (aka Nickname) of the address (for instance 'tim' for the address 'tim@exemple.com'). Tip: Use @ or # to include dynamic content"
@@ -743,7 +743,7 @@
 							"enable": {
 								"title": "🎯 Audience Targeting",
 								"label": "Enable Audience Targeting",
-								"help": "By enabling you'll be able to target the audience for this template, based on Office 365 user profile information"
+								"help": "By enabling you'll be able to target the audience for this template, based on Microsoft 365 user profile information"
 							},
 							"rules": {
 								"placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
@@ -945,7 +945,7 @@
 			},
 			"serviceAccount": {
 				"title": "<i class='fa fa-user-secret'></i> Service Account",
-				"help": "Office 365 Service Account: ",
+				"help": "Microsoft 365 Service Account: ",
 				"none": "No service account defined.",
 				"idLabel": "Service Account: ",
 				"input": {

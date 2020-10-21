@@ -91,7 +91,7 @@
 			"unauthorized": {
 				"error": {
 					"msg1": "Lo siento pero no puedo dejarte entrar...",
-					"msg2": "Inicia la sesión con una cuenta de administrador de Office 365!"
+					"msg2": "Inicia la sesión con una cuenta de administrador de Microsoft 365!"
 				}
 			}
 		}
@@ -120,7 +120,7 @@
 	"loginPage": {
 		"title": "SalesTim | Iniciar sesión",
 		"headerMessage": "Bienvenido a SalesTim",
-		"welcome": "Inicia la sesión con tu cuenta de Office 365.",
+		"welcome": "Inicia la sesión con tu cuenta de Microsoft 365.",
 		"termsAgreement": "Al hacer clic en 'INICIAR SESIÓN', tu aceptas nuestra",
 		"tos": {
 			"url": "https://www.salestim.com/legal/tos",
@@ -143,7 +143,7 @@
 			"createCustomer": "Se produjo un error al crear tu perfil de cliente",
 			"adminConsent": "Se requiere consentimiento del administrador. Por favor contacta a tu administrador.",
 			"unexpected": "Error inesperado",
-			"adminRestricted": "Lo sentimos, esta página está restringida a los administradores de Office 365",
+			"adminRestricted": "Lo sentimos, esta página está restringida a los administradores de Microsoft 365",
 			"salestimRestricted": "Lo sentimos, esta página está restringida a los administradores de SalesTim",
 			"findUser": "Lo siento, pero no puedo permitirte ingresar ya que no tienes una dirección de correo electrónico válida :-( Necesitas una licencia de Microsoft Exchange y un buzón activo para acceder a SalesTim.",
 			"findCustomer": "loginPage.error.findCustomer"
@@ -380,7 +380,7 @@
 			"newTeam": {
 				"button": "Nuevo Equipo",
 				"intro": "Por favor selecciona una plantilla:",
-				"zeroTemplate": "No hay plantilla disponible. Consulta a los administradores de Office 365 o si eres administrador de Office 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>por favor crea una nueva plantilla...</a></b>",
+				"zeroTemplate": "No hay plantilla disponible. Consulta a los administradores de Microsoft 365 o si eres administrador de Microsoft 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>por favor crea una nueva plantilla...</a></b>",
 				"title": "Crea un nuevo equipo",
 				"notification": {
 					"review": {
@@ -695,7 +695,7 @@
 								}
 							},
 							"email": {
-								"title": "Office 365 e-mail del grupo",
+								"title": "Microsoft 365 e-mail del grupo",
 								"convention": {
 									"label": "E-mail Convención de Nomenclatura",
 									"placeholder": "Ingresa solo la parte local (alias Apodo) de la dirección (por ejemplo, 'tim' para la dirección 'tim@exemple.com')"
@@ -743,7 +743,7 @@
 							"enable": {
 								"title": "🎯 Segmentación de Audiencia",
 								"label": "Habilita Segmentación de Audiencia",
-								"help": "Al habilitarlo, podrás dirigirte a la audiencia para esta plantilla, según la información del perfil de usuario de Office 365"
+								"help": "Al habilitarlo, podrás dirigirte a la audiencia para esta plantilla, según la información del perfil de usuario de Microsoft 365"
 							},
 							"rules": {
 								"placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
@@ -945,7 +945,7 @@
 			},
 			"serviceAccount": {
 				"title": "<i class='fa fa-user-secret'></i> Cuenta de Servicio",
-				"help": "Office 365 Cuenta de Servicio: ",
+				"help": "Microsoft 365 Cuenta de Servicio: ",
 				"none": "No cuenta de servicio definida.",
 				"idLabel": "Cuenta de Servicio: ",
 				"input": {

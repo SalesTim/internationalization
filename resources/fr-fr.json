@@ -120,7 +120,7 @@
 	"loginPage": {
 		"title": "SalesTim | Me connecter",
 		"headerMessage": "Bienvenue dans SalesTim",
-		"welcome": "Connectez-vous avec votre compte Office 365.",
+		"welcome": "Connectez-vous avec votre compte Microsoft 365.",
 		"termsAgreement": "En cliquant sur \"Me Connecter\", vous acceptez nos",
 		"tos": {
 			"url": "https://www.salestim.com/legal/tos",
@@ -143,7 +143,7 @@
 			"createCustomer": "Une erreur est survenue lors de la création de votre profil client",
 			"adminConsent": "Consentement administrateur requis. Merci de contacter votre administrateur.",
 			"unexpected": "Une erreur non anticipée est survenue",
-			"adminRestricted": "Désolé, cette page est réservée aux administrateurs Office 365",
+			"adminRestricted": "Désolé, cette page est réservée aux administrateurs Microsoft 365",
 			"salestimRestricted": "Désolé, cette page est réservée aux administrateurs SalesTim",
 			"findUser": "Désolé, je ne peux pas vous laisser entrer sans une adresse email valide :-( Vous avez besoin d'une licence Microsoft Exchange et d'une boîte aux lettres active pour accéder à SalesTim.",
 			"findCustomer": "loginPage.error.findCustomer"
@@ -380,7 +380,7 @@
 			"newTeam": {
 				"button": "Nouvelle Equipe",
 				"intro": "Choisissez un modèle :",
-				"zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Office 365, ou si vous êtes un administrateur Office 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>créez un nouveau modèle...</a></b>",
+				"zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Microsoft 365, ou si vous êtes un administrateur Microsoft 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>créez un nouveau modèle...</a></b>",
 				"title": "Créez une nouvelle équipe",
 				"notification": {
 					"review": {
@@ -695,7 +695,7 @@
 								}
 							},
 							"email": {
-								"title": "E-mail du Groupe Office 365",
+								"title": "E-mail du Groupe Microsoft 365",
 								"convention": {
 									"label": "E-mail",
 									"placeholder": "Saisissez uniquement la partie locale de l'adresse (par exemple 'tim' pour l'adresse 'tim@exemple.com')"
@@ -742,7 +742,7 @@
 							"title": "Audiences",
 							"enable": {
 								"label": "Activer le ciblage d'audience",
-								"help": "En activant le ciblage vous serez en mesure de définir une audience cible pour ce modèle, en fonction des données du profil utilisateur Office 365, Azure AD",
+								"help": "En activant le ciblage vous serez en mesure de définir une audience cible pour ce modèle, en fonction des données du profil utilisateur Microsoft 365, Azure AD",
 								"title": "🎯 Ciblage d'Audiences"
 							},
 							"rules": {
@@ -945,7 +945,7 @@
 			},
 			"serviceAccount": {
 				"title": "<i class='fa fa-user-secret'></i> Compte de service",
-				"help": "Compte de service Office 365 : ",
+				"help": "Compte de service Microsoft 365 : ",
 				"none": "Aucun compte de service défini.",
 				"idLabel": "Compte de service : ",
 				"input": {

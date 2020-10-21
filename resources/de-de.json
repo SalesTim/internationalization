@@ -91,7 +91,7 @@
       "unauthorized": {
         "error": {
           "msg1": "Es tut mir leid, aber ich kann Ihnen keinen Zutritt gewähren...",
-          "msg2": "Bitte melden Sie sich mit einem Office 365-Administratorkonto an!"
+          "msg2": "Bitte melden Sie sich mit einem Microsoft 365-Administratorkonto an!"
         }
       }
     }
@@ -120,7 +120,7 @@
   "loginPage": {
     "title": "SalesTim | Anmelden",
     "headerMessage": "Willkommen zu SalesTim",
-    "welcome": "Bitte melden Sie sich mit Ihrem Office 365-Konto an.",
+    "welcome": "Bitte melden Sie sich mit Ihrem Microsoft 365-Konto an.",
     "termsAgreement": "Durch Anklicken von \"Anmelden\" erklären Sie sich mit unserer",
     "tos": {
       "url": "https://www.salestim.com/legal/tos",
@@ -143,7 +143,7 @@
       "createCustomer": "Bei der Erstellung Ihres Kundenprofils ist ein Fehler aufgetreten",
       "adminConsent": "Zustimmung der Administration erforderlich. Bitte kontaktieren Sie Ihren Administrator.",
       "unexpected": "Unerwarteter Fehler",
-      "adminRestricted": "Tut uns leid, diese Seite ist auf die Administratoren von Office 365 beschränkt.",
+      "adminRestricted": "Tut uns leid, diese Seite ist auf die Administratoren von Microsoft 365 beschränkt.",
       "salestimRestricted": "Entschuldigung, diese Seite ist nur für SalesTim-Administratoren",
       "findUser": "Es tut mir leid, aber Sie haben kein Zugriff, da Sie keine gültige E-Mail-Adresse haben :-( Sie benötigen eine Microsoft Exchange-Lizenz und eine aktive Mailbox, um auf SalesTim zuzugreifen.",
       "findCustomer": "loginPage.error.findCustomer"
@@ -380,7 +380,7 @@
       "newTeam": {
         "button": "Neues Team",
         "intro": "Bitte wählen Sie eine Vorlage aus:",
-        "zeroTemplate": "Es ist keine Vorlage verfügbar. Bitte fragen Sie Ihre Office 365-Administratoren, oder wenn Sie ein Office 365-Administrator sind, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>eine neue Vorlage erstellen...</a></b>",
+        "zeroTemplate": "Es ist keine Vorlage verfügbar. Bitte fragen Sie Ihre Microsoft 365-Administratoren, oder wenn Sie ein Microsoft 365-Administrator sind, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>eine neue Vorlage erstellen...</a></b>",
         "title": "Ein neues Team erstellen",
         "notification": {
           "review": {
@@ -695,7 +695,7 @@
                 }
               },
               "email": {
-                "title": "Office 365 Gruppen e-mail",
+                "title": "Microsoft 365 Gruppen e-mail",
                 "convention": {
                   "label": "E-mail Namenskonvention",
                   "placeholder": "Geben Sie nur den lokalen Teil (alias Nickname) der Adresse ein (z.B. 'tim' für die Adresse 'tim@exemple.com')"
@@ -743,7 +743,7 @@
               "enable": {
                 "title": "🎯 Zielgruppenauswahl",
                 "label": "Aktiviere Zielgruppenauswahl",
-                "help": "Durch die Aktivierung sind Sie in der Lage, die Zielgruppe für diese Vorlage auf der Grundlage von Informationen über das Benutzerprofil von Office 365 anzusprechen."
+                "help": "Durch die Aktivierung sind Sie in der Lage, die Zielgruppe für diese Vorlage auf der Grundlage von Informationen über das Benutzerprofil von Microsoft 365 anzusprechen."
               },
               "rules": {
                 "placeholder": "Geben Sie Regeln für die Zielgruppenorientierung ein (verwenden Sie @ oder #, um dynamische Inhalte einzubeziehen)",
@@ -945,7 +945,7 @@
       },
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Dienstkonto",
-        "help": "Office 365 Dienstkonto: ",
+        "help": "Microsoft 365 Dienstkonto: ",
         "none": "Kein Dienstkonto hinterlegt.",
         "idLabel": "Dienstkonto: ",
         "input": {
