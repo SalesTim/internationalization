@@ -943,6 +943,22 @@
           }
         }
       },
+      "rbac": {
+        "tab": {
+          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+        },
+        "navbar": {
+          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+        },
+        "save": {
+          "button": "<i class='fa fa-floppy-o'></i> Save",
+          "waiting": "⏳ Saving..."
+        },
+        "catalogManagers": {
+          "label": "Catalog Managers",
+          "help": "You can select up to 50 catalog managers"
+        }
+      },
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Dienstkonto",
         "help": "Microsoft 365 Dienstkonto: ",

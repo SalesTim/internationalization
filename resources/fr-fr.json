@@ -943,6 +943,22 @@
 					}
 				}
 			},
+			"rbac": {
+				"tab": {
+					"title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+				},
+				"navbar": {
+					"title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+				},
+				"save": {
+					"button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+					"waiting": "⏳ Enregistrement..."
+				},
+				"catalogManagers": {
+					"label": "Gestionnaires du Catalogue",
+					"help": "Vous pouvez sélectionner jusqu'à 50 gestionnaires du catalogue"
+				}
+			},
 			"serviceAccount": {
 				"title": "<i class='fa fa-user-secret'></i> Compte de service",
 				"help": "Compte de service Microsoft 365 : ",
