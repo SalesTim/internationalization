@@ -761,13 +761,13 @@
 						"compliance": {
 							"title": "Compliance",
 							"classification": {
-								"title": "Sensitivity Label",
+								"title": "🔖 Sensitivity Label",
 								"rules": {
 									"placeholder": "Enter classification (use @ or # to include dynamic content)"
 								}
 							},
 							"multigeo": {
-								"title": "Multi-geo",
+								"title": "🌎 Multi-Geo",
 								"rules": {
 									"placeholder": "Enter data location code (use @ or # to include dynamic content)"
 								}
@@ -1508,7 +1508,7 @@
 				"surname": "User > Surname",
 				"usageLocation": "User > Usage Location. e.g 'US'",
 				"userPrincipalName": "User > User Principal Name.",
-				"preferredDataLocation": "Preferred Data Location (PDL)",
+				"preferredDataLocation": "User > Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
 					"extensionAttribute1": "User > On-premises extension attribute 1",
 					"extensionAttribute2": "User > On-premises extension attribute 2",

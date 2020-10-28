@@ -752,6 +752,21 @@
 								}
 							}
 						},
+						"compliance": {
+							"title": "Conformité",
+							"classification": {
+								"title": "🔖 Etiquettes de niveau de confidentialité",
+								"rules": {
+									"placeholder": "Saisissez une étiquette utilisez @ ou # pour inclure du contenu dynamique)"
+								}
+							},
+							"multigeo": {
+								"title": "🌎 Multi-Géo",
+								"rules": {
+									"placeholder": "Saisissez un code d'emplacement géographique (utilisez @ ou # pour inclure du contenu dynamique)"
+								}
+							}
+						},
 						"security": {
 							"title": "Securité",
 							"privacy": {
@@ -1487,7 +1502,7 @@
 				"surname": "Utilisateur > Nom de famille",
 				"usageLocation": "Utilisateur > Localisation de l'usage Microsoft 365. Par exemple 'US'",
 				"userPrincipalName": "Utilisateur > Nom d'utilisateur principal (UPN).",
-				"preferredDataLocation": "Emplacement de Données Favori (PDL)",
+				"preferredDataLocation": "Utilisateur > Emplacement de Données Favori (PDL)",
 				"onPremisesExtensionAttributes": {
 					"extensionAttribute1": "Utilisateur > Attribut d'extension 'on-premises' 1",
 					"extensionAttribute2": "Utilisateur > Attribut d'extension 'on-premises' 2",

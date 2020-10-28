@@ -752,6 +752,21 @@
                 }
               }
             },
+            "compliance": {
+							"title": "Compliance",
+							"classification": {
+								"title": "🔖 Sensitivity Label",
+								"rules": {
+									"placeholder": "Enter classification (use @ or # to include dynamic content)"
+								}
+							},
+							"multigeo": {
+								"title": "🌎 Multi-geo",
+								"rules": {
+									"placeholder": "Enter data location code (use @ or # to include dynamic content)"
+								}
+							}
+						},
             "security": {
               "title": "Sicherheit",
               "privacy": {
