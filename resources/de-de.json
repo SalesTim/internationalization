@@ -766,6 +766,12 @@
                   "title": "Mitgliedschafts Richtlinie",
                   "enable": "Automatisches Hinzufügen des Antragstellers als Teambesitzer"
                 },
+								"mandatoryOwners": {
+									"label": "👮🏼‍ Mandatory Owners"
+								},
+								"mandatoryMembers": {
+									"label": "🤹🏼‍ Mandatory Members"
+								},
                 "permanentOwners": {
                   "label": "👮🏼‍ Dauerhafte Besitzer",
                   "placeholder": "Benutzer nach Vorname oder Nachname suchen...",
@@ -1481,6 +1487,7 @@
         "surname": "User > Surname",
         "usageLocation": "User > Usage Location. e.g 'US'",
         "userPrincipalName": "User > User Principal Name.",
+        "preferredDataLocation": "Preferred Data Location (PDL)",
         "onPremisesExtensionAttributes": {
           "extensionAttribute1": "User > On-premises extension attribute 1",
           "extensionAttribute2": "User > On-premises extension attribute 2",

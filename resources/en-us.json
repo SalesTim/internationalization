@@ -446,18 +446,24 @@
 						"previewError": "I'm sorry 😢, I cannot generate a preview. Looks like there is a bad naming convention configuration.",
 						"tooltip": "will be posted to the 'general' channel"
 					},
+					"mandatoryOwners": {
+						"help": "You must select at least %s owner(s). "
+					},
+					"mandatoryMembers": {
+						"help": "You must select at least %s member(s). "
+					},
 					"additionalOwners": {
 						"label": "Owners",
 						"placeholder": "Search for users by given name or surname...",
-						"tooltip": "You can select up to %s additional owners",
-						"help": "You can select up to %s additional owners.",
+						"tooltip": "You can select up to %s owners",
+						"help": "You can select up to %s owners.",
 						"alreadySelectedAsPermanent": "N.B: The following owners will be automatically invited: "
 					},
 					"additionalMembers": {
 						"label": "Members",
 						"placeholder": "Search for users by given name or surname...",
-						"tooltip": "You can select up to %s additional members",
-						"help": "You can select up to %s additional members.",
+						"tooltip": "You can select up to %s members",
+						"help": "You can select up to %s members.",
 						"alreadySelectedAsPermanent": "N.B: The following members will be automatically invited: "
 					},
 					"cancel": "Cancel",
@@ -752,6 +758,21 @@
 								}
 							}
 						},
+						"compliance": {
+							"title": "Compliance",
+							"classification": {
+								"title": "Sensitivity Label",
+								"rules": {
+									"placeholder": "Enter classification (use @ or # to include dynamic content)"
+								}
+							},
+							"multigeo": {
+								"title": "Multi-geo",
+								"rules": {
+									"placeholder": "Enter data location code (use @ or # to include dynamic content)"
+								}
+							}
+						},
 						"security": {
 							"title": "Security",
 							"privacy": {
@@ -765,6 +786,12 @@
 									"help": "N.B: Disabling this feature may result in a deceptive user experience, as the requester will expect to have administrators rights on it's team.",
 									"title": "Membership Policy",
 									"enable": "Automatically add the Requester as a team owner"
+								},
+								"mandatoryOwners": {
+									"label": "👮🏼‍ Mandatory Owners"
+								},
+								"mandatoryMembers": {
+									"label": "🤹🏼‍ Mandatory Members"
 								},
 								"permanentOwners": {
 									"label": "👮🏼‍ Permanent Owners",
@@ -1481,6 +1508,7 @@
 				"surname": "User > Surname",
 				"usageLocation": "User > Usage Location. e.g 'US'",
 				"userPrincipalName": "User > User Principal Name.",
+				"preferredDataLocation": "Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
 					"extensionAttribute1": "User > On-premises extension attribute 1",
 					"extensionAttribute2": "User > On-premises extension attribute 2",

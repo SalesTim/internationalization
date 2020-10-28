@@ -766,6 +766,12 @@
 									"title": "Membership Policy",
 									"enable": "Automatically add the Requester as a team owner"
 								},
+								"mandatoryOwners": {
+									"label": "👮🏼‍ Mandatory Owners"
+								},
+								"mandatoryMembers": {
+									"label": "🤹🏼‍ Mandatory Members"
+								},
 								"permanentOwners": {
 									"label": "👮🏼‍ Permanent Owners",
 									"placeholder": "Search for users by given name or surname...",
@@ -1406,6 +1412,7 @@
 				"surname": "User > Surname",
 				"usageLocation": "User > Usage Location. e.g 'US'",
 				"userPrincipalName": "User > User Principal Name.",
+				"preferredDataLocation": "Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
 					"extensionAttribute1": "User > On-premises extension attribute 1",
 					"extensionAttribute2": "User > On-premises extension attribute 2",

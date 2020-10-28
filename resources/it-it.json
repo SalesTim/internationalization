@@ -766,6 +766,12 @@
                   "title": "Membership",
                   "enable": "Aggiungere automaticamente il richiedente come proprietario del team"
                 },
+								"mandatoryOwners": {
+									"label": "👮🏼‍ Mandatory Owners"
+								},
+								"mandatoryMembers": {
+									"label": "🤹🏼‍ Mandatory Members"
+								},
                 "permanentOwners": {
                   "label": "👮🏼‍ Proprietari Permanenti",
                   "placeholder": "Cerca utenti in funzione del loro nome o cognome...",
@@ -1481,6 +1487,7 @@
         "surname": "Utente > Cognome",
         "usageLocation": "Utente > Localizzazione. e.g 'US'",
         "userPrincipalName": "Utente > Nome Principale dell'Utente.",
+				"preferredDataLocation": "Preferred Data Location (PDL)",
         "onPremisesExtensionAttributes": {
           "extensionAttribute1": "Utente > Estensione Attributo 'On-premises' 1",
           "extensionAttribute2": "Utente > Estensione Attributo 'On-premises' 2",

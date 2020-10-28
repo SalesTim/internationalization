@@ -766,6 +766,12 @@
 									"title": "Politica de Membresia",
 									"enable": "Agregar automáticamente el Solicitante como propietario del equipo"
 								},
+								"mandatoryOwners": {
+									"label": "👮🏼‍ Mandatory Owners"
+								},
+								"mandatoryMembers": {
+									"label": "🤹🏼‍ Mandatory Members"
+								},
 								"permanentOwners": {
 									"label": "👮🏼‍ Dueños Permanentes",
 									"placeholder": "Buscar usuarios por primer nombre o apellido...",
@@ -1481,6 +1487,7 @@
 				"surname": " Usario > Apellido",
 				"usageLocation": " Usario > Ubicacion del uso. P.ej. 'EEUU'",
 				"userPrincipalName": " Usario > Nombre prinipal del usario.",
+				"preferredDataLocation": "Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
 					"extensionAttribute1": "Usario > Extensión local atributo 1",
 					"extensionAttribute2": "Usario > Extensión local atributo 2",
