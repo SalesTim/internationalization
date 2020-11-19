@@ -754,6 +754,11 @@
 						},
 						"compliance": {
 							"title": "Conformité",
+							"guests": {
+								"title": "🤝 Accès Invité",
+								"label": "Activer l'accès invité",
+								"help": "Avec l’accès invité, vous pouvez fournir l’accès aux équipes, documents dans les canaux, ressources, conversations et applications aux personnes externes à votre organisation."
+							},
 							"classification": {
 								"title": "🔖 Etiquettes de niveau de confidentialité",
 								"rules": {

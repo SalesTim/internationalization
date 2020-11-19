@@ -753,7 +753,12 @@
               }
             },
             "compliance": {
-							"title": "Compliance",
+              "title": "Compliance",
+              "guests": {
+								"title": "🤝 Guest Access",
+								"label": "Enable Guest Access",
+								"help": "With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization."
+							},
 							"classification": {
 								"title": "🔖 Sensitivity Label",
 								"rules": {
