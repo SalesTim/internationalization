@@ -120,7 +120,7 @@
 	"loginPage": {
 		"title": "SalesTim | Iniciar sesión",
 		"headerMessage": "Bienvenido a SalesTim",
-		"welcome": "Inicia la sesión con tu cuenta de Microsoft 365.",
+		"welcome": "Signing-in with your Microsoft 365 account...",
 		"termsAgreement": "Al hacer clic en 'INICIAR SESIÓN', tu aceptas nuestra",
 		"tos": {
 			"url": "https://www.salestim.com/legal/tos",
