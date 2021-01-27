@@ -132,7 +132,12 @@
     },
     "signin": {
       "button": "🔐 Connessione",
-      "wait": "⏳ Connessione in corso..."
+      "wait": "⏳ Connessione in corso...",
+			"sso": {
+				"button": "🔐 ADMIN CONSENT",
+				"wait": "⏳ Admin Consent Ongoing...",
+				"error":"An administrator needs to grant permissions to this app."
+			}
     },
     "welcomebackLabel": "Bentornato!",
     "hintLabel": "💡 Il tuo account dovrebbe essere",

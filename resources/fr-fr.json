@@ -132,7 +132,12 @@
 		},
 		"signin": {
 			"button": "🔐 Me connecter",
-			"wait": "⏳ Connexion..."
+			"wait": "⏳ Connexion...",
+			"sso": {
+				"button": "🔐 CONSENTEMENT ADMINISTRATEUR",
+				"wait": "⏳ Consentement Administrateur en cours...",
+				"error":"Un administrateur doit accorder les permissions requises à cette application."
+			}
 		},
 		"welcomebackLabel": "Bienvenue à nouveau !",
 		"hintLabel": "💡 Votre compte doit être",
