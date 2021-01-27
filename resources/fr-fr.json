@@ -4,7 +4,8 @@
 			"title": "Tim",
 			"talkToSupport": {
 				"button": "<i class='fa fa-comments-o'></i> Parler au support",
-				"defaultMessage": "Bonjour, j'ai un problème 😱, aidez-moi ! [ Informations techniques : %s ]"
+				"notAdmin": "<i class='fa fa-comments-o'></i> Je ne suis pas administrateur",
+				"defaultMessage": "Bonjour, j'ai besoin d'aide!"
 			},
 			"backToHome": {
 				"button": "<i class='fa fa-arrow-circle-o-left'></i> Retour à l'accueil"
@@ -134,7 +135,7 @@
 			"button": "🔐 Me connecter",
 			"wait": "⏳ Connexion...",
 			"sso": {
-				"button": "🔐 CONSENTEMENT ADMINISTRATEUR",
+				"button": "🔐 CONSENTIR EN TANT QU'ADMINISTRATEUR",
 				"wait": "⏳ Consentement Administrateur en cours...",
 				"error":"Un administrateur doit accorder les permissions requises à cette application."
 			}
@@ -450,6 +451,12 @@
 						"preview": "Aperçu : ",
 						"previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
 						"tooltip": "Sera publié dans le canal 'général'"
+					},
+					"mandatoryOwners": {
+						"help": "Vous devez sélectionner au moins %s propriétaire(s). "
+					},
+					"mandatoryMembers": {
+						"help": "Vous devez sélectionner au moins %s membre(s). "
 					},
 					"additionalOwners": {
 						"label": "Propriétaires",
@@ -987,7 +994,8 @@
 				},
 				"catalogManagers": {
 					"label": "Gestionnaires du Catalogue",
-					"help": "Vous pouvez sélectionner jusqu'à 50 gestionnaires du catalogue"
+					"help": "Vous pouvez sélectionner jusqu'à 50 gestionnaires du catalogue",
+					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
 				}
 			},
 			"serviceAccount": {

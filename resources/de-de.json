@@ -4,6 +4,7 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='fa fa-comments-o'></i> Sprechen Sie mit unserer Support",
+        "notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
         "defaultMessage": "Hallo, ich stehe vor einem Problem 😱, bitte helf Sie mir! [ Technical Information: %s ]"
       },
       "backToHome": {
@@ -120,7 +121,7 @@
   "loginPage": {
     "title": "SalesTim | Anmelden",
     "headerMessage": "Willkommen zu SalesTim",
-		"welcome": "Signing-in with your Microsoft 365 account...",
+    "welcome": "Signing-in with your Microsoft 365 account...",
     "termsAgreement": "Durch Anklicken von \"Anmelden\" erklären Sie sich mit unserer",
     "tos": {
       "url": "https://www.salestim.com/legal/tos",
@@ -133,11 +134,11 @@
     "signin": {
       "button": "🔐 Anmelden",
       "wait": "⏳ Anmelden...",
-			"sso": {
-				"button": "🔐 ADMIN CONSENT",
-				"wait": "⏳ Admin Consent Ongoing...",
-				"error":"An administrator needs to grant permissions to this app."
-			}
+      "sso": {
+        "button": "🔐 ADMIN CONSENT",
+        "wait": "⏳ Admin Consent Ongoing...",
+        "error": "An administrator needs to grant permissions to this app."
+      }
     },
     "welcomebackLabel": "Willkommen zurück!",
     "hintLabel": "💡 Ihr Konto sollte",
@@ -451,6 +452,12 @@
             "previewError": "Es tut mir leid 😢, ich kann keine Vorschau erstellen. Sieht aus, als gäbe es eine fehlerhafte Konfiguration der Namenskonvention.",
             "tooltip": "wird in den 'allgemeinen' Kanal gesendet"
           },
+          "mandatoryOwners": {
+            "help": "You must select at least %s owner(s). "
+          },
+          "mandatoryMembers": {
+            "help": "You must select at least %s member(s). "
+          },
           "additionalOwners": {
             "label": "Besitzer",
             "placeholder": "Suchen Sie nach Benutzern anhand ihres Vor- oder Nachnamens...",
@@ -760,23 +767,23 @@
             "compliance": {
               "title": "Compliance",
               "guests": {
-								"title": "🤝 Guest Access",
-								"label": "Enable Guest Access",
-								"help": "With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization."
-							},
-							"classification": {
-								"title": "🔖 Sensitivity Label",
-								"rules": {
-									"placeholder": "Enter classification (use @ or # to include dynamic content)"
-								}
-							},
-							"multigeo": {
-								"title": "🌎 Multi-geo",
-								"rules": {
-									"placeholder": "Enter data location code (use @ or # to include dynamic content)"
-								}
-							}
-						},
+                "title": "🤝 Guest Access",
+                "label": "Enable Guest Access",
+                "help": "With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization."
+              },
+              "classification": {
+                "title": "🔖 Sensitivity Label",
+                "rules": {
+                  "placeholder": "Enter classification (use @ or # to include dynamic content)"
+                }
+              },
+              "multigeo": {
+                "title": "🌎 Multi-geo",
+                "rules": {
+                  "placeholder": "Enter data location code (use @ or # to include dynamic content)"
+                }
+              }
+            },
             "security": {
               "title": "Sicherheit",
               "privacy": {
@@ -791,12 +798,12 @@
                   "title": "Mitgliedschafts Richtlinie",
                   "enable": "Automatisches Hinzufügen des Antragstellers als Teambesitzer"
                 },
-								"mandatoryOwners": {
-									"label": "👮🏼‍ Mandatory Owners"
-								},
-								"mandatoryMembers": {
-									"label": "🤹🏼‍ Mandatory Members"
-								},
+                "mandatoryOwners": {
+                  "label": "👮🏼‍ Mandatory Owners"
+                },
+                "mandatoryMembers": {
+                  "label": "🤹🏼‍ Mandatory Members"
+                },
                 "permanentOwners": {
                   "label": "👮🏼‍ Dauerhafte Besitzer",
                   "placeholder": "Benutzer nach Vorname oder Nachname suchen...",
@@ -987,7 +994,8 @@
         },
         "catalogManagers": {
           "label": "Catalog Managers",
-          "help": "You can select up to 50 catalog managers"
+          "help": "You can select up to 50 catalog managers",
+          "placeholder": "Search for users by given name or surname..."
         }
       },
       "serviceAccount": {

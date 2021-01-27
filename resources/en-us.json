@@ -4,7 +4,8 @@
 			"title": "Tim",
 			"talkToSupport": {
 				"button": "<i class='fa fa-comments-o'></i> Talk to our Support",
-				"defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
+				"notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
+				"defaultMessage": "Hi, I need help!"
 			},
 			"backToHome": {
 				"button": "<i class='fa fa-arrow-circle-o-left'></i> Back to Home"
@@ -134,9 +135,9 @@
 			"button": "🔐 SIGN-IN",
 			"wait": "⏳ Signing-in...",
 			"sso": {
-				"button": "🔐 ADMIN CONSENT",
+				"button": "🔐 CONSENT AS AN ADMINISTRATOR",
 				"wait": "⏳ Admin Consent Ongoing...",
-				"error":"An administrator needs to grant permissions to this app."
+				"error": "An administrator needs to grant permissions to this app."
 			}
 		},
 		"welcomebackLabel": "Welcome back!",
@@ -993,7 +994,8 @@
 				},
 				"catalogManagers": {
 					"label": "Catalog Managers",
-					"help": "You can select up to 50 catalog managers"
+					"help": "You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
 			"serviceAccount": {

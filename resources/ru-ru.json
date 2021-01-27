@@ -4,6 +4,7 @@
 			"title": "Tim",
 			"talkToSupport": {
 				"button": "<i class='fa fa-comments-o'></i> Talk to our Support",
+				"notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
 				"defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
 			},
 			"backToHome": {
@@ -450,6 +451,12 @@
 						"preview": "Preview: ",
 						"previewError": "I'm sorry 😢, I cannot generate a preview. Looks like there is a bad naming convention configuration.",
 						"tooltip": "will be posted to the 'general' channel"
+					},
+					"mandatoryOwners": {
+						"help": "You must select at least %s owner(s). "
+					},
+					"mandatoryMembers": {
+						"help": "You must select at least %s member(s). "
 					},
 					"additionalOwners": {
 						"label": "Owners",
@@ -987,7 +994,8 @@
 				},
 				"catalogManagers": {
 					"label": "Catalog Managers",
-					"help": "You can select up to 50 catalog managers"
+					"help": "You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
 			"serviceAccount": {

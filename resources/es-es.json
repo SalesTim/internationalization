@@ -4,6 +4,7 @@
 			"title": "Tim",
 			"talkToSupport": {
 				"button": "<i class='fa fa-comments-o'></i> Habla con nuestro equipo de Soporte",
+				"notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
 				"defaultMessage": "Hola, tengo un problema 😱, por favor ayúdame! [ Información Técnica: %s ]"
 			},
 			"backToHome": {
@@ -450,6 +451,12 @@
 						"preview": "Avance: ",
 						"previewError": "Lo siento 😢, no puedo generar una vista previa. Parece que hay una configuración de convención de nomenclatura incorrecta.",
 						"tooltip": "será publicado en el canal 'general'"
+					},
+					"mandatoryOwners": {
+						"help": "You must select at least %s owner(s). "
+					},
+					"mandatoryMembers": {
+						"help": "You must select at least %s member(s). "
 					},
 					"additionalOwners": {
 						"label": "Propietarios",
@@ -987,7 +994,8 @@
 				},
 				"catalogManagers": {
 					"label": "Catalog Managers",
-					"help": "You can select up to 50 catalog managers"
+					"help": "You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
 			"serviceAccount": {

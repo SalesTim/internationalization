@@ -4,6 +4,7 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='fa fa-comments-o'></i> Richiedi assistenza",
+        "notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
         "defaultMessage": "Ciao, sto avendo un problema 😱, aiuto! [ Technical Information: %s ]"
       },
       "backToHome": {
@@ -451,6 +452,12 @@
             "previewError": "Mi dispiace 😢, non posso generare un'anteprima. Sembra che ci sia un problema nella configurazione della naming convention.",
             "tooltip": "sarà pubblicato sul canale 'Generale'"
           },
+					"mandatoryOwners": {
+						"help": "You must select at least %s owner(s). "
+					},
+					"mandatoryMembers": {
+						"help": "You must select at least %s member(s). "
+					},
           "additionalOwners": {
             "label": "Proprietari",
             "placeholder": "Cerca utenti per nome o cognome...",
@@ -987,7 +994,8 @@
 				},
 				"catalogManagers": {
 					"label": "Catalog Managers",
-					"help": "You can select up to 50 catalog managers"
+					"help": "You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
       "serviceAccount": {
