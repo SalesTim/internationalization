@@ -1500,63 +1500,63 @@
   "tags": {
     "user": {
       "profile": {
-        "id": "User > ID (Unique Azure AD identifier as a UUID)",
-        "city": "Utente > Città",
-        "companyName": "Utente > Nome Organizzazione",
-        "country": "Utente > Paese",
-        "department": "Utente > Dipartimento",
-        "displayName": "Utente > Nome Visualizzato. e.g: 'Alice Hawking'",
-        "employeeId": "Utente > ID Dipendente",
-        "givenName": "Utente > Nome",
-        "jobTitle": "Utente > Figura Professionale",
-        "mail": "Utente > Email",
-        "mailNickname": "Utente > Nome Utente Email. e.g 'alice.hawking'",
-        "mobilePhone": "Utente > Telefono",
-        "officeLocation": "Utente > Luogo Ufficio",
-        "postalCode": "Utente > Codice Postale",
-        "preferredLanguage": "Utente > Lingua Preferita. e.g 'en-US'",
-        "state": "Utente > Stato",
-        "streetAddress": "Utente > Indirizzo",
-        "surname": "Utente > Cognome",
-        "usageLocation": "Utente > Localizzazione. e.g 'US'",
-        "userPrincipalName": "Utente > Nome Principale dell'Utente.",
-				"preferredDataLocation": "Preferred Data Location (PDL)",
+        "id": "User: ID (Unique Azure AD identifier as a UUID)",
+        "city": "Utente: Città",
+        "companyName": "Utente: Nome Organizzazione",
+        "country": "Utente: Paese",
+        "department": "Utente: Dipartimento",
+        "displayName": "Utente: Nome Visualizzato. e.g: 'Alice Hawking'",
+        "employeeId": "Utente: ID Dipendente",
+        "givenName": "Utente: Nome",
+        "jobTitle": "Utente: Figura Professionale",
+        "mail": "Utente: Email",
+        "mailNickname": "Utente: Nome Utente Email. e.g 'alice.hawking'",
+        "mobilePhone": "Utente: Telefono",
+        "officeLocation": "Utente: Luogo Ufficio",
+        "postalCode": "Utente: Codice Postale",
+        "preferredLanguage": "Utente: Lingua Preferita. e.g 'en-US'",
+        "state": "Utente: Stato",
+        "streetAddress": "Utente: Indirizzo",
+        "surname": "Utente: Cognome",
+        "usageLocation": "Utente: Localizzazione. e.g 'US'",
+        "userPrincipalName": "Utente: Nome Principale dell'Utente.",
+				"preferredDataLocation": "Utente: Preferred Data Location (PDL)",
         "onPremisesExtensionAttributes": {
-          "extensionAttribute1": "Utente > Estensione Attributo 'On-premises' 1",
-          "extensionAttribute2": "Utente > Estensione Attributo 'On-premises' 2",
-          "extensionAttribute3": "Utente > Estensione Attributo 'On-premises' 3",
-          "extensionAttribute4": "Utente > Estensione Attributo 'On-premises' 4",
-          "extensionAttribute5": "Utente > Estensione Attributo 'On-premises' 5",
-          "extensionAttribute6": "Utente > Estensione Attributo 'On-premises' 6",
-          "extensionAttribute7": "Utente > Estensione Attributo 'On-premises' 7",
-          "extensionAttribute8": "Utente > Estensione Attributo 'On-premises' 8",
-          "extensionAttribute9": "Utente > Estensione Attributo 'On-premises' 9",
-          "extensionAttribute10": "Utente > Estensione Attributo 'On-premises' 10",
-          "extensionAttribute11": "Utente > Estensione Attributo 'On-premises' 11",
-          "extensionAttribute12": "Utente > Estensione Attributo 'On-premises' 12",
-          "extensionAttribute13": "Utente > Estensione Attributo 'On-premises' 13",
-          "extensionAttribute14": "Utente > Estensione Attributo 'On-premises' 14",
-          "extensionAttribute15": "Utente > Estensione Attributo 'On-premises' 15"
+          "extensionAttribute1": "Utente: Estensione Attributo 'On-premises' 1",
+          "extensionAttribute2": "Utente: Estensione Attributo 'On-premises' 2",
+          "extensionAttribute3": "Utente: Estensione Attributo 'On-premises' 3",
+          "extensionAttribute4": "Utente: Estensione Attributo 'On-premises' 4",
+          "extensionAttribute5": "Utente: Estensione Attributo 'On-premises' 5",
+          "extensionAttribute6": "Utente: Estensione Attributo 'On-premises' 6",
+          "extensionAttribute7": "Utente: Estensione Attributo 'On-premises' 7",
+          "extensionAttribute8": "Utente: Estensione Attributo 'On-premises' 8",
+          "extensionAttribute9": "Utente: Estensione Attributo 'On-premises' 9",
+          "extensionAttribute10": "Utente: Estensione Attributo 'On-premises' 10",
+          "extensionAttribute11": "Utente: Estensione Attributo 'On-premises' 11",
+          "extensionAttribute12": "Utente: Estensione Attributo 'On-premises' 12",
+          "extensionAttribute13": "Utente: Estensione Attributo 'On-premises' 13",
+          "extensionAttribute14": "Utente: Estensione Attributo 'On-premises' 14",
+          "extensionAttribute15": "Utente: Estensione Attributo 'On-premises' 15"
         }
       },
       "groups": {
-        "direct": "Gruppi > Tutti i gruppi di cui l'utente è un membro DIRETTO.",
-        "transitive": "Gruppi > Tutti i gruppi di cui l'utente è membro in quanto incluso via un'attività transitiva."
+        "direct": "Gruppi: Tutti i gruppi di cui l'utente è un membro DIRETTO.",
+        "transitive": "Gruppi: Tutti i gruppi di cui l'utente è membro in quanto incluso via un'attività transitiva."
       }
     },
     "request": {
       "team": {
-        "name": "Richiesta > Nome del Team",
-        "description": "Richiesta > Descrizione del Team",
-        "welcomeMessage": "Richiesta > Messaggio di benvenuto"
+        "name": "Richiesta: Nome del Team",
+        "description": "Richiesta: Descrizione del Team",
+        "welcomeMessage": "Richiesta: Messaggio di benvenuto"
       },
       "template": {
-        "name": "Richiesta > Nome del Template"
+        "name": "Richiesta: Nome del Template"
       }
     },
     "uniqueId": {
-      "fromDate": "ID unico > Un unico ID generato la data corrente. e.g '1597065805024'",
-      "uuid": "ID unico > Un unico ID casualmente generato come un UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+      "fromDate": "ID unico: Un unico ID generato la data corrente. e.g '1597065805024'",
+      "uuid": "ID unico: Un unico ID casualmente generato come un UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
     }
   }
 }

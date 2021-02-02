@@ -1500,63 +1500,63 @@
 	"tags": {
 		"user": {
 			"profile": {
-				"id": "Utilisateur > Identifiant unique (Identifiant unique Azure AD sous la forme d'un UUID)",
-				"city": "Utilisateur > Ville",
-				"companyName": "Utilisateur > Nom de l'entreprise",
-				"country": "Utilisateur > Pays",
-				"department": "Utilisateur > Département",
-				"displayName": "Utilisateur > Nom complet. Par exemple 'Alice Hawking'",
-				"employeeId": "Utilisateur > Matricule",
-				"givenName": "Utilisateur > Prénom",
-				"jobTitle": "Utilisateur > Fonction",
-				"mail": "Utilisateur > email",
-				"mailNickname": "Utilisateur > Préfixe email. Par exemple 'alice.hawking'",
-				"mobilePhone": "Utilisateur > Téléphone mobile",
-				"officeLocation": "Utilisateur > Bureau",
-				"postalCode": "Utilisateur > Code postal",
-				"preferredLanguage": "Utilisateur > Langue préférée. Par exemple 'en-US'",
-				"state": "Utilisateur > Etat",
-				"streetAddress": "Utilisateur > Adresse postale",
-				"surname": "Utilisateur > Nom de famille",
-				"usageLocation": "Utilisateur > Localisation de l'usage Microsoft 365. Par exemple 'US'",
-				"userPrincipalName": "Utilisateur > Nom d'utilisateur principal (UPN).",
-				"preferredDataLocation": "Utilisateur > Emplacement de Données Favori (PDL)",
+				"id": "Utilisateur : Identifiant unique (Identifiant unique Azure AD sous la forme d'un UUID)",
+				"city": "Utilisateur : Ville",
+				"companyName": "Utilisateur : Nom de l'entreprise",
+				"country": "Utilisateur : Pays",
+				"department": "Utilisateur : Département",
+				"displayName": "Utilisateur : Nom complet. Par exemple 'Alice Hawking'",
+				"employeeId": "Utilisateur : Matricule",
+				"givenName": "Utilisateur : Prénom",
+				"jobTitle": "Utilisateur : Fonction",
+				"mail": "Utilisateur : email",
+				"mailNickname": "Utilisateur : Préfixe email. Par exemple 'alice.hawking'",
+				"mobilePhone": "Utilisateur : Téléphone mobile",
+				"officeLocation": "Utilisateur : Bureau",
+				"postalCode": "Utilisateur : Code postal",
+				"preferredLanguage": "Utilisateur : Langue préférée. Par exemple 'en-US'",
+				"state": "Utilisateur : Etat",
+				"streetAddress": "Utilisateur : Adresse postale",
+				"surname": "Utilisateur : Nom de famille",
+				"usageLocation": "Utilisateur : Localisation de l'usage Microsoft 365. Par exemple 'US'",
+				"userPrincipalName": "Utilisateur : Nom d'utilisateur principal (UPN).",
+				"preferredDataLocation": "Utilisateur : Emplacement de Données Favori (PDL)",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "Utilisateur > Attribut d'extension 'on-premises' 1",
-					"extensionAttribute2": "Utilisateur > Attribut d'extension 'on-premises' 2",
-					"extensionAttribute3": "Utilisateur > Attribut d'extension 'on-premises' 3",
-					"extensionAttribute4": "Utilisateur > Attribut d'extension 'on-premises' 4",
-					"extensionAttribute5": "Utilisateur > Attribut d'extension 'on-premises' 5",
-					"extensionAttribute6": "Utilisateur > Attribut d'extension 'on-premises' 6",
-					"extensionAttribute7": "Utilisateur > Attribut d'extension 'on-premises' 7",
-					"extensionAttribute8": "Utilisateur > Attribut d'extension 'on-premises' 8",
-					"extensionAttribute9": "Utilisateur > Attribut d'extension 'on-premises' 9",
-					"extensionAttribute10": "Utilisateur > Attribut d'extension 'on-premises' 10",
-					"extensionAttribute11": "Utilisateur > Attribut d'extension 'on-premises' 11",
-					"extensionAttribute12": "Utilisateur > Attribut d'extension 'on-premises' 12",
-					"extensionAttribute13": "Utilisateur > Attribut d'extension 'on-premises' 13",
-					"extensionAttribute14": "Utilisateur > Attribut d'extension 'on-premises' 14",
-					"extensionAttribute15": "Utilisateur > Attribut d'extension 'on-premises' 15"
+					"extensionAttribute1": "Utilisateur : Attribut d'extension 'on-premises' 1",
+					"extensionAttribute2": "Utilisateur : Attribut d'extension 'on-premises' 2",
+					"extensionAttribute3": "Utilisateur : Attribut d'extension 'on-premises' 3",
+					"extensionAttribute4": "Utilisateur : Attribut d'extension 'on-premises' 4",
+					"extensionAttribute5": "Utilisateur : Attribut d'extension 'on-premises' 5",
+					"extensionAttribute6": "Utilisateur : Attribut d'extension 'on-premises' 6",
+					"extensionAttribute7": "Utilisateur : Attribut d'extension 'on-premises' 7",
+					"extensionAttribute8": "Utilisateur : Attribut d'extension 'on-premises' 8",
+					"extensionAttribute9": "Utilisateur : Attribut d'extension 'on-premises' 9",
+					"extensionAttribute10": "Utilisateur : Attribut d'extension 'on-premises' 10",
+					"extensionAttribute11": "Utilisateur : Attribut d'extension 'on-premises' 11",
+					"extensionAttribute12": "Utilisateur : Attribut d'extension 'on-premises' 12",
+					"extensionAttribute13": "Utilisateur : Attribut d'extension 'on-premises' 13",
+					"extensionAttribute14": "Utilisateur : Attribut d'extension 'on-premises' 14",
+					"extensionAttribute15": "Utilisateur : Attribut d'extension 'on-premises' 15"
 				}
 			},
 			"groups": {
-				"direct": "Groupes > Tous les groupes dont l'utilisateur est un membre DIRECT.",
-				"transitive": "Groupes > Tous les groupes dont l'utilisateur est membre, y compris par TRANSITIVITE."
+				"direct": "Groupes : Tous les groupes dont l'utilisateur est un membre DIRECT.",
+				"transitive": "Groupes : Tous les groupes dont l'utilisateur est membre, y compris par TRANSITIVITE."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Requête > Nom de l'équipe",
-				"description": "Requête > Description de l'équipe",
-				"welcomeMessage": "Requête > Message de bienvenue"
+				"name": "Requête : Nom de l'équipe",
+				"description": "Requête : Description de l'équipe",
+				"welcomeMessage": "Requête : Message de bienvenue"
 			},
 			"template": {
-				"name": "Requête > Nom du modèle"
+				"name": "Requête : Nom du modèle"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "Identifiant unique > Un identifiant unique généré à partir de la date et l'heure courante. Par exemple '1597065805024'",
-			"uuid": "Identifiant unique > Un identifiant unique généré aléatoirement sous la forme d'un UUID. Par exemple '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "Identifiant unique : Un identifiant unique généré à partir de la date et l'heure courante. Par exemple '1597065805024'",
+			"uuid": "Identifiant unique : Un identifiant unique généré aléatoirement sous la forme d'un UUID. Par exemple '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }

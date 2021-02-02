@@ -1500,63 +1500,63 @@
 	"tags": {
 		"user": {
 			"profile": {
-				"id": "User > ID (Unique Azure AD identifier as a UUID)",
-				"city": "Usario > Ciudad",
-				"companyName": "Usario > Nombre de Empresa",
-				"country": "Usario > Pais",
-				"department": "Usario > Departmento",
-				"displayName": "Usario > Nombre desplegado. e.g: 'Alice Hawking'",
-				"employeeId": " Usario > ID del empleado",
-				"givenName": " Usario > Nombre",
-				"jobTitle": " Usario > Título de trabajo",
-				"mail": " Usario > Correo",
-				"mailNickname": " Usario > Apodo del correo. e.g 'alice.hawking'",
-				"mobilePhone": " Usario > Número de teléfono",
-				"officeLocation": " Usario > Ubicación de la oficina",
-				"postalCode": " Usario > Código postal",
-				"preferredLanguage": " Usario > Idioma de preferencia. e.g 'en-US'",
-				"state": " Usario > Estado",
-				"streetAddress": " Usario > Dirección (calle)",
-				"surname": " Usario > Apellido",
-				"usageLocation": " Usario > Ubicacion del uso. P.ej. 'EEUU'",
-				"userPrincipalName": " Usario > Nombre prinipal del usario.",
-				"preferredDataLocation": "Preferred Data Location (PDL)",
+				"id": "User:  ID (Unique Azure AD identifier as a UUID)",
+				"city": "Usario:  Ciudad",
+				"companyName": "Usario:  Nombre de Empresa",
+				"country": "Usario:  Pais",
+				"department": "Usario:  Departmento",
+				"displayName": "Usario:  Nombre desplegado. e.g: 'Alice Hawking'",
+				"employeeId": " Usario:  ID del empleado",
+				"givenName": " Usario:  Nombre",
+				"jobTitle": " Usario:  Título de trabajo",
+				"mail": " Usario:  Correo",
+				"mailNickname": " Usario:  Apodo del correo. e.g 'alice.hawking'",
+				"mobilePhone": " Usario:  Número de teléfono",
+				"officeLocation": " Usario:  Ubicación de la oficina",
+				"postalCode": " Usario:  Código postal",
+				"preferredLanguage": " Usario:  Idioma de preferencia. e.g 'en-US'",
+				"state": " Usario:  Estado",
+				"streetAddress": " Usario:  Dirección (calle)",
+				"surname": " Usario:  Apellido",
+				"usageLocation": " Usario:  Ubicacion del uso. P.ej. 'EEUU'",
+				"userPrincipalName": " Usario:  Nombre prinipal del usario.",
+				"preferredDataLocation": "Usario:  Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "Usario > Extensión local atributo 1",
-					"extensionAttribute2": "Usario > Extensión local atributo 2",
-					"extensionAttribute3": "Usario > Extensión local atributo 3",
-					"extensionAttribute4": "Usario > Extensión local atributo 4",
-					"extensionAttribute5": "Usario > Extensión local atributo 5",
-					"extensionAttribute6": "Usario > Extensión local atributo 6",
-					"extensionAttribute7": "Usario > Extensión local atributo 7",
-					"extensionAttribute8": "Usario > Extensión local atributo 8",
-					"extensionAttribute9": "Usario > Extensión local atributo 9",
-					"extensionAttribute10": "Usario > Extensión local atributo 10",
-					"extensionAttribute11": "Usario > Extensión local atributo 11",
-					"extensionAttribute12": "Usario > Extensión local atributo 12",
-					"extensionAttribute13": "Usario > Extensión local atributo 13",
-					"extensionAttribute14": "Usario > Extensión local atributo 14",
-					"extensionAttribute15": "Usario > Extensión local atributo 15"
+					"extensionAttribute1": "Usario:  Extensión local atributo 1",
+					"extensionAttribute2": "Usario:  Extensión local atributo 2",
+					"extensionAttribute3": "Usario:  Extensión local atributo 3",
+					"extensionAttribute4": "Usario:  Extensión local atributo 4",
+					"extensionAttribute5": "Usario:  Extensión local atributo 5",
+					"extensionAttribute6": "Usario:  Extensión local atributo 6",
+					"extensionAttribute7": "Usario:  Extensión local atributo 7",
+					"extensionAttribute8": "Usario:  Extensión local atributo 8",
+					"extensionAttribute9": "Usario:  Extensión local atributo 9",
+					"extensionAttribute10": "Usario:  Extensión local atributo 10",
+					"extensionAttribute11": "Usario:  Extensión local atributo 11",
+					"extensionAttribute12": "Usario:  Extensión local atributo 12",
+					"extensionAttribute13": "Usario:  Extensión local atributo 13",
+					"extensionAttribute14": "Usario:  Extensión local atributo 14",
+					"extensionAttribute15": "Usario:  Extensión local atributo 15"
 				}
 			},
 			"groups": {
-				"direct": "Grupos > Todos los grupos donde el usario es el miembro directo.",
-				"transitive": "Grupos > Todos los grupos donde el usario es el miembro aun transitivamente."
+				"direct": "Grupos:  Todos los grupos donde el usario es el miembro directo.",
+				"transitive": "Grupos:  Todos los grupos donde el usario es el miembro aun transitivamente."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Solicitud > Nombre del Equipo",
-				"description": "Solicitud > Descripción del Equipo",
-				"welcomeMessage": " Solicitud > Mensaje de bienvenida"
+				"name": "Solicitud:  Nombre del Equipo",
+				"description": "Solicitud:  Descripción del Equipo",
+				"welcomeMessage": " Solicitud:  Mensaje de bienvenida"
 			},
 			"template": {
-				"name": "Solicitud template > Nombre de la Plantilla"
+				"name": "Solicitud template:  Nombre de la Plantilla"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "ID única > La ID única generada por la fecha actual. e.g '1597065805024'",
-			"uuid": "ID única> La ID única generada aleatoriamente como una UUID . e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "ID única:  La ID única generada por la fecha actual. e.g '1597065805024'",
+			"uuid": "ID única:  La ID única generada aleatoriamente como una UUID . e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }

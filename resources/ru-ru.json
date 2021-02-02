@@ -1425,63 +1425,63 @@
 	"tags": {
 		"user": {
 			"profile": {
-				"id": "User > ID (Unique Azure AD identifier as a GUID)",
-				"city": "User > City",
-				"companyName": "User > Company Name",
-				"country": "User > Country",
-				"department": "User > Department",
-				"displayName": "User > Display Name. e.g: 'Alice Hawking'",
-				"employeeId": "User > Employee ID",
-				"givenName": "User > Given Name",
-				"jobTitle": "User > Job Title",
-				"mail": "User > Mail",
-				"mailNickname": "User > Mail Nickname. e.g 'alice.hawking'",
-				"mobilePhone": "User > Mobile Phone",
-				"officeLocation": "User > Office Location",
-				"postalCode": "User > Postal Code",
-				"preferredLanguage": "User > Preferred Language. e.g 'en-US'",
-				"state": "User > State",
-				"streetAddress": "User > Street Address",
-				"surname": "User > Surname",
-				"usageLocation": "User > Usage Location. e.g 'US'",
-				"userPrincipalName": "User > User Principal Name.",
-				"preferredDataLocation": "Preferred Data Location (PDL)",
+				"id": "User: ID (Unique Azure AD identifier as a GUID)",
+				"city": "User: City",
+				"companyName": "User: Company Name",
+				"country": "User: Country",
+				"department": "User: Department",
+				"displayName": "User: Display Name. e.g: 'Alice Hawking'",
+				"employeeId": "User: Employee ID",
+				"givenName": "User: Given Name",
+				"jobTitle": "User: Job Title",
+				"mail": "User: Mail",
+				"mailNickname": "User: Mail Nickname. e.g 'alice.hawking'",
+				"mobilePhone": "User: Mobile Phone",
+				"officeLocation": "User: Office Location",
+				"postalCode": "User: Postal Code",
+				"preferredLanguage": "User: Preferred Language. e.g 'en-US'",
+				"state": "User: State",
+				"streetAddress": "User: Street Address",
+				"surname": "User: Surname",
+				"usageLocation": "User: Usage Location. e.g 'US'",
+				"userPrincipalName": "User: User Principal Name.",
+				"preferredDataLocation": "User: Preferred Data Location (PDL)",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "User > On-premises extension attribute 1",
-					"extensionAttribute2": "User > On-premises extension attribute 2",
-					"extensionAttribute3": "User > On-premises extension attribute 3",
-					"extensionAttribute4": "User > On-premises extension attribute 4",
-					"extensionAttribute5": "User > On-premises extension attribute 5",
-					"extensionAttribute6": "User > On-premises extension attribute 6",
-					"extensionAttribute7": "User > On-premises extension attribute 7",
-					"extensionAttribute8": "User > On-premises extension attribute 8",
-					"extensionAttribute9": "User > On-premises extension attribute 9",
-					"extensionAttribute10": "User > On-premises extension attribute 10",
-					"extensionAttribute11": "User > On-premises extension attribute 11",
-					"extensionAttribute12": "User > On-premises extension attribute 12",
-					"extensionAttribute13": "User > On-premises extension attribute 13",
-					"extensionAttribute14": "User > On-premises extension attribute 14",
-					"extensionAttribute15": "User > On-premises extension attribute 15"
+					"extensionAttribute1": "User: On-premises extension attribute 1",
+					"extensionAttribute2": "User: On-premises extension attribute 2",
+					"extensionAttribute3": "User: On-premises extension attribute 3",
+					"extensionAttribute4": "User: On-premises extension attribute 4",
+					"extensionAttribute5": "User: On-premises extension attribute 5",
+					"extensionAttribute6": "User: On-premises extension attribute 6",
+					"extensionAttribute7": "User: On-premises extension attribute 7",
+					"extensionAttribute8": "User: On-premises extension attribute 8",
+					"extensionAttribute9": "User: On-premises extension attribute 9",
+					"extensionAttribute10": "User: On-premises extension attribute 10",
+					"extensionAttribute11": "User: On-premises extension attribute 11",
+					"extensionAttribute12": "User: On-premises extension attribute 12",
+					"extensionAttribute13": "User: On-premises extension attribute 13",
+					"extensionAttribute14": "User: On-premises extension attribute 14",
+					"extensionAttribute15": "User: On-premises extension attribute 15"
 				}
 			},
 			"groups": {
-				"direct": "Groups > All the groups that the user is a DIRECT member of.",
-				"transitive": "Groups > All the groups that the user is a member of including by transitivity."
+				"direct": "Groups: All the groups that the user is a DIRECT member of.",
+				"transitive": "Groups: All the groups that the user is a member of including by transitivity."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Request > Team Name",
-				"description": "Request > Team Description",
-				"welcomeMessage": "Request > Welcome Message"
+				"name": "Request: Team Name",
+				"description": "Request: Team Description",
+				"welcomeMessage": "Request: Welcome Message"
 			},
 			"template": {
-				"name": "Request > Template Name"
+				"name": "Request: Template Name"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
-			"uuid": "Unique ID > A unique ID randomly generated as a guid. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "Unique ID: A unique ID generated from the current date. e.g '1597065805024'",
+			"uuid": "Unique ID: A unique ID randomly generated as a guid. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }
