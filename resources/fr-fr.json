@@ -1361,6 +1361,9 @@
 				},
 				"2": {
 					"name": "Configuration"
+				},
+				"3": {
+					"name": "Intégration"
 				}
 			}
 		},

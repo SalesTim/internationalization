@@ -1361,7 +1361,10 @@
         },
         "2": {
           "name": "Settings"
-        }
+        },
+				"3": {
+					"name": "Integration"
+				}
       }
     },
     "targeted": {

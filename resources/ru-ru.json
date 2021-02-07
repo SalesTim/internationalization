@@ -1350,6 +1350,20 @@
 		"description": {
 			"short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
 			"full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+		},
+		"staticTabs": {
+			"0": {
+				"name": "Home"
+			},
+			"1": {
+				"name": "Catalog"
+			},
+			"2": {
+				"name": "Settings"
+			},
+			"3": {
+				"name": "Integration"
+			}
 		}
 	},
 	"storeInstallPage": {
