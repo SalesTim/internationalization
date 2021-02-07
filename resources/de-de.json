@@ -992,11 +992,16 @@
           "button": "<i class='fa fa-floppy-o'></i> Save",
           "waiting": "⏳ Saving..."
         },
-        "catalogManagers": {
-          "label": "Catalog Managers",
-          "help": "You can select up to 50 catalog managers",
-          "placeholder": "Search for users by given name or surname..."
-        }
+				"catalogManagers": {
+					"label": "Catalog Managers",
+					"help": "Catalog Managers can create, update and delete templates from your corporate catalog.<br />You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
+				},
+				"integrationManagers": {
+					"label": "Integration Managers",
+					"help": "Integration Managers can create, update and delete webhooks and configure connected apps.<br />You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
+				}
       },
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Dienstkonto",

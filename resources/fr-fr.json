@@ -993,8 +993,13 @@
 					"waiting": "⏳ Enregistrement..."
 				},
 				"catalogManagers": {
-					"label": "Gestionnaires du Catalogue",
-					"help": "Vous pouvez sélectionner jusqu'à 50 gestionnaires du catalogue",
+					"label": "Gestionnaires de Catalogue",
+					"help": "Les gestionnaires de catalogue peuvent créer, mettre à jour et supprimer des modèles de votre catalogue.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires de catalogue.",
+					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
+				},
+				"integrationManagers": {
+					"label": "Gestionnaires d'intégration",
+					"help": "Les gestionnaires d'intégration peuvent créer, mettre à jour et supprimer des webhooks et configurer des applications connectées.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires d'intégration.",
 					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
 				}
 			},

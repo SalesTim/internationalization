@@ -137,7 +137,7 @@
 			"sso": {
 				"button": "🔐 ADMIN CONSENT",
 				"wait": "⏳ Admin Consent Ongoing...",
-				"error":"An administrator needs to grant permissions to this app."
+				"error": "An administrator needs to grant permissions to this app."
 			}
 		},
 		"welcomebackLabel": "Welcome back!",
@@ -994,7 +994,12 @@
 				},
 				"catalogManagers": {
 					"label": "Catalog Managers",
-					"help": "You can select up to 50 catalog managers",
+					"help": "Catalog Managers can create, update and delete templates from your corporate catalog.<br />You can select up to 50 catalog managers",
+					"placeholder": "Search for users by given name or surname..."
+				},
+				"integrationManagers": {
+					"label": "Integration Managers",
+					"help": "Integration Managers can create, update and delete webhooks and configure connected apps.<br />You can select up to 50 catalog managers",
 					"placeholder": "Search for users by given name or surname..."
 				}
 			},
