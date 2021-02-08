@@ -955,6 +955,9 @@
 				"save":{
 					"button":"<i class='fa fa-floppy-o'></i> Save"
 				},
+				"create": {
+					"button": "<i class='fa fa-floppy-o'></i> Create"
+				},
 				"cancel":{
 					"button":"<i class='fa fa-ban'></i> Cancel"
 				},
