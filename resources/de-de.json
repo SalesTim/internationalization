@@ -942,6 +942,27 @@
         }
       }
     },
+		"integration": {
+			"title": "Integration",
+			"hooks": {
+				"tab": {
+					"title": "Webhooks"
+				},
+				"title": "Your webhooks",
+				"new": {
+					"button": "<i class='fa fa-plus-square'></i> New wehbook"
+				},
+				"save":{
+					"button":"<i class='fa fa-floppy-o'></i> Save"
+				},
+				"cancel":{
+					"button":"<i class='fa fa-ban'></i> Cancel"
+				},
+				"delete":{
+					"button":"<i class='fa fa-trash'></i> Delete"
+				}
+			}
+		},
     "settings": {
       "save": {
         "success": {
