@@ -432,9 +432,9 @@
             "placeholder": "Inserire Nome",
             "preview": "Anteprima: ",
             "previewError": "Mi dispiace 😢, non posso generare un'anteprima. Sembra che ci sia un problema nella configurazione della naming convention.",
-            "tooltip": "deve contenere tra 1 e 53 caratteri e solo caratteri alfanumerici, '-', '(' o ')'",
+            "tooltip": "deve contenere tra 1 e 264 caratteri e solo caratteri alfanumerici, '-', '(' o ')'",
             "errors": {
-              "length": "Il nome del Team deve contenere tra 1 e 53 caratteri",
+              "length": "Il nome del Team deve contenere tra 1 e 264 caratteri",
               "characters": "Il nome del Team deve contenere solo caratteri alfanumerici, '-', '(' o ')'"
             }
           },

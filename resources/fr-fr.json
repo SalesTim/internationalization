@@ -432,9 +432,9 @@
 						"placeholder": "Saisissez un nom",
 						"preview": "Aperçu : ",
 						"previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
-						"tooltip": "Doit contenir entre 1 et 53 caractères alphanumeriques dont '-', '(' ou ')'",
+						"tooltip": "Doit contenir entre 1 et 264 caractères alphanumeriques dont '-', '(' ou ')'",
 						"errors": {
-							"length": "Le nom de l'équipe doit contenir entre 1 et 53 caractères",
+							"length": "Le nom de l'équipe doit contenir entre 1 et 264 caractères",
 							"characters": "Le nom de l'équipe ne doit contenir que des caractères alphanumériques dont '-', '(' ou ')'"
 						}
 					},
@@ -1245,7 +1245,7 @@
 				"label": "🚩 Erreur",
 				"message": {
 					"standard": "Une erreur est survenur lors du traitement de la demande",
-					"ERROR_CONFIGURE_TAB": "🚩 Erreur lors de la configuration de l'onglet %s. 🌐: %s",
+					"ERROR_CONFIGURE_TAB": "🚩 Impossible de configurer l'onglet %s. 🌐: %s",
 					"ERROR_RETRIEVE_REQUESTER": "Impossible de retrouver les informations du demandeur",
 					"ERROR_RETRIEVE_CUSTOMER": "Impossible de retrouver les informations de l'organization du demandeur",
 					"ERROR_RETRIEVE_TEMPLATE": "Impossible de retrouver le template dans le catalogue",

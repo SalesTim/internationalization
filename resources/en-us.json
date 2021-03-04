@@ -432,9 +432,9 @@
 						"placeholder": "Enter Name",
 						"preview": "Preview: ",
 						"previewError": "I'm sorry 😢, I cannot generate a preview. Looks like there is a bad naming convention configuration.",
-						"tooltip": "must be between 1 and 53 characters long and contain only alphanumeric characters, '-', '(' or ')'",
+						"tooltip": "must be between 1 and 264 characters long and contain only alphanumeric characters, '-', '(' or ')'",
 						"errors": {
-							"length": "Team name must be between 1 and 53 characters long",
+							"length": "Team name must be between 1 and 264 characters long",
 							"characters": "Team name must only contain alphanumeric characters, '-', '(' or ')'"
 						}
 					},
@@ -1245,7 +1245,7 @@
 				"label": "🚩 Error",
 				"message": {
 					"standard": "An error occured while processing the request",
-					"ERROR_CONFIGURE_TAB": "🚩 Error configuring tab %s. 🌐: %s",
+					"ERROR_CONFIGURE_TAB": "🚩 Cannot configure tab %s. 🌐: %s",
 					"ERROR_RETRIEVE_REQUESTER": "Error retrieving requester user object",
 					"ERROR_RETRIEVE_CUSTOMER": "Error retrieving requester customer object",
 					"ERROR_RETRIEVE_TEMPLATE": "Error retrieving template from catalog",

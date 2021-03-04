@@ -432,9 +432,9 @@
 						"placeholder": "Ingresa tu nombre",
 						"preview": "Avance: ",
 						"previewError": "Lo siento 😢, no puedo generar una vista previa. Parece que hay una configuración de convención de nomenclatura incorrecta.",
-						"tooltip": "debe tener entre 1 y 53 caracteres y contener solo caracteres alfanuméricos, '-', '(' or ')'",
+						"tooltip": "debe tener entre 1 y 264 caracteres y contener solo caracteres alfanuméricos, '-', '(' or ')'",
 						"errors": {
-							"length": "El nombre del equipo debe tener entre 1 y 53 caracteres.",
+							"length": "El nombre del equipo debe tener entre 1 y 264 caracteres.",
 							"characters": "El nombre del equipo solo debe contener caracteres alfanuméricos, '-', '(' or ')'"
 						}
 					},

@@ -432,9 +432,9 @@
             "placeholder": "Name eingeben",
             "preview": "Vorschau: ",
             "previewError": "Es tut mir leid 😢, ich kann keine Vorschau erstellen. Sieht aus, als gäbe es eine fehlerhafte Konfiguration der Namenskonvention.",
-            "tooltip": "muss zwischen 1 und 53 Zeichen lang sein und darf nur alphanumerische Zeichen enthalten, '-', '(' oder ')'",
+            "tooltip": "muss zwischen 1 und 264 Zeichen lang sein und darf nur alphanumerische Zeichen enthalten, '-', '(' oder ')'",
             "errors": {
-              "length": "Der Teamname muss zwischen 1 und 53 Zeichen lang sein",
+              "length": "Der Teamname muss zwischen 1 und 264 Zeichen lang sein",
               "characters": "Der Teamname darf nur alphanumerische Zeichen enthalten, '-', '(' oder ')'"
             }
           },
