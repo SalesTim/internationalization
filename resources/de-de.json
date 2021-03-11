@@ -453,10 +453,10 @@
             "tooltip": "wird in den 'allgemeinen' Kanal gesendet"
           },
           "mandatoryOwners": {
-            "help": "You must select at least %s owner(s). "
+            "help": "Sie müssen mindestens %s Besitzer auswählen. "
           },
           "mandatoryMembers": {
-            "help": "You must select at least %s member(s). "
+            "help": "Sie müssen mindestens %s Mitglied(er) auswählen. "
           },
           "additionalOwners": {
             "label": "Besitzer",
@@ -466,10 +466,10 @@
             "alreadySelectedAsPermanent": "Wussten Sie schon?: Die folgenden Eigentümer werden automatisch eingeladen: "
           },
           "additionalMembers": {
-            "label": "Members",
+            "label": "Mitglieder",
             "placeholder": "Suchen Sie nach Benutzern anhand ihres Vor- oder Nachnamens...",
-            "tooltip": "You can select up to %s additional members",
-            "help": "You can select up to %s additional members.",
+            "tooltip": "Sie können bis zu %s zusätzliche Mitglieder auswählen",
+            "help": "Sie können bis zu %s zusätzliche Mitglieder auswählen.",
             "alreadySelectedAsPermanent": "Wussten Sie schon?: Die folgenden Mitglieder werden automatisch eingeladen: "
           },
           "cancel": "Abbrechen",
@@ -519,7 +519,7 @@
             "loading": "⏳ Lade Mitglieder..."
           },
           "owners": {
-            "label": "Besitzers: ",
+            "label": "Besitzer: ",
             "loading": "⏳ Lade Besitzer..."
           },
           "archiveStatus": {
@@ -668,17 +668,17 @@
             "template": {
               "title": "Info",
               "templateInfo": {
-                "title": "📰 Vorlagen Information",
+                "title": "📰 Vorlagen-Information",
                 "templateName": {
-                  "label": "Vorlagen Name",
+                  "label": "Vorlagen-Name",
                   "placeholder": "Name eingeben"
                 },
                 "templateDescription": {
-                  "label": "Vorlagen beschreibung",
+                  "label": "Vorlagen-beschreibung",
                   "placeholder": "Beschreibung eingeben"
                 },
                 "templateLanguage": {
-                  "label": "Template LanguageVorlagen Sprache",
+                  "label": "Vorlagen-Sprache",
                   "help": ""
                 }
               },
@@ -696,9 +696,9 @@
             "naming": {
               "title": "Bennenung",
               "name": {
-                "title": "Team Name",
+                "title": "Team-Name",
                 "default": {
-                  "label": "Standart Team Name",
+                  "label": "Standard Team-Name",
                   "placeholder": "Name eingeben"
                 },
                 "convention": {
@@ -709,25 +709,25 @@
               "email": {
                 "title": "Microsoft 365 Gruppen e-mail",
                 "convention": {
-                  "label": "E-mail Namenskonvention",
+                  "label": "E-mail-Namenskonvention",
                   "placeholder": "Geben Sie nur den lokalen Teil (alias Nickname) der Adresse ein (z.B. 'tim' für die Adresse 'tim@exemple.com')"
                 }
               },
               "description": {
                 "title": "Team beschreibung",
                 "default": {
-                  "label": "Standard-Team Beschreibung",
+                  "label": "Standard-Team-Beschreibung",
                   "placeholder": "description"
                 },
                 "convention": {
-                  "label": "Vorlagen Beschreibung",
+                  "label": "Vorlagen-Beschreibung",
                   "placeholder": "Beschreibung eingeben"
                 }
               },
               "welcome": {
                 "title": "Willkommensnachricht",
                 "default": {
-                  "label": "Standard Willkommensnachricht",
+                  "label": "Standard-Willkommensnachricht",
                   "placeholder": "Standard Willkommensnachricht eingeben "
                 },
                 "convention": {
@@ -1493,7 +1493,7 @@
         "approvalDate": "Genehmigt am",
         "rejectionDate": "Abgelehnt am",
         "rejectionMessage": "Nachricht",
-        "teamName": "Team Name",
+        "teamName": "Team-Name",
         "teamDescription": "Beschreibung",
         "welcomeMessage": "Willkommensnachricht",
         "teamNamePlaceholder": "Teamname hier eingeben",
