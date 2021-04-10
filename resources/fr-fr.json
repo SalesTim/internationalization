@@ -541,11 +541,11 @@
 						}
 					},
 					"classificationStatus": {
-						"title": "Classification",
+						"title": "Confidentialité",
 						"tag": " ",
 						"tooltip": {
-							"zero": "Cette équipe n'a aucun label de classification.",
-							"many": "Cette équipe est classifiée: <b>%s</b>"
+							"zero": "Cette équipe n'a aucune étiquette de confidentialité.",
+							"many": "Cette équipe dispose d'étiquettes de confidentialité: <b>%s</b>"
 						}
 					}
 				},
@@ -772,9 +772,9 @@
 								"help": "Avec l’accès invité, vous pouvez fournir l’accès aux équipes, documents dans les canaux, ressources, conversations et applications aux personnes externes à votre organisation."
 							},
 							"classification": {
-								"title": "🔖 Etiquettes de niveau de confidentialité",
+								"title": "🔖 Etiquettes de confidentialité",
 								"rules": {
-									"placeholder": "Saisissez une étiquette utilisez @ ou # pour inclure du contenu dynamique)"
+									"placeholder": "Saisissez une étiquette de confidentialité (utilisez @ ou # pour inclure du contenu dynamique)"
 								}
 							},
 							"multigeo": {

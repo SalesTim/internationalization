@@ -541,11 +541,11 @@
 						}
 					},
 					"classificationStatus": {
-						"title": "🔖 Classification",
+						"title": "🔖 Sensitivity Labels",
 						"tag": "🔖",
 						"tooltip": {
-							"zero": "This team has no classification label.",
-							"many": "This team has been classified: <b>%s</b>"
+							"zero": "This team has no sensitivity label.",
+							"many": "This team has sensitivity labels: <b>%s</b>"
 						}
 					}
 				},
@@ -774,7 +774,7 @@
 							"classification": {
 								"title": "🔖 Sensitivity Label",
 								"rules": {
-									"placeholder": "Enter classification (use @ or # to include dynamic content)"
+									"placeholder": "Enter sensitivity label (use @ or # to include dynamic content)"
 								}
 							},
 							"multigeo": {
