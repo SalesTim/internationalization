@@ -1025,6 +1025,11 @@
 					"label": "Gestionnaires d'intégration",
 					"help": "Les gestionnaires d'intégration peuvent créer, mettre à jour et supprimer des webhooks et configurer des applications connectées.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires d'intégration.",
 					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
+				},
+				"changeManagers": {
+					"label": "Responsables du changement",
+					"help": "Les responsables du changement peuvent se préparer aux futures mises à jour en testant et validant les nouvelles fonctionnalités avant qu'elles ne soient accessibles à tous les utilisateurs de l'organisation.<br />Vous pouvez sélectionner jusqu'à 50 responsables du changement.",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
 			"serviceAccount": {

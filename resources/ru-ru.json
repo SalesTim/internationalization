@@ -1025,6 +1025,11 @@
 					"label": "Integration Managers",
 					"help": "Integration Managers can create, update and delete webhooks and configure connected apps.<br />You can select up to 50 catalog managers",
 					"placeholder": "Search for users by given name or surname..."
+				},
+				"changeManagers": {
+					"label": "Change Managers",
+					"help": "Change Managers can prepare for the upcoming changes by testing and validating new updates before they are released to all the users in the organization.<br />You can select up to 50 change managers",
+					"placeholder": "Search for users by given name or surname..."
 				}
 			},
 			"serviceAccount": {
