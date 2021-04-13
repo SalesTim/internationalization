@@ -775,6 +775,10 @@
 								"title": "🔖 Sensitivity Label",
 								"rules": {
 									"placeholder": "Enter sensitivity label (use @ or # to include dynamic content)"
+								},
+								"permissionsWarning": {
+									"message": "To access this feature, you need to grant SalesTim new permissions.",
+									"button": "Grant Permissions"
 								}
 							},
 							"multigeo": {

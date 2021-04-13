@@ -775,6 +775,10 @@
 								"title": "🔖 Etiquettes de confidentialité",
 								"rules": {
 									"placeholder": "Saisissez une étiquette de confidentialité (utilisez @ ou # pour inclure du contenu dynamique)"
+								},
+								"permissionsWarning": {
+									"message": "Pour accéder à cette fonctionnalité, vous devez accorder à SalesTim une nouvelle permission.",
+									"button": "Accorder les permissions"
 								}
 							},
 							"multigeo": {
