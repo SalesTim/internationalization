@@ -27,8 +27,8 @@
 				},
 				"results": {
 					"testing": "👓 Probando las reglas de orientación de tu audiencia con tu propio perfil",
-					"accessOk": "😃 Tendrias accesso a esta plantilla!",
-					"accessKo": "😱 Tendrias accesso <b>NO</b> a esta plantilla!",
+					"accessOk": "✅ \"%s\" Tendrias accesso a esta plantilla!",
+					"accessKo": "🚫 \"%s\" Tendrias accesso <b>NO</b> a esta plantilla!",
 					"details": {
 						"seeErrors": "Ver 👓 Detalles de errores técnicos...",
 						"errorIntro": "🤬 Parece que hay un error en tu regla...",

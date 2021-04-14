@@ -27,8 +27,8 @@
         },
         "results": {
           "testing": "👓 Testen der Regeln für die Zielgruppenauswahl anhand Ihres eigenen Profils",
-          "accessOk": "😃 Sie haben Zugriff auf diese Vorlage!",
-          "accessKo": "😱 Sie haben <b>KEINEN</b> Zugriff auf die Vorlage",
+          "accessOk": "✅ \"%s\" haben Zugriff auf diese Vorlage!",
+          "accessKo": "🚫 \"%s\" haben <b>KEINEN</b> Zugriff auf die Vorlage",
           "details": {
             "seeErrors": "Siehe 👓 Einzelheiten zu technischen Fehlern...",
             "errorIntro": "🤬 Es sieht so aus, als gäbe es einen Fehler in Ihrer Regel zur Zielgruppenauswahl...",

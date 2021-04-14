@@ -27,8 +27,8 @@
         },
         "results": {
           "testing": "👓 Sto provando le regole del targeting sul tuo profilo",
-          "accessOk": "😃 Tu avrai accesso a questo template!",
-          "accessKo": "😱 Tu <b>NON</b> avrai accesso a questo template!",
+          "accessOk": "✅ \"%s\" avrai accesso a questo template!",
+          "accessKo": "🚫 \"%s\" <b>NON</b> avrai accesso a questo template!",
           "details": {
             "seeErrors": "Vedi 👓 dettagli degli Errori Tecnici...",
             "errorIntro": "🤬 Sembra che ci sia un errore nella tua regola Targeting...",

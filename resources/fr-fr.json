@@ -27,8 +27,8 @@
 				},
 				"results": {
 					"testing": "👓 Je teste les règles de ciblage d'audience sur votre profil",
-					"accessOk": "😃 Vous aurez accès à ce modèle !",
-					"accessKo": "😱 Vous n'aurez <b>PAS</b> accès à ce modèle !",
+					"accessOk": "✅ L'utilisateur \"%s\" aura accès à ce modèle !",
+					"accessKo": "🚫 L'utilisateur \"%s\" n'aura <b>PAS</b> accès à ce modèle !",
 					"details": {
 						"seeErrors": "Voici 👓 les détails techniques de l'erreur...",
 						"errorIntro": "🤬 Il semble qu'il y ait une erreur dans votre règle de cibalge d'audience...",
