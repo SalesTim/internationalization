@@ -760,7 +760,8 @@
               "rules": {
                 "placeholder": "Geben Sie Regeln für die Zielgruppenorientierung ein (verwenden Sie @ oder #, um dynamische Inhalte einzubeziehen)",
                 "checkSyntax": {
-                  "button": "überprüfe Syntax"
+                  "button": "überprüfe Syntax",
+									"selectUser":"Select a user profile to test your audience targeting rule:"
                 }
               }
             },

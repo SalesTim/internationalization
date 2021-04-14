@@ -92,7 +92,7 @@
 			"unauthorized": {
 				"error": {
 					"msg1": "I'm sorry but I cannot let you enter...",
-					"msg2": "Please login with an Microsoft 365 administrator account!"
+					"msg2": "Please login with a Microsoft 365 administrator account!"
 				}
 			}
 		}
@@ -760,7 +760,8 @@
 							"rules": {
 								"placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
 								"checkSyntax": {
-									"button": "Check Syntax"
+									"button": "Check Syntax",
+									"selectUser":"Select a user profile to test your audience targeting rule:"
 								}
 							}
 						},

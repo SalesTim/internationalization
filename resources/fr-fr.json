@@ -760,7 +760,8 @@
 							"rules": {
 								"placeholder": "Saisissez vos règles de ciblage (utilisez @ ou # pour inclure du contenu dynamique)",
 								"checkSyntax": {
-									"button": "Vérifier la Syntaxe"
+									"button": "Vérifier la Syntaxe",
+									"selectUser":"Sélectionnez un utilisateur pour tester votre règle de ciblage d'audience:"
 								}
 							}
 						},

@@ -760,7 +760,8 @@
               "rules": {
                 "placeholder": "Inserire regola Targeting (usare @ oppure # per includere gli attributi)",
                 "checkSyntax": {
-                  "button": "Verifica la sintassi"
+                  "button": "Verifica la sintassi",
+									"selectUser":"Select a user profile to test your audience targeting rule:"
                 }
               }
             },

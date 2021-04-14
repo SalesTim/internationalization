@@ -760,7 +760,8 @@
 							"rules": {
 								"placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
 								"checkSyntax": {
-									"button": "Verificar Sintaxis"
+									"button": "Verificar Sintaxis",
+									"selectUser":"Select a user profile to test your audience targeting rule:"
 								}
 							}
 						},
