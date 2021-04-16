@@ -1540,6 +1540,10 @@
     }
   },
   "tags": {
+    "app": {
+			"id": "App: ID",
+			"name": "App: Name"
+		},
     "user": {
       "profile": {
         "id": "User: ID (Unique Azure AD identifier as a GUID)",

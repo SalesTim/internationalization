@@ -1,1604 +1,1608 @@
 {
-	"tim": {
-		"assistant": {
-			"title": "Tim",
-			"talkToSupport": {
-				"button": "<i class='fa fa-comments-o'></i> Parler au support",
-				"notAdmin": "<i class='fa fa-comments-o'></i> Je ne suis pas administrateur",
-				"defaultMessage": "Bonjour, j'ai besoin d'aide!"
-			},
-			"backToHome": {
-				"button": "<i class='fa fa-arrow-circle-o-left'></i> Retour à l'accueil"
-			},
-			"cancel": {
-				"button": "<i class='fa fa-ban'></i> Annuler"
-			},
-			"audienceTargetingRulesSyntaxChecks": {
-				"wait": {
-					"msg1": "Je fais quelques tests...",
-					"msg2": "Cela peut me prendre quelques secondes...",
-					"msg3": "Un peu de patience ;-)"
-				},
-				"done": {
-					"msg1": " C'est fait ! Voici les réultats Done!"
-				},
-				"empty": {
-					"msg1": "Entrez d'abord vos règles de ciblage d'audience !"
-				},
-				"results": {
-					"testing": "👓 Je teste les règles de ciblage d'audience sur votre profil",
-					"accessOk": "✅ L'utilisateur \"%s\" aura accès à ce modèle !",
-					"accessKo": "🚫 L'utilisateur \"%s\" n'aura <b>PAS</b> accès à ce modèle !",
-					"details": {
-						"seeErrors": "Voici 👓 les détails techniques de l'erreur...",
-						"errorIntro": "🤬 Il semble qu'il y ait une erreur dans votre règle de cibalge d'audience...",
-						"errorMessage": "📣 Message : ",
-						"errorStack": "🎯 Détails : ",
-						"supportMessage": "Bonjour, J'ai un problème 😱 avec la création d'une règle de ciblage d'audience, pouvez-vous m'aider ?"
-					}
-				}
-			},
-			"serviceAccountChecks": {
-				"wait": {
-					"msg1": "Je lance quelques tests...",
-					"msg2": "Cela peut prendre quelques secondes...",
-					"msg3": "Merci de votre patience ;-)"
-				},
-				"done": {
-					"msg1": "Terminé! Les résultats sont disponibles ci-dessous."
-				},
-				"empty": {
-					"msg1": "Merci de sélectionner un compte de service !"
-				},
-				"results": {
-					"loadServiceAccountKO": {
-						"title": "Erreur",
-						"message": "Erreur lors du chargement des informations du compte de service"
-					},
-					"groups": {
-						"checking": "🔎 Vérification des accès à <b>Group.ReadWrite.All</b>",
-						"resultOK": "😃 Accès à Group.ReadWrite.All <b>OK</b>",
-						"resultKO": "😱 Accès à Group.ReadWrite.All <b>KO</b>",
-						"error": "🤬 Erreur : "
-					},
-					"directory": {
-						"checking": "🔎 Vérification des accès à <b>Directory.AccessAsUser.All</b>",
-						"resultOK": "😃 Accès à Directory.AccessAsUser.All <b>OK</b>",
-						"resultKO": "😱 Accès à Directory.AccessAsUser.All <b>KO</b>",
-						"error": "🤬 Erreur : "
-					}
-				}
-			},
-			"serviceAccountOwnershipChecks": {
-				"addServiceAccountAsOwner": {
-					"alert": {
-						"linkMessage": "Cliquez ici pour ajouter votre compte de service 🤖 en tant que propriétaire de l'équipe",
-						"errorMessage": "Attention 💥, votre compte de service n'est pas propriétaire de l'équipe !"
-					},
-					"error": {
-						"msg1": "Désolé mais je ne peux mettre à jour les propriétaires de cette équipe",
-						"support": {
-							"message": "Bonjour, j'ai un problème 😱 pour mettre à jour les propriétaires de l'équipe, pourriez-vous m'aider ?"
-						}
-					}
-				}
-			},
-			"enableTemplate": {
-				"error": {
-					"msg1": "Désolé, mais je ne peux pas activer ce modèle.",
-					"msg2": "Sélectionnez tout d'abord une équipe à dupliquer."
-				}
-			},
-			"unauthorized": {
-				"error": {
-					"msg1": "Désolé mais je ne peux vous laisser entrer...",
-					"msg2": "Connectez-vous avec un compte administrateur s'il vous plait !"
-				}
-			}
-		}
-	},
-	"configurationPage": {
-		"title": "SalesTim | Configuration d'onglet",
-		"headerMessage": "🧙🏼‍ Bonjour!",
-		"termsAgreement": "En cliquant sur 'Enregistrer', vous acceptez nos ",
-		"terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Conditions d'utilisation</a> & <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
-		"touTitle": "Conditions d'utilisation",
-		"privacyTitle": "Politique de confidentialité",
-		"welcome": "Petit rappel amical 💖...",
-		"touUrl": "https://www.salestim.com/legal/tos",
-		"privacyUrl": "https://www.salestim.com/legal/privacy",
-		"tabDisplayName": "SalesTim",
-		"tabDisplayNameHelp": "Choisissez le nom de votre onglet",
-		"emptyHelp": "Le nom de l'onglet ne peut être vide!"
-	},
-	"loggedErrorPage": {
-		"title": "SalesTim | Erreur de connexion",
-		"redirect": "Redirection ⏳ vers la page de connexion",
-		"headerMessage": "🧙🏼‍ Erreur de connexion",
-		"sorry": "😥 Une erreur s'est produite...",
-		"button": "🔐 Essayez de vous connecter à nouveau"
-	},
-	"loginPage": {
-		"title": "SalesTim | Me connecter",
-		"headerMessage": "Bienvenue dans SalesTim",
-		"welcome": "Connection à Microsoft 365...",
-		"termsAgreement": "En cliquant sur \"Me Connecter\", vous acceptez nos",
-		"tos": {
-			"url": "https://www.salestim.com/legal/tos",
-			"message": "Condition d'utilisation"
-		},
-		"privacy": {
-			"url": "https://www.salestim.com/legal/privacy",
-			"message": "Politique de confidentialité"
-		},
-		"signin": {
-			"button": "🔐 Me connecter",
-			"wait": "⏳ Connexion...",
-			"sso": {
-				"button": "🔐 CONSENTIR EN TANT QU'ADMINISTRATEUR",
-				"wait": "⏳ Consentement Administrateur en cours...",
-				"error":"Un administrateur doit accorder les permissions requises à cette application."
-			}
-		},
-		"welcomebackLabel": "Bienvenue à nouveau !",
-		"hintLabel": "💡 Votre compte doit être",
-		"error": {
-			"microsoftAccount": "Vous ne pouvez pas vous connecter avec un compte personnel Microsoft.",
-			"prefix": "😥 ",
-			"createUser": "Une erreur est survenue lors de la création de votre profil utilisateur",
-			"createCustomer": "Une erreur est survenue lors de la création de votre profil client",
-			"adminConsent": "Consentement administrateur requis. Merci de contacter votre administrateur.",
-			"unexpected": "Une erreur non anticipée est survenue",
-			"adminRestricted": "Désolé, cette page est réservée aux administrateurs Microsoft 365",
-			"salestimRestricted": "Désolé, cette page est réservée aux administrateurs SalesTim",
-			"findUser": "Désolé, je ne peux pas vous laisser entrer sans une adresse email valide :-( Vous avez besoin d'une licence Microsoft Exchange et d'une boîte aux lettres active pour accéder à SalesTim.",
-			"findCustomer": "loginPage.error.findCustomer"
-		},
-		"menu": {
-			"title": " ",
-			"signin": "Me Connecter",
-			"about": "A Propos",
-			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved.",
-			"services": "Comment aidons-nous ?",
-			"helpCenter": {
-				"url": "https://help.salestim.com",
-				"label": " Centre d'aide"
-			},
-			"status": {
-				"url": "https://status.salestim.com",
-				"label": "Status"
-			},
-			"close": "Fermer"
-		},
-		"learnMore": "En savoir plus...",
-		"scrollDown": "Voir plus",
-		"linkedin": {
-			"url": "https://www.linkedin.com/company/salestim",
-			"title": "LinkedIn"
-		},
-		"twitter": {
-			"url": "https://twitter.com/salestimcrm",
-			"title": "Twitter"
-		},
-		"about": {
-			"subHead": "Bonjour !",
-			"head": "Qu'est-ce que SalesTim?",
-			"content": "SalesTim est..."
-		},
-		"web": {
-			"url": "https://www.salestim.com",
-			"title": "Web"
-		}
-	},
-	"loggedPage": {
-		"title": "SalesTim | Connecté",
-		"headerMessage": "🧙🏼‍ Bonjour!",
-		"loginConfirmed": "Vous êtes connecté 🥇!",
-		"redirect": "Redirection ⏳ vers SalesTim",
-		"redirectButton": "Ouvrir SalesTim"
-	},
-	"appPage": {
-		"title": "SalesTim",
-		"actionSeparator": " | ",
-		"header": {
-			"help": {
-				"link": "https://help.salestim.com",
-				"label": "Aide"
-			},
-			"blog": {
-				"link": "https://www.salestim.com/blog",
-				"label": "Blog"
-			},
-			"web": {
-				"link": "https://www.salestim.com",
-				"label": "A propos"
-			}
-		}
-	},
-	"clickEvents": {
-		"tim": {
-			"closed": " ",
-			"initiatedTalkToSupport": "Parler au support",
-			"initiatedBackToHome": "Retour à l'accueil...",
-			"initiatedLgoutUnauthorized": "Deconnexion...",
-			"canceled": " "
-		},
-		"teamTabConfig": {
-			"saved": "Enregistrement..."
-		},
-		"login": {
-			"started": "Connexion..."
-		},
-		"home": {
-			"myRequests": {
-				"opened": "Mes demandes",
-				"closed": "Accueil"
-			},
-			"newTeam": {
-				"opened": "Nouvelle équipe",
-				"canceled": "Accueil",
-				"saved": "Accueil"
-			},
-			"searched": "Recherche",
-			"team": {
-				"opened": "Ouverture...",
-				"initiateTalkToOwners": "Lancement de la conversation..."
-			},
-			"loggedOut": "Déconnexion..."
-		},
-		"catalog": {
-			"templates": {
-				"newModal": {
-					"opened": "Nouveau modèle",
-					"sourceTeamSelected": "Nouveau modèle"
-				},
-				"editForm": {
-					"opened": "Edition d'un modèle",
-					"saved": "Modèle enregistré",
-					"closed": "Catalogue"
-				},
-				"filtered": {
-					"disabled": "Catalogue (Modèles désactivés)",
-					"enabled": "Catalogue (Modèles activés)",
-					"all": "Catalogue"
-				},
-				"status": {
-					"disabled": "Catalogue",
-					"enabled": "Catalogue"
-				},
-				"tabs": {
-					"infos": {
-						"opened": "Informations sur le modèle"
-					},
-					"naming": {
-						"opened": "Informations sur le modèle"
-					},
-					"approval": {
-						"opened": "Informations sur le modèle"
-					},
-					"targeting": {
-						"opened": "Informations sur le modèle"
-					},
-					"teamSecurity": {
-						"opened": "Informations sur le modèle"
-					},
-					"adoption": {
-						"opened": "Informations sur le modèle"
-					},
-					"api": {
-						"opened": "Informations sur le modèle"
-					}
-				}
-			},
-			"loggedOut": "Déconnexion..."
-		},
-		"settings": {
-			"approval": {
-				"panel": {
-					"opened": "Paramètres d'approbation"
-				},
-				"updated": "Paramètres d'approbation (mis à jour)"
-			},
-			"serviceAccount": {
-				"panel": {
-					"opened": "Compte de service"
-				},
-				"updated": "Compte de service (mis à jour)",
-				"check": {
-					"opened": "Contrôle des prérequis du compte de service",
-					"closed": "Compte de service (contrôlé)"
-				},
-				"removed": "Compte de service (supprimé)"
-			},
-			"adminConsent": {
-				"check": "Check Admin Consent"
-			},
-			"customization": {
-				"panel": {
-					"opened": "Personnalisation"
-				}
-			},
-			"crm": {
-				"panel": {
-					"opened": "CRM"
-				},
-				"provider": {
-					"clicked": "CRM Provider"
-				},
-				"salesOrg": {
-					"clicked": "Sales organization"
-				},
-				"accounts": {
-					"clicked": "CRM Accounts"
-				},
-				"opportunities": {
-					"clicked": "CRM Opportunities"
-				},
-				"contacts": {
-					"clicked": "CRM Contacts"
-				}
-			},
-			"api": {
-				"panel": {
-					"opened": "Intégrations"
-				}
-			},
-			"targeted": {
-				"panel": {
-					"opened": "Déploiements ciblés"
-				}
-			},
-			"systemInfo": {
-				"panel": {
-					"opened": "Informations système"
-				},
-				"environment": {
-					"panel": {
-						"opened": "System information \\ Environment"
-					}
-				},
-				"license": {
-					"panel": {
-						"opened": "System information \\ License"
-					}
-				},
-				"userrights": {
-					"panel": {
-						"opened": "System information \\ User Rights"
-					}
-				}
-			},
-			"loggedOut": "Déconnexion..."
-		},
-		"loggedError": {
-			"closed": "Fermeture..."
-		},
-		"logged": {
-			"redirected": "Redirection..."
-		}
-	},
-	"tabs": {
-		"home": {
-			"pagination": {
-				"previous": "Précédent",
-				"next": "Suivant"
-			},
-			"newTeam": {
-				"button": "Nouvelle Equipe",
-				"intro": "Choisissez un modèle :",
-				"zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Microsoft 365, ou si vous êtes un administrateur Microsoft 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>créez un nouveau modèle...</a></b>",
-				"title": "Créez une nouvelle équipe",
-				"notification": {
-					"review": {
-						"title": "Nouvelle Equipe : ",
-						"message": "Vérifiez bien votre demande"
-					}
-				},
-				"card": {
-					"buttons": {
-						"select": "Selectionner"
-					},
-					"approval": {
-						"label": "Approbation : ",
-						"%s enabled": {
-							"zero": "Activée sans <b>approbateur</b> défini",
-							"one": "<b>Activée</b> avec <b>1</b> approbateur",
-							"many": "<b>Activée</b> avec <b>%s</b> approbateurs"
-						},
-						"disabled": "<b>Désactivée</b>"
-					},
-					"permanentOwners": "Propriétaires permanents :",
-					"permanentMembers": "Membres Permanents :",
-					"description": {
-						"none": {
-							"label": "Pas de description"
-						}
-					},
-					"selectedTemplate": {
-						"changeTemplate": "Changer de modèle",
-						"visibility": {
-							"label": "Visibilité : ",
-							"private": "Privée",
-							"public": "Publique",
-							"unknown": "Inconnue"
-						},
-						"approvalTeam": "Equipe d'approbation : ",
-						"noApproval": "Pas d'approbation"
-					}
-				},
-				"form": {
-					"teamName": {
-						"label": "Nom",
-						"placeholder": "Saisissez un nom",
-						"preview": "Aperçu : ",
-						"previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
-						"tooltip": "Doit contenir entre 1 et 264 caractères alphanumeriques dont '-', '(' ou ')'",
-						"errors": {
-							"length": "Le nom de l'équipe doit contenir entre 1 et 264 caractères",
-							"characters": "Le nom de l'équipe ne doit contenir que des caractères alphanumériques dont '-', '(' ou ')'"
-						}
-					},
-					"teamDescription": {
-						"label": "Description",
-						"placeholder": "Saisissez une Description",
-						"preview": "Aperçu : ",
-						"previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
-						"tooltip": "Description de l'équipe"
-					},
-					"welcomeMessage": {
-						"label": "Message de bienvenue",
-						"placeholder": "Saisissez un message de bienvenue",
-						"preview": "Aperçu : ",
-						"previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
-						"tooltip": "Sera publié dans le canal 'général'"
-					},
-					"mandatoryOwners": {
-						"help": "Vous devez sélectionner au moins %s propriétaire(s). "
-					},
-					"mandatoryMembers": {
-						"help": "Vous devez sélectionner au moins %s membre(s). "
-					},
-					"additionalOwners": {
-						"label": "Propriétaires",
-						"placeholder": "Rechercher un utilisateur par son nom ou prénom...",
-						"tooltip": "Vous pouvez sélectionner jusqu'à %s propriétaires additionnels",
-						"help": "Vous pouvez sélectionner jusqu'à %s propriétaires additionnels.",
-						"alreadySelectedAsPermanent": "Les propriétaires suivants seront automatiquement invités : "
-					},
-					"additionalMembers": {
-						"label": "Membres",
-						"placeholder": "Rechercher un utilisateur par son nom ou prénom...",
-						"tooltip": "Vous pouvez sélectionner jusqu'à %s membres additionnels",
-						"help": "Vous pouvez sélectionner jusqu'à %s membres additionnels.",
-						"alreadySelectedAsPermanent": "Les membres suivants seront automatiquement invités : "
-					},
-					"cancel": "Annuler",
-					"send": {
-						"label": "Envoyer",
-						"checkMessage": "‍🕵🏼‍ Vérification de votre demande",
-						"waitMessage": "⏳ Envoi de votre demande"
-					}
-				}
-			},
-			"head": {
-				"title": "Accueil",
-				"description": "Retrouvez vos équipes et découvrez en des nouvelles."
-			},
-			"myTeams": {
-				"title": "Mes Equipes",
-				"search": {
-					"placeholder": "Recherche...",
-					"noTeam": {
-						"header": "😥 Je ne trouve aucune équipe...",
-						"message": "Avez-vous bien vérifié les critères de votre recherche ?"
-					},
-					"button": "🔎"
-				},
-				"noTeam": {
-					"header": "😥 Vous n'êtes membre d'aucune équipe encore...",
-					"message": "Cliquez sur '<a onclick=\"$('#createFormModal').modal();\" href=\"#\">➕ <b>Nouvelle Equipe</b></a>' pour démarrer, c'est simple !"
-				},
-				"card": {
-					"description": {
-						"none": "no description"
-					},
-					"buttons": {
-						"talkToOwners": {
-							"label": "Parlez aux Propriétaires",
-							"topic": "A propos de l'équipe '%s'",
-							"message": "Bonjour, les propriétaires de l'équipe '%s'",
-							"waitMessage": "⏳ Création de la conversation..."
-						},
-						"openTeam": {
-							"label": "Ouvrir",
-							"waitMessage": "⏳ Ouverture de l'équipe..."
-						}
-					},
-					"members": {
-						"label": "Membres : ",
-						"loading": "⏳ Recherche des membres..."
-					},
-					"owners": {
-						"label": "Propriétaires : ",
-						"loading": "⏳ Recherche des propriétaires..."
-					},
-					"archiveStatus": {
-						"title": "Archivage",
-						"archived": {
-							"tag": " ",
-							"tooltip": "Cette équipe est <b>archivée</b>."
-						}
-					},
-					"visibilityStatus": {
-						"title": "Visibilité",
-						"private": {
-							"tag": " ",
-							"tooltip": "Cette équipe est <b>privée</b>."
-						},
-						"public": {
-							"tag": " ",
-							"tooltip": "Cette équipe est <b>publique</b>."
-						}
-					},
-					"classificationStatus": {
-						"title": "Confidentialité",
-						"tag": " ",
-						"tooltip": {
-							"zero": "Cette équipe n'a aucune étiquette de confidentialité.",
-							"many": "Cette équipe dispose d'étiquettes de confidentialité: <b>%s</b>"
-						}
-					}
-				},
-				"loading": "Chargement de vos équipes...",
-				"refresh": {
-					"button": "🔄"
-				},
-				"myRequests": {
-					"button": "Mes Demandes"
-				},
-				"myApprovals": {
-					"button": "Approbations"
-				}
-			},
-			"request": {
-				"loading": "⏳ Chargement de votre demande",
-				"title": "Mes Demandes",
-				"noRequest": {
-					"header": "Vous n'avez aucune demande en attente",
-					"message": "💡 Vous pouvez utiliser le bouton '➕ Nouvelle Equipe' pour créer une nouvelle équipe"
-				},
-				"search": {
-					"noRequest": {
-						"header": "Je ne trouve aucune demande en attente",
-						"message": "💡 Vous pouvez utiliser le bouton '➕ Nouvelle Equipe' pour créer une nouvelle équipe"
-					}
-				},
-				"card": {
-					"requestDate": "Créée :",
-					"template": "Modèle :",
-					"progress": "Etape :",
-					"lastOperation": "Dernière opération :",
-					"members": {
-						"label": "Membres : ",
-						"loading": "⏳ Chargement des membres..."
-					},
-					"owners": {
-						"label": "Propriétaires : ",
-						"loading": "⏳ Chargement des propriétaires..."
-					},
-					"buttons": {
-						"talkToApprovers": {
-							"label": "💬 Parler aux approbateurs"
-						},
-						"status": {
-							"label": "Audit"
-						}
-					}
-				},
-				"form": {
-					"refresh": "Rafraîchir",
-					"refreshWaitMessage": "⏳ Rafraîchissement...",
-					"close": "Fermer",
-					"export": "Exporter"
-				}
-			}
-		},
-		"catalog": {
-			"title": "Catalogue de Modèles",
-			"filters": {
-				"all": "<i class='fa fa-globe'></i>  Tous",
-				"disabled": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span>  Désactivés",
-				"enabled": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span>  Activés"
-			},
-			"card": {
-				"approval": {
-					"label": "Approbation : ",
-					"%s enabled": {
-						"zero": "Activée sans <b>approbateur</b> défini",
-						"one": "<b>Activée</b> avec <b>1</b> approbateur",
-						"many": "<b>Activée</b> avec <b>%s</b> approbateurs"
-					},
-					"disabled": "<b>Désactivée</b>"
-				},
-				"permanentOwners": {
-					"label": "Propriétaires permanents : "
-				},
-				"permanentMembers": {
-					"label": "Membres permanents : "
-				},
-				"clonedTeam": {
-					"label": "Equipe dupliquée : ",
-					"none": {
-						"label": "aucune"
-					}
-				},
-				"description": {
-					"none": {
-						"label": "Pas de description"
-					}
-				},
-				"buttons": {
-					"status": {
-						"on": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span> Activé",
-						"off": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span> Désactivé",
-						"actions": {
-							"enable": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span> Activer",
-							"disable": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span> Désactiver"
-						}
-					},
-					"try": {
-						"label": "Tester !"
-					},
-					"edit": {
-						"label": "Editer"
-					}
-				}
-			},
-			"newTemplate": {
-				"button": "<i class='fa fa-plus-square'></i> Nouveau modèle",
-				"buttonEdit": "Enregistrer",
-				"form": {
-					"title": "<i class='fa fa-copy'></i> Modèle",
-					"titleEdit": "Modifier le modèle \"",
-					"selectTemplate": {
-						"message": "Selectionnez l'équipe à dupliquer",
-						"placeholder": "Entrer le nom d'une équipe existante..."
-					},
-					"tabs": {
-						"template": {
-							"title": "Info",
-							"templateInfo": {
-								"title": "📰 Information sur le modèle",
-								"templateName": {
-									"label": "Nom du modèle",
-									"placeholder": "Entrer le nom"
-								},
-								"templateDescription": {
-									"label": "Description du modèle",
-									"placeholder": "Entrer une description"
-								},
-								"templateLanguage": {
-									"label": "Langue du modèle",
-									"help": ""
-								}
-							},
-							"cloning": {
-								"title": "👯‍ Duplication",
-								"message": "Choisissez ce que vous souhaitez répliquer de l'équipe d'origine.",
-								"channels": "Canaux",
-								"apps": "Apps",
-								"tabs": "Onglets",
-								"settings": "Paramètres",
-								"members": "Membres",
-								"label": "Choisissez ce que vous souhaitez répliquer de l'équipe d'origine."
-							}
-						},
-						"naming": {
-							"title": "Nom",
-							"name": {
-								"title": "Nom de l'équipe",
-								"default": {
-									"label": "Nom d'équipe par défaut",
-									"placeholder": "Saisissez un nom"
-								},
-								"convention": {
-									"label": "Convention de nommage",
-									"placeholder": "Définissez une convention de nommage"
-								}
-							},
-							"email": {
-								"title": "E-mail du Groupe Microsoft 365",
-								"convention": {
-									"label": "E-mail",
-									"placeholder": "Saisissez uniquement la partie locale de l'adresse (par exemple 'tim' pour l'adresse 'tim@exemple.com')"
-								}
-							},
-							"description": {
-								"title": "Description de l'équipe",
-								"default": {
-									"label": "Nom d'équipe par défaut",
-									"placeholder": "Saisissez une description"
-								},
-								"convention": {
-									"label": "Description de l'équipe",
-									"placeholder": "Entrer une description"
-								}
-							},
-							"welcome": {
-								"title": "Message de bienvenue",
-								"default": {
-									"label": "Message de bienvenue par défaut",
-									"placeholder": "Saisissez un message de bienvenue par défaut"
-								},
-								"convention": {
-									"label": "Message de bienvenue dynamique",
-									"placeholder": "Définissez votre message de bienvenue dynamique"
-								}
-							}
-						},
-						"approval": {
-							"title": "Approbation",
-							"disabled": "⚠ L'approbation est désactivée car non-authorizée par aucun administrateur. Le processus d'approbatio sera ignoré jusqu'à quand il sera configuré.",
-							"enable": {
-								"label": "Activer",
-								"help": "En activant vous pourrez désigner un approbateur des demande de création dans votre entreprise.",
-								"title": "🏁 Paramètres d'Approbation"
-							},
-							"team": {
-								"label": "Equipe d'approbateurs",
-								"placeholder": "Rechercher un utilisateur par son nom ou prénom...",
-								"help": "Vous pouvez sélectionner jusqu'à %s approbateurs."
-							}
-						},
-						"targeting": {
-							"title": "Audiences",
-							"enable": {
-								"label": "Activer le ciblage d'audience",
-								"help": "En activant le ciblage vous serez en mesure de définir une audience cible pour ce modèle, en fonction des données du profil utilisateur Microsoft 365, Azure AD",
-								"title": "🎯 Ciblage d'Audiences"
-							},
-							"rules": {
-								"placeholder": "Saisissez vos règles de ciblage (utilisez @ ou # pour inclure du contenu dynamique)",
-								"checkSyntax": {
-									"button": "Vérifier la Syntaxe",
-									"selectUser":"Sélectionnez un utilisateur pour tester votre règle de ciblage d'audience:"
-								}
-							}
-						},
-						"compliance": {
-							"title": "Conformité",
-							"guests": {
-								"title": "🤝 Accès Invité",
-								"label": "Activer l'accès invité",
-								"help": "Avec l’accès invité, vous pouvez fournir l’accès aux équipes, documents dans les canaux, ressources, conversations et applications aux personnes externes à votre organisation."
-							},
-							"classification": {
-								"title": "🔖 Etiquettes de confidentialité",
-								"rules": {
-									"placeholder": "Saisissez une étiquette de confidentialité (utilisez @ ou # pour inclure du contenu dynamique)"
-								},
-								"permissionsWarning": {
-									"message": "Pour accéder à cette fonctionnalité, vous devez accorder à SalesTim une nouvelle permission.",
-									"button": "Accorder les permissions"
-								}
-							},
-							"multigeo": {
-								"title": "🌎 Multi-Géo",
-								"rules": {
-									"placeholder": "Saisissez un code d'emplacement géographique (utilisez @ ou # pour inclure du contenu dynamique)"
-								}
-							}
-						},
-						"security": {
-							"title": "Securité",
-							"privacy": {
-								"title": "Confidentialité renforcée",
-								"private": "🔐 Privé - seul les propriétaires peuvent ajouter des membres",
-								"public": "📣 Publique - toute personne de l'entreprise peut rejoindre l'équipe"
-							},
-							"membership": {
-								"title": "Membres de l'équipe",
-								"requesterAsOwner": {
-									"help": "N.B: désactiver cette possibilité peut résulter en une expérience déceptive, l'utilisateur faisant une demande de création attend lui d'être propriétaire de l'équipe créée.",
-									"title": "Ajouter automatiquement le demandeur en tant que propriétaire",
-									"enable": "Activer"
-								},
-								"mandatoryOwners": {
-									"label": "👮🏼‍ Propriétaires Requis"
-								},
-								"mandatoryMembers": {
-									"label": "🤹🏼‍ Membres Requis"
-								},
-								"permanentOwners": {
-									"label": "👮🏼‍ Propriétaires permanents",
-									"placeholder": "Rechercher un utilisateur par son nom ou prénom...",
-									"help": "Vous pouvez sélectionner jusqu'à %s propriétaires permanents. Les propriétaires permanents seront automatiquement ajoutés en tant que propriétaires des équipes basées sur ce modèle."
-								},
-								"permanentMembers": {
-									"label": "🤹🏼‍ Membres Permanents",
-									"placeholder": "Rechercher un utilisateur par son nom ou prénom...",
-									"help": "Vous pouvez sélectionner jusqu'à %s membres permanents. Les membres permanents seront automatiquement ajoutés en tant que membres des équipes basées sur ce modèle."
-								}
-							}
-						},
-						"adoption": {
-							"title": "Adoption",
-							"week1": {
-								"label": "🕛 Quand l'équipe est créée",
-								"subject": {
-									"placeholder": "Saisissez l'objet"
-								}
-							},
-							"week2": {
-								"label": "🕑 Une semaine plus tard",
-								"subject": {
-									"placeholder": "Saisissez l'objet"
-								}
-							},
-							"week3": {
-								"label": "🕓 Deux semaines plus tard",
-								"subject": {
-									"placeholder": "Saisissez l'objet"
-								}
-							},
-							"header": "📧 Envoyez automatiquement ces emails aux nouveaux propriétaires de l'équipe créée"
-						},
-						"api": {
-							"title": "API",
-							"templateIdHeader": "🆔 du modèle",
-							"templateIdHeaderPlaceholder": "Ce modèle n'a pas encore d'identifiant",
-							"webHookPlaceholder": "URL de votre point d'accès",
-							"webHookHeader": "🔁 Webhook",
-							"webHookPayloadPrepend": "📄 Message d'exemple",
-							"webHookPayloadTestButton": "📤 Envoyer une requête de test",
-							"webHookHelp": "Une requête HTTP POST sera envoyée à cette URL à chaque usage de ce modèle",
-							"templateIdCopyButton": "📋 Copier",
-							"templateIdHelp": "Vous pouvez utiliser cet identifiant lors de vos appels aux API SalesTim"
-						}
-					},
-					"export": {
-						"button": "Exporter"
-					},
-					"import": {
-						"button": "Importer"
-					},
-					"delete": {
-						"button": "Supprimer"
-					},
-					"cancel": {
-						"button": "Annuler"
-					},
-					"save": {
-						"button": "<i class='fa fa-floppy-o'></i> Enregistrer"
-					}
-				},
-				"error": {
-					"title": "Erreur",
-					"message": "Impossible de créer votre modèle"
-				}
-			},
-			"gallery": {
-				"headlines": {
-					"editorsPick": "📌 Editor's pick"
-				},
-				"button": "Store",
-				"form": {
-					"title": "🎁 Solutions Store",
-					"close": {
-						"label": "💨 Close"
-					},
-					"cancel": {
-						"button": "🔙 Cancel"
-					}
-				},
-				"categories": {
-					"it-administration": {
-						"title": "👩🏼‍💻 TI et Administration"
-					},
-					"productivity": {
-						"title": "💪🏼 Productivité"
-					}
-				},
-				"title": "STORE",
-				"search": {
-					"placeholder": "Rechercher un modèle"
-				},
-				"picks": {
-					"previous": "⏪ Previous",
-					"next": "Next ⏩"
-				},
-				"lastPublished": "🕙 Last Published",
-				"item": {
-					"get": "📥 GET",
-					"more": "👓 MORE"
-				}
-			},
-			"search": {
-				"placeholder": "Rechercher des modèles",
-				"noTemplates": {
-					"title": "Je n'ai rien trouvé...",
-					"message": "Je ne trouve aucun modèle. Vous pouvez en créer à partir de notre 'Gallery' gratuite de modèles ou utilier le bouton 'Create'."
-				},
-				"button": "🔎"
-			},
-			"noTemplates": {
-				"title": "Aucune modèle",
-				"message": "Vous n'avez encore aucun modèle. Vous pouvez en créer à partir de notre 'Gallery' gratuite de modèles ou utilier le bouton 'Create'."
-			},
-			"loading": {
-				"error": {
-					"title": "Erreur",
-					"message": "Erreur de chargement de votre catalogue"
-				}
-			},
-			"refresh": {
-				"button": "🔄"
-			},
-			"logout": {
-				"button": "<i class='fa fa-sign-out'></i> Me déconnecter"
-			},
-			"LoginAnotherAccount": {
-				"button": "<i class='fa fa-sign-out'></i> Me connecter avec un autre compte"
-			},
-			"copyText": {
-				"notification": {
-					"title": "Copié<br>",
-					"message": "Texte copié dans le presse-papier 📋"
-				}
-			}
-		},
-		"integration": {
-			"title": "Intégration",
-			"hooks": {
-				"tab": {
-					"title": "Webhooks"
-				},
-				"title": "Vos webhooks",
-				"new": {
-					"button": "<i class='fa fa-plus-square'></i> Nouveau wehbook"
-				},
-				"save":{
-					"button":"<i class='fa fa-floppy-o'></i> Enregistrer"
-				},
-				"create": {
-					"button": "<i class='fa fa-floppy-o'></i> Créer"
-				},
-				"cancel":{
-					"button":"<i class='fa fa-ban'></i> Annuler"
-				},
-				"delete":{
-					"button":"<i class='fa fa-trash'></i> Supprimer"
-				}
-			}
-		},
-		"settings": {
-			"save": {
-				"success": {
-					"title": "Créée!",
-					"message": "Le modèle a été créée avec succès !"
-				}
-			},
-			"title": "Configuration",
-			"logout": {
-				"button": "💨 Me déconnecter"
-			},
-			"security": {
-				"title": "<i class='fa fa-shield'></i> Sécurité"
-			},
-			"approval": {
-				"tab": {
-					"title": "<i class='fa fa-check-circle-o'></i> Approbation"
-				},
-				"actionableMessage": {
-					"navbar": {
-						"title": "<i class='fa fa-envelope-o'></i> Messages Actionnables"
-					},
-					"save": {
-						"button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
-						"waiting": "⏳ Enregistrement..."
-					},
-					"help": "Messages Actionnables: aide. Voir <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow d'Approbation</a></i></b> sur notre Tech Hub.",
-					"providerMode": {
-						"label": "Activer un fournisseur au niveau de l'organisation",
-						"help": "En sélectionnant cette option, l'email de notification sera envoyée par le compte de service même, en utilisant sa propre adresse email.",
-						"providerId": {
-							"input": {
-								"title": "Id du fournisseur (créateur)",
-								"placeholder": "Coller l'id du fournisseur"
-							}
-						}
-					}
-				}
-			},
-			"rbac": {
-				"tab": {
-					"title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
-				},
-				"navbar": {
-					"title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
-				},
-				"save": {
-					"button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
-					"waiting": "⏳ Enregistrement..."
-				},
-				"catalogManagers": {
-					"label": "Gestionnaires de Catalogue",
-					"help": "Les gestionnaires de catalogue peuvent créer, mettre à jour et supprimer des modèles de votre catalogue.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires de catalogue.",
-					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
-				},
-				"integrationManagers": {
-					"label": "Gestionnaires d'intégration",
-					"help": "Les gestionnaires d'intégration peuvent créer, mettre à jour et supprimer des webhooks et configurer des applications connectées.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires d'intégration.",
-					"placeholder": "Rechercher un utilisateur par son nom ou prénom..."
-				},
-				"changeManagers": {
-					"label": "Responsables du changement",
-					"help": "Les responsables du changement peuvent se préparer aux futures mises à jour en testant et validant les nouvelles fonctionnalités avant qu'elles ne soient accessibles à tous les utilisateurs de l'organisation.<br />Vous pouvez sélectionner jusqu'à 50 responsables du changement.",
-					"placeholder": "Search for users by given name or surname..."
-				}
-			},
-			"serviceAccount": {
-				"title": "<i class='fa fa-user-secret'></i> Compte de service",
-				"help": "Compte de service Microsoft 365 : ",
-				"none": "Aucun compte de service défini.",
-				"idLabel": "Compte de service : ",
-				"input": {
-					"placeholder": "Utilisez le bouton 'Mettre à jour' pour sélectionner un compte de service",
-					"loading": "⏳ Chargement du compte de service",
-					"error": {
-						"title": "Erreur",
-						"message": "Erreur lors du chargement du compte de service"
-					}
-				},
-				"select": {
-					"button": "<i class='fa fa-sign-in'></i> Mettre à jour",
-					"waitMessage": "⏳ Mise à jour..."
-				},
-				"check": {
-					"button": "<i class='fa fa-check-circle-o'></i> Contrôler les prérequis",
-					"waitMessage": "⏳ Contrôle des prérequis..."
-				},
-				"delete": {
-					"button": "<span style='color: brown;>'<i class='fa fa-trash'></i></span> Supprimer",
-					"waitMessage": "⏳ Suppression du compte de service..."
-				}
-			},
-			"adminConsent": {
-				"check": {
-					"button": "<i class='fa fa-check-square-o'></i> Contrôler le consentement administrateur",
-					"waitMessage": "⏳ Contrôle du consentement administrateur..."
-				}
-			},
-			"advancedCustomization": {
-				"title": "🎨 Personnalisation"
-			},
-			"crm": {
-				"title": "🏆 CRM",
-				"provider": {
-					"title": "Fournisseurs"
-				},
-				"salesOrganization": {
-					"title": "Organisation commerciale"
-				},
-				"accounts": {
-					"title": "Comptes"
-				},
-				"opportunities": {
-					"title": "Oportunités"
-				},
-				"contacts": {
-					"title": "Contacts"
-				}
-			},
-			"api": {
-				"title": "👩🏼‍💻 API"
-			},
-			"targetedDeployment": {
-				"title": "🎯 Déploiements ciblés"
-			},
-			"systemInformation": {
-				"title": "<i class='fa fa-info-circle'></i> Informations système",
-				"environment": {
-					"title": "<i class='fa fa-server'></i> Environnement"
-				},
-				"knownIssues": {
-					"title": "🚩 Problèmes connus"
-				},
-				"license": {
-					"title": "<i class='fa fa-copyright'></i> License"
-				},
-				"usagerights": {
-					"title": "<i class='fa fa-balance-scale'></i> Informations juridiques (EN)"
-				},
-				"tos": {
-					"title": "<i class='fa fa-balance-scale'></i> Termes d'utilisation (EN)",
-					"url": "https://www.salestim.com/legal/tos"
-				},
-				"privacy": {
-					"title": "<i class='fa fa-shield'></i> Politique de confidentialité (EN)",
-					"url": "https://www.salestim.com/legal/privacy"
-				},
-				"changelog": {
-					"title": "tabs.settings.systemInformation.changelog.title"
-				},
-				"thirdParty": {
-					"title": "tabs.settings.systemInformation.thirdParty.title"
-				}
-			}
-		},
-		"analytics": {
-			"title": "Analyses",
-			"reports": {
-				"all": "Toutes",
-				"my": "Moi",
-				"public": "Publiques",
-				"private": "Privées",
-				"templatesUsage": "Par Solution",
-				"orphans": "Orphelines",
-				"unused": "Inutilisées"
-			},
-			"noData": {
-				"message": "Aucune donnée disponible"
-			}
-		}
-	},
-	"menu": {
-		"discovery": {
-			"title": "Accueil"
-		},
-		"requests": {
-			"title": "Demandes"
-		},
-		"approval": {
-			"title": "Approbation"
-		},
-		"settings": {
-			"title": "Paramètres"
-		},
-		"logout": {
-			"title": "Me déconnecter",
-			"waitMessage": "⏳ Déconnexion en cours..."
-		}
-	},
-	"request": {
-		"status": {
-			"saved": {
-				"label": "📮 Enregistrée",
-				"message": "Demande enregistrée avec l'ID '%s'"
-			},
-			"preprocessing": {
-				"label": "🔬 Préparation",
-				"message": "1️⃣ Préparation de la demande %s",
-				"steps": {
-					"serviceAccountOK": "🤖 Vérification du compte de service %s",
-					"serviceAccountKO": "🤖 Le compte de service n'est pas configuré",
-					"noTeamAsTemplate": "🎭 Aucune équipe n'est configurée comme source pour modèle",
-					"archivedTeam": "🎭 L'équipe source est 📦 archivée et ne peut être clonée",
-					"clonedTeamOK": "🎭 Vérification de l'équipe à dupliquer : %s",
-					"clonedTeamKO": "🎭 Impossible de vérifier l'équipe à dupliquer",
-					"partsToCloneOK": "Vérification des informations à cloner : %s",
-					"partsToCloneKO": "Les informations à dupliquer ne sont pas définies",
-					"namingConventionOK": "Conventions de nommage : %s",
-					"namingConventionKO": "Erreur dans les conventions de nommage : %s",
-					"checkFinalValuesOK": "Vérification des paramètres : %s",
-					"checkFinalValuesKO": "Erreur lors de la vérification des paramètres",
-					"setRequestLocaleOK": "Langue de la requête défini à '%s': %s",
-					"setRequestLocaleKO": "Erreur lors de la définition de la langue de la requête : %s"
-				}
-			},
-			"approval": {
-				"label": "⏸ Approbation",
-				"message": "Demande en attente d'approbation"
-			},
-			"rejected": {
-				"label": "⛔ Rejetée",
-				"message": "Requête rejetée par l'approbateur"
-			},
-			"approved": {
-				"label": "✅ Approuvée",
-				"message": "Demande approuvée par l'approbateur"
-			},
-			"processing": {
-				"label": "🕓 Exécution",
-				"message": "2️⃣ Exécution de la demande %s",
-				"steps": {
-					"done": "Demande traitée",
-					"teamCreated": "🚀 Equipe créée avec succès, id '%s'",
-					"tabConfiguration": "🧱 Onglet '%s' traité",
-					"tabNotification": "🧱 Je viens de mettre à jour l'onglet <b><a href='%s'>%s</a></b>!",
-					"allTabsConfigured": "🧱 Tous les onglets (%s) ont été traités %s",
-					"allTabsNotification": "🧱 Tous les onglets ont été traités!",
-					"teamPhotoCloned": "📸 La photo de l'équipe a été mise à jour avec succès",
-					"teamPhotoNotification": "📸 Je viens de mettre à jour la photo de cette équipe ! Ne vous inquiétez pas, cela peut prendre quelques minutes avant d'être visible...",
-					"filesCloned": "📚 Les fichiers de cette équipe ont été copiés",
-					"filesNotification": "📚 Je viens de copier les fichiers de cette équipe ! Ne vous inquiétez pas, cela peut prendre quelques minutes avant d'être visible...",
-					"mailNicknameUpdated": "📧 L'adresse email du groupe a été mise à jour",
-					"mailNicknameNotification": "📧 Je viens de mettre à jour l'adresse email du groupe!"
-				}
-			},
-			"postprocessing": {
-				"label": "🕙 Finalisation",
-				"message": "3️⃣ Finalisation de la demande %s",
-				"steps": {
-					"requesterMembership": "🔐 Ajout du demandeur '%s (%s)' en tant que membre / propriétaire",
-					"requesterAsMemberOK": "🥇 Demandeur ajouté en tant que membre: %s",
-					"requesterAsMemberKO": "🥇 Erreur ignorée lors de l'ajout du demandeur en tant que membre ⚠",
-					"requesterAsOwnerOK": "🥇 Demandeur ajouté en tant que propriétaire: %s",
-					"requesterAsOwnerKO": "🥇 Erreur ignorée lors de l'ajout du demandeur en tant que propriétaire ⚠",
-					"requestedMembers": "🔐 Ajout des membres demandés à l'équipe (%s)",
-					"requestedMembersOK": "🥈 Membres additionels ajoutés: %s",
-					"requestedMembersKO": "🥈 Erreur ignorée lors de l'ajout des membres additionnels ⚠",
-					"requestedOwners": "🔐 Ajout des propriétaires demandés à l'équipe (%s)",
-					"requestedOwnersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels ⚠",
-					"requestedOwnersAsMembersOK": "🥈 Propriétaires supplémentaires ajoutés en tant que membres: %s",
-					"requestedOwnersAsMembersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels en tant que membres ⚠",
-					"requestedOwnersAsOwnersOK": "🥈 Propriétaires additionels ajoutés en tant que propriétaires: %s",
-					"requestedOwnersAsOwnersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels en tant que propriétaires ⚠",
-					"permanentMembers": "🔐 Ajout des membres permanents (%s)",
-					"permanentMembersOK": "🥉 Membres ajoutés: %s",
-					"permanentMembersKO": "🥉 Erreur ignorée lors de l'ajout des membres permanents ⚠",
-					"permanentOwners": "🔐 Ajout des propriétaires permanents (%s)",
-					"permanentOwnersAsMembersOK": "🥉 Propriétaires permanents ajoutés en tant que membres: %s",
-					"permanentOwnersAsMembersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que membres ⚠",
-					"permanentOwnersAsOwnersOK": "🥉 Propriétaires permanents ajoutés en tant que propriétaires: %s",
-					"permanentOwnersAsOwnersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que propriétaires ⚠",
-					"privateChannelsOwners": "🔐 Ajout de %s propriétaires à %s canaux privés",
-					"privateChannelsOwnersOK": "🥉 Propriétaire %s ajoutés aux canal privé %s",
-					"privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout du propriétaire %s au canal privé %s ⚠"
-				}
-			},
-			"processed": {
-				"label": "📦 Traitée",
-				"message": "Demande traitée %s"
-			},
-			"error": {
-				"label": "🚩 Erreur",
-				"message": {
-					"standard": "Une erreur est survenur lors du traitement de la demande",
-					"ERROR_CONFIGURE_TAB": "🚩 Impossible de configurer l'onglet %s. 🌐: %s",
-					"ERROR_RETRIEVE_REQUESTER": "Impossible de retrouver les informations du demandeur",
-					"ERROR_RETRIEVE_CUSTOMER": "Impossible de retrouver les informations de l'organization du demandeur",
-					"ERROR_RETRIEVE_TEMPLATE": "Impossible de retrouver le template dans le catalogue",
-					"ERROR_SAVING_CACHE": "Impossible d'enregistrer la demande en cache",
-					"ERROR_CREATING_TEAM": "Impossible de créer l'équipe à partir du modèle",
-					"ERROR_CLONING_PHOTO": "Impossible de cloner la photo d'équipe",
-					"ERROR_CLONING_FILES": "Impossible de cloner les fichiers de l'équipe",
-					"ERROR_UPDATING_MAIL_NICKNAME": "Impossible de mettre à jour l'adresse email du groupe"
-				}
-			},
-			"unknown": {
-				"label": "🛸 Inconnu",
-				"message": "L'état de la demande est indéterminé"
-			}
-		},
-		"save": {
-			"success": {
-				"title": "Bravo !",
-				"message": "Votre demande a bien été enregistrée."
-			},
-			"error": {
-				"title": "request.save.error.title",
-				"message": "request.save.error.message"
-			}
-		}
-	},
-	"user": {
-		"save": {
-			"error": {
-				"title": "Une erreur est survenue :-(",
-				"message": "Une erreur est survenue lors de la mise à jour du profil utilisateur"
-			}
-		}
-	},
-	"settings": {
-		"save": {
-			"error": {
-				"title": "Erreur",
-				"message": "Une erreur est survenue lors de l'enregistrement de votre configuration."
-			},
-			"success": {
-				"title": "Succès",
-				"message": "Votre nouvelle configuration a bien été enregistrée."
-			}
-		}
-	},
-	"builtinTabs": {
-		"website": {
-			"title": "Site Web",
-			"auditLogMessage": "🧭 Onglet Site Web '%s' traité"
-		},
-		"planner": {
-			"title": "Planificateur",
-			"auditLogMessage": "📅 Onglet Planificateur '%s' traité"
-		},
-		"stream": {
-			"title": "Stream",
-			"auditLogMessage": "🎦 Onglet Stream '%s' traité"
-		},
-		"forms": {
-			"title": "Forms",
-			"auditLogMessage": "📋 Onglet Forms '%s' traité"
-		},
-		"word": {
-			"title": "Word",
-			"auditLogMessage": "📘 Onglet Word '%s' traité"
-		},
-		"excel": {
-			"title": "Excel",
-			"auditLogMessage": "📗 Onglet Excel '%s' traité"
-		},
-		"powerpoint": {
-			"title": "PowerPoint",
-			"auditLogMessage": "📕 Onglet PowerPoint '%s' traité"
-		},
-		"pdf": {
-			"title": "PDF",
-			"auditLogMessage": "💼 Onglet PDF '%s' traité"
-		},
-		"wiki": {
-			"title": "Wiki",
-			"auditLogMessage": "📝 Onglet Wiki '%s' traité"
-		},
-		"sharepointFiles": {
-			"title": "Bibliothèque de documents SharePoint",
-			"auditLogMessage": "📚 Onglet Bibliothèque de documents SharePoint '%s' traité"
-		},
-		"onenote": {
-			"title": "OneNote",
-			"auditLogMessage": "📑 Onglet OneNote '%s' traité"
-		},
-		"powerbi": {
-			"title": "Power BI",
-			"auditLogMessage": "📊 Onglet Power BI '%s' traité"
-		},
-		"sharepointPages": {
-			"title": "Page SharePoint",
-			"auditLogMessage": "📰 Onglet Page SharePoint '%s' traité"
-		},
-		"yammer": {
-			"title": "Yammer",
-			"auditLogMessage": "💬 Onglet Yammer '%s' traité"
-		},
-		"powerapps": {
-			"title": "PowerApps",
-			"auditLogMessage": "🧱 Onglet PowerApps '%s' traité"
-		},
-		"youtube": {
-			"title": "Youtube",
-			"auditLogMessage": "📺 Onglet Youtube '%s' traité"
-		}
-	},
-	"logout": {
-		"error": {
-			"catch": {
-				"title": "logout.error.catch.title",
-				"message": "logout.error.catch.message"
-			}
-		}
-	},
-	"manifests": {
-		"standalone": {
-			"name": {
-				"short": "SalesTim",
-				"full": "SalesTim Gouvernance Automatisée"
-			},
-			"description": {
-				"short": "Automatisation de la Gouvernance Microsoft Teams.",
-				"full": "Solutions métiers pour Microsoft Teams, automatisation de la gouvernance et de l'adoption."
-			},
-			"staticTabs": {
-				"0": {
-					"name": "Accueil"
-				},
-				"1": {
-					"name": "Catalogue"
-				},
-				"2": {
-					"name": "Configuration"
-				},
-				"3": {
-					"name": "Intégration"
-				}
-			}
-		},
-		"targeted": {
-			"home": {
-				"name": {
-					"short": "Accueil",
-					"full": "Accueil pour Microsoft Teams."
-				},
-				"description": {
-					"short": "Accueil pour Microsoft Teams",
-					"full": "Page d'accueil pour Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Accueil"
-					}
-				}
-			},
-			"approval": {
-				"name": {
-					"short": "Approbation",
-					"full": "Approbation pour Microsoft Teams."
-				},
-				"description": {
-					"short": "Application d'approbation",
-					"full": "Application d'approbation pour Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Approbation"
-					}
-				}
-			},
-			"catalog": {
-				"name": {
-					"short": "Catalogue",
-					"full": "Catalogue de modèles pour Microsoft Teams."
-				},
-				"description": {
-					"short": "Application de gestion de catalogue de modèles pour Microsoft Teams",
-					"full": "Application de gestion de catalogue de modèles pour Microsoft Teams."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Catalogue"
-					}
-				}
-			},
-			"settings": {
-				"name": {
-					"short": "Configuration",
-					"full": "Configuration SalesTim."
-				},
-				"description": {
-					"short": "Application de configuration SalesTim",
-					"full": "Application de configuration SalesTim."
-				},
-				"staticTabs": {
-					"0": {
-						"name": "Configuration"
-					}
-				}
-			}
-		}
-	},
-	"storeInstallPage": {
-		"title": "storeInstallPage.title"
-	},
-	"approval": {
-		"login": {
-			"title": "Demande d'approbation",
-			"meta": "",
-			"message": "Merci de vous connecter pour",
-			"button": {
-				"normal": "ME CONNECTER",
-				"waiting": "⏳ CONNEXION..."
-			}
-		},
-		"notifications": {
-			"approvers": {
-				"subject": "<%= request.request.requester.name %> vous a envoyé une demande d'approbation"
-			},
-			"requester": {
-				"subject": "Votre demande \"<%= request.team.name %>\" a été envoyée pour approbation"
-			},
-			"approved": {
-				"subject": "Votre demande \"<%= request.team.name %>\" a été approuvée"
-			},
-			"rejected": {
-				"subject": "Votre demande \"<%= request.team.name %>\" a été rejetée"
-			}
-		},
-		"card": {
-			"requester": {
-				"jobTitle": "Fonction",
-				"department": "Département"
-			},
-			"request": {
-				"template": "Modèle",
-				"requester": "Demandeur",
-				"approver": "Approbateur",
-				"approvalDate": "Approuvée le",
-				"rejectionDate": "Rejetée le",
-				"rejectionMessage": "Message",
-				"teamName": "Nom de l'équipe",
-				"teamDescription": "Description",
-				"welcomeMessage": "Message de bienvenue",
-				"teamNamePlaceholder": "Saisissez le nom de l'équipe",
-				"teamDescriptionPlaceholder": "Saisissez la description de l'équipe",
-				"welcomeMessagePlaceholder": "Saisissez un message de bienvenue",
-				"members": "Membres",
-				"owners": "Propriétaires",
-				"noMembers": "Aucun",
-				"noOwners": "Aucun",
-				"approvers": "Approbateurs",
-				"rejection": {
-					"from": "Message de"
-				}
-			},
-			"actions": {
-				"approve": "Approuver",
-				"approveMessage": "✅ La requête a été approuvée",
-				"edit": "Modifier la requête avant approbation",
-				"reject": "Rejeter",
-				"rejectMessage": "⛔ La requête a été rejetée",
-				"comment": "Ajoutez un commentaire pour motiver votre refus",
-				"open": "Ouvrir la requête",
-				"infos": "Requête",
-				"chat": {
-					"button": "Parler aux approbateurs",
-					"topic": "Requête: ",
-					"message": "Bonjour, j'ai une question à propos de ma requête "
-				}
-			}
-		},
-		"email": {
-			"footer": "Pour des raisons de sécurité, ce message est uniquement consultable depuis Outlook (Bureau, Web et Mobile). Si le contenu ne s'affiche pas, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installez l'add-in Outlook 'Actionable Messages Debugger'</a> pour diagnostiquer le problème.",
-			"copyright": "(c) Copyright 2020 SalesTim, tous droits réservés."
-		}
-	},
-	"tags": {
-		"user": {
-			"profile": {
-				"id": "Utilisateur : Identifiant unique (Identifiant unique Azure AD sous la forme d'un UUID)",
-				"city": "Utilisateur : Ville",
-				"companyName": "Utilisateur : Nom de l'entreprise",
-				"country": "Utilisateur : Pays",
-				"department": "Utilisateur : Département",
-				"displayName": "Utilisateur : Nom complet. Par exemple 'Alice Hawking'",
-				"employeeId": "Utilisateur : Matricule",
-				"givenName": "Utilisateur : Prénom",
-				"jobTitle": "Utilisateur : Fonction",
-				"mail": "Utilisateur : email",
-				"mailNickname": "Utilisateur : Préfixe email. Par exemple 'alice.hawking'",
-				"mobilePhone": "Utilisateur : Téléphone mobile",
-				"officeLocation": "Utilisateur : Bureau",
-				"postalCode": "Utilisateur : Code postal",
-				"preferredLanguage": "Utilisateur : Langue préférée. Par exemple 'en-US'",
-				"state": "Utilisateur : Etat",
-				"streetAddress": "Utilisateur : Adresse postale",
-				"surname": "Utilisateur : Nom de famille",
-				"usageLocation": "Utilisateur : Localisation de l'usage Microsoft 365. Par exemple 'US'",
-				"userPrincipalName": "Utilisateur : Nom d'utilisateur principal (UPN).",
-				"preferredDataLocation": "Utilisateur : Emplacement de Données Favori (PDL)",
-				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "Utilisateur : Attribut d'extension 'on-premises' 1",
-					"extensionAttribute2": "Utilisateur : Attribut d'extension 'on-premises' 2",
-					"extensionAttribute3": "Utilisateur : Attribut d'extension 'on-premises' 3",
-					"extensionAttribute4": "Utilisateur : Attribut d'extension 'on-premises' 4",
-					"extensionAttribute5": "Utilisateur : Attribut d'extension 'on-premises' 5",
-					"extensionAttribute6": "Utilisateur : Attribut d'extension 'on-premises' 6",
-					"extensionAttribute7": "Utilisateur : Attribut d'extension 'on-premises' 7",
-					"extensionAttribute8": "Utilisateur : Attribut d'extension 'on-premises' 8",
-					"extensionAttribute9": "Utilisateur : Attribut d'extension 'on-premises' 9",
-					"extensionAttribute10": "Utilisateur : Attribut d'extension 'on-premises' 10",
-					"extensionAttribute11": "Utilisateur : Attribut d'extension 'on-premises' 11",
-					"extensionAttribute12": "Utilisateur : Attribut d'extension 'on-premises' 12",
-					"extensionAttribute13": "Utilisateur : Attribut d'extension 'on-premises' 13",
-					"extensionAttribute14": "Utilisateur : Attribut d'extension 'on-premises' 14",
-					"extensionAttribute15": "Utilisateur : Attribut d'extension 'on-premises' 15"
-				}
-			},
-			"groups": {
-				"direct": "Groupes : Tous les groupes dont l'utilisateur est un membre DIRECT.",
-				"transitive": "Groupes : Tous les groupes dont l'utilisateur est membre, y compris par TRANSITIVITE."
-			}
-		},
-		"request": {
-			"team": {
-				"name": "Requête : Nom de l'équipe",
-				"description": "Requête : Description de l'équipe",
-				"welcomeMessage": "Requête : Message de bienvenue"
-			},
-			"template": {
-				"name": "Requête : Nom du modèle"
-			}
-		},
-		"uniqueId": {
-			"fromDate": "Identifiant unique : Un identifiant unique généré à partir de la date et l'heure courante. Par exemple '1597065805024'",
-			"uuid": "Identifiant unique : Un identifiant unique généré aléatoirement sous la forme d'un UUID. Par exemple '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
-		}
-	}
+  "tim": {
+    "assistant": {
+      "title": "Tim",
+      "talkToSupport": {
+        "button": "<i class='fa fa-comments-o'></i> Parler au support",
+        "notAdmin": "<i class='fa fa-comments-o'></i> Je ne suis pas administrateur",
+        "defaultMessage": "Bonjour, j'ai besoin d'aide!"
+      },
+      "backToHome": {
+        "button": "<i class='fa fa-arrow-circle-o-left'></i> Retour à l'accueil"
+      },
+      "cancel": {
+        "button": "<i class='fa fa-ban'></i> Annuler"
+      },
+      "audienceTargetingRulesSyntaxChecks": {
+        "wait": {
+          "msg1": "Je fais quelques tests...",
+          "msg2": "Cela peut me prendre quelques secondes...",
+          "msg3": "Un peu de patience ;-)"
+        },
+        "done": {
+          "msg1": " C'est fait ! Voici les réultats Done!"
+        },
+        "empty": {
+          "msg1": "Entrez d'abord vos règles de ciblage d'audience !"
+        },
+        "results": {
+          "testing": "👓 Je teste les règles de ciblage d'audience sur votre profil",
+          "accessOk": "✅ L'utilisateur \"%s\" aura accès à ce modèle !",
+          "accessKo": "🚫 L'utilisateur \"%s\" n'aura <b>PAS</b> accès à ce modèle !",
+          "details": {
+            "seeErrors": "Voici 👓 les détails techniques de l'erreur...",
+            "errorIntro": "🤬 Il semble qu'il y ait une erreur dans votre règle de cibalge d'audience...",
+            "errorMessage": "📣 Message : ",
+            "errorStack": "🎯 Détails : ",
+            "supportMessage": "Bonjour, J'ai un problème 😱 avec la création d'une règle de ciblage d'audience, pouvez-vous m'aider ?"
+          }
+        }
+      },
+      "serviceAccountChecks": {
+        "wait": {
+          "msg1": "Je lance quelques tests...",
+          "msg2": "Cela peut prendre quelques secondes...",
+          "msg3": "Merci de votre patience ;-)"
+        },
+        "done": {
+          "msg1": "Terminé! Les résultats sont disponibles ci-dessous."
+        },
+        "empty": {
+          "msg1": "Merci de sélectionner un compte de service !"
+        },
+        "results": {
+          "loadServiceAccountKO": {
+            "title": "Erreur",
+            "message": "Erreur lors du chargement des informations du compte de service"
+          },
+          "groups": {
+            "checking": "🔎 Vérification des accès à <b>Group.ReadWrite.All</b>",
+            "resultOK": "😃 Accès à Group.ReadWrite.All <b>OK</b>",
+            "resultKO": "😱 Accès à Group.ReadWrite.All <b>KO</b>",
+            "error": "🤬 Erreur : "
+          },
+          "directory": {
+            "checking": "🔎 Vérification des accès à <b>Directory.AccessAsUser.All</b>",
+            "resultOK": "😃 Accès à Directory.AccessAsUser.All <b>OK</b>",
+            "resultKO": "😱 Accès à Directory.AccessAsUser.All <b>KO</b>",
+            "error": "🤬 Erreur : "
+          }
+        }
+      },
+      "serviceAccountOwnershipChecks": {
+        "addServiceAccountAsOwner": {
+          "alert": {
+            "linkMessage": "Cliquez ici pour ajouter votre compte de service 🤖 en tant que propriétaire de l'équipe",
+            "errorMessage": "Attention 💥, votre compte de service n'est pas propriétaire de l'équipe !"
+          },
+          "error": {
+            "msg1": "Désolé mais je ne peux mettre à jour les propriétaires de cette équipe",
+            "support": {
+              "message": "Bonjour, j'ai un problème 😱 pour mettre à jour les propriétaires de l'équipe, pourriez-vous m'aider ?"
+            }
+          }
+        }
+      },
+      "enableTemplate": {
+        "error": {
+          "msg1": "Désolé, mais je ne peux pas activer ce modèle.",
+          "msg2": "Sélectionnez tout d'abord une équipe à dupliquer."
+        }
+      },
+      "unauthorized": {
+        "error": {
+          "msg1": "Désolé mais je ne peux vous laisser entrer...",
+          "msg2": "Connectez-vous avec un compte administrateur s'il vous plait !"
+        }
+      }
+    }
+  },
+  "configurationPage": {
+    "title": "SalesTim | Configuration d'onglet",
+    "headerMessage": "🧙🏼‍ Bonjour!",
+    "termsAgreement": "En cliquant sur 'Enregistrer', vous acceptez nos ",
+    "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Conditions d'utilisation</a> & <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
+    "touTitle": "Conditions d'utilisation",
+    "privacyTitle": "Politique de confidentialité",
+    "welcome": "Petit rappel amical 💖...",
+    "touUrl": "https://www.salestim.com/legal/tos",
+    "privacyUrl": "https://www.salestim.com/legal/privacy",
+    "tabDisplayName": "SalesTim",
+    "tabDisplayNameHelp": "Choisissez le nom de votre onglet",
+    "emptyHelp": "Le nom de l'onglet ne peut être vide!"
+  },
+  "loggedErrorPage": {
+    "title": "SalesTim | Erreur de connexion",
+    "redirect": "Redirection ⏳ vers la page de connexion",
+    "headerMessage": "🧙🏼‍ Erreur de connexion",
+    "sorry": "😥 Une erreur s'est produite...",
+    "button": "🔐 Essayez de vous connecter à nouveau"
+  },
+  "loginPage": {
+    "title": "SalesTim | Me connecter",
+    "headerMessage": "Bienvenue dans SalesTim",
+    "welcome": "Connection à Microsoft 365...",
+    "termsAgreement": "En cliquant sur \"Me Connecter\", vous acceptez nos",
+    "tos": {
+      "url": "https://www.salestim.com/legal/tos",
+      "message": "Condition d'utilisation"
+    },
+    "privacy": {
+      "url": "https://www.salestim.com/legal/privacy",
+      "message": "Politique de confidentialité"
+    },
+    "signin": {
+      "button": "🔐 Me connecter",
+      "wait": "⏳ Connexion...",
+      "sso": {
+        "button": "🔐 CONSENTIR EN TANT QU'ADMINISTRATEUR",
+        "wait": "⏳ Consentement Administrateur en cours...",
+        "error": "Un administrateur doit accorder les permissions requises à cette application."
+      }
+    },
+    "welcomebackLabel": "Bienvenue à nouveau !",
+    "hintLabel": "💡 Votre compte doit être",
+    "error": {
+      "microsoftAccount": "Vous ne pouvez pas vous connecter avec un compte personnel Microsoft.",
+      "prefix": "😥 ",
+      "createUser": "Une erreur est survenue lors de la création de votre profil utilisateur",
+      "createCustomer": "Une erreur est survenue lors de la création de votre profil client",
+      "adminConsent": "Consentement administrateur requis. Merci de contacter votre administrateur.",
+      "unexpected": "Une erreur non anticipée est survenue",
+      "adminRestricted": "Désolé, cette page est réservée aux administrateurs Microsoft 365",
+      "salestimRestricted": "Désolé, cette page est réservée aux administrateurs SalesTim",
+      "findUser": "Désolé, je ne peux pas vous laisser entrer sans une adresse email valide :-( Vous avez besoin d'une licence Microsoft Exchange et d'une boîte aux lettres active pour accéder à SalesTim.",
+      "findCustomer": "loginPage.error.findCustomer"
+    },
+    "menu": {
+      "title": " ",
+      "signin": "Me Connecter",
+      "about": "A Propos",
+      "copyright": "(c) Copyright 2020 SalesTim, all rights reserved.",
+      "services": "Comment aidons-nous ?",
+      "helpCenter": {
+        "url": "https://help.salestim.com",
+        "label": " Centre d'aide"
+      },
+      "status": {
+        "url": "https://status.salestim.com",
+        "label": "Status"
+      },
+      "close": "Fermer"
+    },
+    "learnMore": "En savoir plus...",
+    "scrollDown": "Voir plus",
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/salestim",
+      "title": "LinkedIn"
+    },
+    "twitter": {
+      "url": "https://twitter.com/salestimcrm",
+      "title": "Twitter"
+    },
+    "about": {
+      "subHead": "Bonjour !",
+      "head": "Qu'est-ce que SalesTim?",
+      "content": "SalesTim est..."
+    },
+    "web": {
+      "url": "https://www.salestim.com",
+      "title": "Web"
+    }
+  },
+  "loggedPage": {
+    "title": "SalesTim | Connecté",
+    "headerMessage": "🧙🏼‍ Bonjour!",
+    "loginConfirmed": "Vous êtes connecté 🥇!",
+    "redirect": "Redirection ⏳ vers SalesTim",
+    "redirectButton": "Ouvrir SalesTim"
+  },
+  "appPage": {
+    "title": "SalesTim",
+    "actionSeparator": " | ",
+    "header": {
+      "help": {
+        "link": "https://help.salestim.com",
+        "label": "Aide"
+      },
+      "blog": {
+        "link": "https://www.salestim.com/blog",
+        "label": "Blog"
+      },
+      "web": {
+        "link": "https://www.salestim.com",
+        "label": "A propos"
+      }
+    }
+  },
+  "clickEvents": {
+    "tim": {
+      "closed": " ",
+      "initiatedTalkToSupport": "Parler au support",
+      "initiatedBackToHome": "Retour à l'accueil...",
+      "initiatedLgoutUnauthorized": "Deconnexion...",
+      "canceled": " "
+    },
+    "teamTabConfig": {
+      "saved": "Enregistrement..."
+    },
+    "login": {
+      "started": "Connexion..."
+    },
+    "home": {
+      "myRequests": {
+        "opened": "Mes demandes",
+        "closed": "Accueil"
+      },
+      "newTeam": {
+        "opened": "Nouvelle équipe",
+        "canceled": "Accueil",
+        "saved": "Accueil"
+      },
+      "searched": "Recherche",
+      "team": {
+        "opened": "Ouverture...",
+        "initiateTalkToOwners": "Lancement de la conversation..."
+      },
+      "loggedOut": "Déconnexion..."
+    },
+    "catalog": {
+      "templates": {
+        "newModal": {
+          "opened": "Nouveau modèle",
+          "sourceTeamSelected": "Nouveau modèle"
+        },
+        "editForm": {
+          "opened": "Edition d'un modèle",
+          "saved": "Modèle enregistré",
+          "closed": "Catalogue"
+        },
+        "filtered": {
+          "disabled": "Catalogue (Modèles désactivés)",
+          "enabled": "Catalogue (Modèles activés)",
+          "all": "Catalogue"
+        },
+        "status": {
+          "disabled": "Catalogue",
+          "enabled": "Catalogue"
+        },
+        "tabs": {
+          "infos": {
+            "opened": "Informations sur le modèle"
+          },
+          "naming": {
+            "opened": "Informations sur le modèle"
+          },
+          "approval": {
+            "opened": "Informations sur le modèle"
+          },
+          "targeting": {
+            "opened": "Informations sur le modèle"
+          },
+          "teamSecurity": {
+            "opened": "Informations sur le modèle"
+          },
+          "adoption": {
+            "opened": "Informations sur le modèle"
+          },
+          "api": {
+            "opened": "Informations sur le modèle"
+          }
+        }
+      },
+      "loggedOut": "Déconnexion..."
+    },
+    "settings": {
+      "approval": {
+        "panel": {
+          "opened": "Paramètres d'approbation"
+        },
+        "updated": "Paramètres d'approbation (mis à jour)"
+      },
+      "serviceAccount": {
+        "panel": {
+          "opened": "Compte de service"
+        },
+        "updated": "Compte de service (mis à jour)",
+        "check": {
+          "opened": "Contrôle des prérequis du compte de service",
+          "closed": "Compte de service (contrôlé)"
+        },
+        "removed": "Compte de service (supprimé)"
+      },
+      "adminConsent": {
+        "check": "Check Admin Consent"
+      },
+      "customization": {
+        "panel": {
+          "opened": "Personnalisation"
+        }
+      },
+      "crm": {
+        "panel": {
+          "opened": "CRM"
+        },
+        "provider": {
+          "clicked": "CRM Provider"
+        },
+        "salesOrg": {
+          "clicked": "Sales organization"
+        },
+        "accounts": {
+          "clicked": "CRM Accounts"
+        },
+        "opportunities": {
+          "clicked": "CRM Opportunities"
+        },
+        "contacts": {
+          "clicked": "CRM Contacts"
+        }
+      },
+      "api": {
+        "panel": {
+          "opened": "Intégrations"
+        }
+      },
+      "targeted": {
+        "panel": {
+          "opened": "Déploiements ciblés"
+        }
+      },
+      "systemInfo": {
+        "panel": {
+          "opened": "Informations système"
+        },
+        "environment": {
+          "panel": {
+            "opened": "System information \\ Environment"
+          }
+        },
+        "license": {
+          "panel": {
+            "opened": "System information \\ License"
+          }
+        },
+        "userrights": {
+          "panel": {
+            "opened": "System information \\ User Rights"
+          }
+        }
+      },
+      "loggedOut": "Déconnexion..."
+    },
+    "loggedError": {
+      "closed": "Fermeture..."
+    },
+    "logged": {
+      "redirected": "Redirection..."
+    }
+  },
+  "tabs": {
+    "home": {
+      "pagination": {
+        "previous": "Précédent",
+        "next": "Suivant"
+      },
+      "newTeam": {
+        "button": "Nouvelle Equipe",
+        "intro": "Choisissez un modèle :",
+        "zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Microsoft 365, ou si vous êtes un administrateur Microsoft 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>créez un nouveau modèle...</a></b>",
+        "title": "Créez une nouvelle équipe",
+        "notification": {
+          "review": {
+            "title": "Nouvelle Equipe : ",
+            "message": "Vérifiez bien votre demande"
+          }
+        },
+        "card": {
+          "buttons": {
+            "select": "Selectionner"
+          },
+          "approval": {
+            "label": "Approbation : ",
+            "%s enabled": {
+              "zero": "Activée sans <b>approbateur</b> défini",
+              "one": "<b>Activée</b> avec <b>1</b> approbateur",
+              "many": "<b>Activée</b> avec <b>%s</b> approbateurs"
+            },
+            "disabled": "<b>Désactivée</b>"
+          },
+          "permanentOwners": "Propriétaires permanents :",
+          "permanentMembers": "Membres Permanents :",
+          "description": {
+            "none": {
+              "label": "Pas de description"
+            }
+          },
+          "selectedTemplate": {
+            "changeTemplate": "Changer de modèle",
+            "visibility": {
+              "label": "Visibilité : ",
+              "private": "Privée",
+              "public": "Publique",
+              "unknown": "Inconnue"
+            },
+            "approvalTeam": "Equipe d'approbation : ",
+            "noApproval": "Pas d'approbation"
+          }
+        },
+        "form": {
+          "teamName": {
+            "label": "Nom",
+            "placeholder": "Saisissez un nom",
+            "preview": "Aperçu : ",
+            "previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
+            "tooltip": "Doit contenir entre 1 et 264 caractères alphanumeriques dont '-', '(' ou ')'",
+            "errors": {
+              "length": "Le nom de l'équipe doit contenir entre 1 et 264 caractères",
+              "characters": "Le nom de l'équipe ne doit contenir que des caractères alphanumériques dont '-', '(' ou ')'"
+            }
+          },
+          "teamDescription": {
+            "label": "Description",
+            "placeholder": "Saisissez une Description",
+            "preview": "Aperçu : ",
+            "previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
+            "tooltip": "Description de l'équipe"
+          },
+          "welcomeMessage": {
+            "label": "Message de bienvenue",
+            "placeholder": "Saisissez un message de bienvenue",
+            "preview": "Aperçu : ",
+            "previewError": "Désolé 😢, Je ne parviens pas à générer d'aperçu. Il doit y avoir une erreur dans la configuration du modèle.",
+            "tooltip": "Sera publié dans le canal 'général'"
+          },
+          "mandatoryOwners": {
+            "help": "Vous devez sélectionner au moins %s propriétaire(s). "
+          },
+          "mandatoryMembers": {
+            "help": "Vous devez sélectionner au moins %s membre(s). "
+          },
+          "additionalOwners": {
+            "label": "Propriétaires",
+            "placeholder": "Rechercher un utilisateur par son nom ou prénom...",
+            "tooltip": "Vous pouvez sélectionner jusqu'à %s propriétaires additionnels",
+            "help": "Vous pouvez sélectionner jusqu'à %s propriétaires additionnels.",
+            "alreadySelectedAsPermanent": "Les propriétaires suivants seront automatiquement invités : "
+          },
+          "additionalMembers": {
+            "label": "Membres",
+            "placeholder": "Rechercher un utilisateur par son nom ou prénom...",
+            "tooltip": "Vous pouvez sélectionner jusqu'à %s membres additionnels",
+            "help": "Vous pouvez sélectionner jusqu'à %s membres additionnels.",
+            "alreadySelectedAsPermanent": "Les membres suivants seront automatiquement invités : "
+          },
+          "cancel": "Annuler",
+          "send": {
+            "label": "Envoyer",
+            "checkMessage": "‍🕵🏼‍ Vérification de votre demande",
+            "waitMessage": "⏳ Envoi de votre demande"
+          }
+        }
+      },
+      "head": {
+        "title": "Accueil",
+        "description": "Retrouvez vos équipes et découvrez en des nouvelles."
+      },
+      "myTeams": {
+        "title": "Mes Equipes",
+        "search": {
+          "placeholder": "Recherche...",
+          "noTeam": {
+            "header": "😥 Je ne trouve aucune équipe...",
+            "message": "Avez-vous bien vérifié les critères de votre recherche ?"
+          },
+          "button": "🔎"
+        },
+        "noTeam": {
+          "header": "😥 Vous n'êtes membre d'aucune équipe encore...",
+          "message": "Cliquez sur '<a onclick=\"$('#createFormModal').modal();\" href=\"#\">➕ <b>Nouvelle Equipe</b></a>' pour démarrer, c'est simple !"
+        },
+        "card": {
+          "description": {
+            "none": "no description"
+          },
+          "buttons": {
+            "talkToOwners": {
+              "label": "Parlez aux Propriétaires",
+              "topic": "A propos de l'équipe '%s'",
+              "message": "Bonjour, les propriétaires de l'équipe '%s'",
+              "waitMessage": "⏳ Création de la conversation..."
+            },
+            "openTeam": {
+              "label": "Ouvrir",
+              "waitMessage": "⏳ Ouverture de l'équipe..."
+            }
+          },
+          "members": {
+            "label": "Membres : ",
+            "loading": "⏳ Recherche des membres..."
+          },
+          "owners": {
+            "label": "Propriétaires : ",
+            "loading": "⏳ Recherche des propriétaires..."
+          },
+          "archiveStatus": {
+            "title": "Archivage",
+            "archived": {
+              "tag": " ",
+              "tooltip": "Cette équipe est <b>archivée</b>."
+            }
+          },
+          "visibilityStatus": {
+            "title": "Visibilité",
+            "private": {
+              "tag": " ",
+              "tooltip": "Cette équipe est <b>privée</b>."
+            },
+            "public": {
+              "tag": " ",
+              "tooltip": "Cette équipe est <b>publique</b>."
+            }
+          },
+          "classificationStatus": {
+            "title": "Confidentialité",
+            "tag": " ",
+            "tooltip": {
+              "zero": "Cette équipe n'a aucune étiquette de confidentialité.",
+              "many": "Cette équipe dispose d'étiquettes de confidentialité: <b>%s</b>"
+            }
+          }
+        },
+        "loading": "Chargement de vos équipes...",
+        "refresh": {
+          "button": "🔄"
+        },
+        "myRequests": {
+          "button": "Mes Demandes"
+        },
+        "myApprovals": {
+          "button": "Approbations"
+        }
+      },
+      "request": {
+        "loading": "⏳ Chargement de votre demande",
+        "title": "Mes Demandes",
+        "noRequest": {
+          "header": "Vous n'avez aucune demande en attente",
+          "message": "💡 Vous pouvez utiliser le bouton '➕ Nouvelle Equipe' pour créer une nouvelle équipe"
+        },
+        "search": {
+          "noRequest": {
+            "header": "Je ne trouve aucune demande en attente",
+            "message": "💡 Vous pouvez utiliser le bouton '➕ Nouvelle Equipe' pour créer une nouvelle équipe"
+          }
+        },
+        "card": {
+          "requestDate": "Créée :",
+          "template": "Modèle :",
+          "progress": "Etape :",
+          "lastOperation": "Dernière opération :",
+          "members": {
+            "label": "Membres : ",
+            "loading": "⏳ Chargement des membres..."
+          },
+          "owners": {
+            "label": "Propriétaires : ",
+            "loading": "⏳ Chargement des propriétaires..."
+          },
+          "buttons": {
+            "talkToApprovers": {
+              "label": "💬 Parler aux approbateurs"
+            },
+            "status": {
+              "label": "Audit"
+            }
+          }
+        },
+        "form": {
+          "refresh": "Rafraîchir",
+          "refreshWaitMessage": "⏳ Rafraîchissement...",
+          "close": "Fermer",
+          "export": "Exporter"
+        }
+      }
+    },
+    "catalog": {
+      "title": "Catalogue de Modèles",
+      "filters": {
+        "all": "<i class='fa fa-globe'></i>  Tous",
+        "disabled": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span>  Désactivés",
+        "enabled": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span>  Activés"
+      },
+      "card": {
+        "approval": {
+          "label": "Approbation : ",
+          "%s enabled": {
+            "zero": "Activée sans <b>approbateur</b> défini",
+            "one": "<b>Activée</b> avec <b>1</b> approbateur",
+            "many": "<b>Activée</b> avec <b>%s</b> approbateurs"
+          },
+          "disabled": "<b>Désactivée</b>"
+        },
+        "permanentOwners": {
+          "label": "Propriétaires permanents : "
+        },
+        "permanentMembers": {
+          "label": "Membres permanents : "
+        },
+        "clonedTeam": {
+          "label": "Equipe dupliquée : ",
+          "none": {
+            "label": "aucune"
+          }
+        },
+        "description": {
+          "none": {
+            "label": "Pas de description"
+          }
+        },
+        "buttons": {
+          "status": {
+            "on": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span> Activé",
+            "off": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span> Désactivé",
+            "actions": {
+              "enable": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span> Activer",
+              "disable": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span> Désactiver"
+            }
+          },
+          "try": {
+            "label": "Tester !"
+          },
+          "edit": {
+            "label": "Editer"
+          }
+        }
+      },
+      "newTemplate": {
+        "button": "<i class='fa fa-plus-square'></i> Nouveau modèle",
+        "buttonEdit": "Enregistrer",
+        "form": {
+          "title": "<i class='fa fa-copy'></i> Modèle",
+          "titleEdit": "Modifier le modèle \"",
+          "selectTemplate": {
+            "message": "Selectionnez l'équipe à dupliquer",
+            "placeholder": "Entrer le nom d'une équipe existante..."
+          },
+          "tabs": {
+            "template": {
+              "title": "Info",
+              "templateInfo": {
+                "title": "📰 Information sur le modèle",
+                "templateName": {
+                  "label": "Nom du modèle",
+                  "placeholder": "Entrer le nom"
+                },
+                "templateDescription": {
+                  "label": "Description du modèle",
+                  "placeholder": "Entrer une description"
+                },
+                "templateLanguage": {
+                  "label": "Langue du modèle",
+                  "help": ""
+                }
+              },
+              "cloning": {
+                "title": "👯‍ Duplication",
+                "message": "Choisissez ce que vous souhaitez répliquer de l'équipe d'origine.",
+                "channels": "Canaux",
+                "apps": "Apps",
+                "tabs": "Onglets",
+                "settings": "Paramètres",
+                "members": "Membres",
+                "label": "Choisissez ce que vous souhaitez répliquer de l'équipe d'origine."
+              }
+            },
+            "naming": {
+              "title": "Nom",
+              "name": {
+                "title": "Nom de l'équipe",
+                "default": {
+                  "label": "Nom d'équipe par défaut",
+                  "placeholder": "Saisissez un nom"
+                },
+                "convention": {
+                  "label": "Convention de nommage",
+                  "placeholder": "Définissez une convention de nommage"
+                }
+              },
+              "email": {
+                "title": "E-mail du Groupe Microsoft 365",
+                "convention": {
+                  "label": "E-mail",
+                  "placeholder": "Saisissez uniquement la partie locale de l'adresse (par exemple 'tim' pour l'adresse 'tim@exemple.com')"
+                }
+              },
+              "description": {
+                "title": "Description de l'équipe",
+                "default": {
+                  "label": "Nom d'équipe par défaut",
+                  "placeholder": "Saisissez une description"
+                },
+                "convention": {
+                  "label": "Description de l'équipe",
+                  "placeholder": "Entrer une description"
+                }
+              },
+              "welcome": {
+                "title": "Message de bienvenue",
+                "default": {
+                  "label": "Message de bienvenue par défaut",
+                  "placeholder": "Saisissez un message de bienvenue par défaut"
+                },
+                "convention": {
+                  "label": "Message de bienvenue dynamique",
+                  "placeholder": "Définissez votre message de bienvenue dynamique"
+                }
+              }
+            },
+            "approval": {
+              "title": "Approbation",
+              "disabled": "⚠ L'approbation est désactivée car non-authorizée par aucun administrateur. Le processus d'approbatio sera ignoré jusqu'à quand il sera configuré.",
+              "enable": {
+                "label": "Activer",
+                "help": "En activant vous pourrez désigner un approbateur des demande de création dans votre entreprise.",
+                "title": "🏁 Paramètres d'Approbation"
+              },
+              "team": {
+                "label": "Equipe d'approbateurs",
+                "placeholder": "Rechercher un utilisateur par son nom ou prénom...",
+                "help": "Vous pouvez sélectionner jusqu'à %s approbateurs."
+              }
+            },
+            "targeting": {
+              "title": "Audiences",
+              "enable": {
+                "label": "Activer le ciblage d'audience",
+                "help": "En activant le ciblage vous serez en mesure de définir une audience cible pour ce modèle, en fonction des données du profil utilisateur Microsoft 365, Azure AD",
+                "title": "🎯 Ciblage d'Audiences"
+              },
+              "rules": {
+                "placeholder": "Saisissez vos règles de ciblage (utilisez @ ou # pour inclure du contenu dynamique)",
+                "checkSyntax": {
+                  "button": "Vérifier la Syntaxe",
+                  "selectUser": "Sélectionnez un utilisateur pour tester votre règle de ciblage d'audience:"
+                }
+              }
+            },
+            "compliance": {
+              "title": "Conformité",
+              "guests": {
+                "title": "🤝 Accès Invité",
+                "label": "Activer l'accès invité",
+                "help": "Avec l’accès invité, vous pouvez fournir l’accès aux équipes, documents dans les canaux, ressources, conversations et applications aux personnes externes à votre organisation."
+              },
+              "classification": {
+                "title": "🔖 Etiquettes de confidentialité",
+                "rules": {
+                  "placeholder": "Saisissez une étiquette de confidentialité (utilisez @ ou # pour inclure du contenu dynamique)"
+                },
+                "permissionsWarning": {
+                  "message": "Pour accéder à cette fonctionnalité, vous devez accorder à SalesTim une nouvelle permission.",
+                  "button": "Accorder les permissions"
+                }
+              },
+              "multigeo": {
+                "title": "🌎 Multi-Géo",
+                "rules": {
+                  "placeholder": "Saisissez un code d'emplacement géographique (utilisez @ ou # pour inclure du contenu dynamique)"
+                }
+              }
+            },
+            "security": {
+              "title": "Securité",
+              "privacy": {
+                "title": "Confidentialité renforcée",
+                "private": "🔐 Privé - seul les propriétaires peuvent ajouter des membres",
+                "public": "📣 Publique - toute personne de l'entreprise peut rejoindre l'équipe"
+              },
+              "membership": {
+                "title": "Membres de l'équipe",
+                "requesterAsOwner": {
+                  "help": "N.B: désactiver cette possibilité peut résulter en une expérience déceptive, l'utilisateur faisant une demande de création attend lui d'être propriétaire de l'équipe créée.",
+                  "title": "Ajouter automatiquement le demandeur en tant que propriétaire",
+                  "enable": "Activer"
+                },
+                "mandatoryOwners": {
+                  "label": "👮🏼‍ Propriétaires Requis"
+                },
+                "mandatoryMembers": {
+                  "label": "🤹🏼‍ Membres Requis"
+                },
+                "permanentOwners": {
+                  "label": "👮🏼‍ Propriétaires permanents",
+                  "placeholder": "Rechercher un utilisateur par son nom ou prénom...",
+                  "help": "Vous pouvez sélectionner jusqu'à %s propriétaires permanents. Les propriétaires permanents seront automatiquement ajoutés en tant que propriétaires des équipes basées sur ce modèle."
+                },
+                "permanentMembers": {
+                  "label": "🤹🏼‍ Membres Permanents",
+                  "placeholder": "Rechercher un utilisateur par son nom ou prénom...",
+                  "help": "Vous pouvez sélectionner jusqu'à %s membres permanents. Les membres permanents seront automatiquement ajoutés en tant que membres des équipes basées sur ce modèle."
+                }
+              }
+            },
+            "adoption": {
+              "title": "Adoption",
+              "week1": {
+                "label": "🕛 Quand l'équipe est créée",
+                "subject": {
+                  "placeholder": "Saisissez l'objet"
+                }
+              },
+              "week2": {
+                "label": "🕑 Une semaine plus tard",
+                "subject": {
+                  "placeholder": "Saisissez l'objet"
+                }
+              },
+              "week3": {
+                "label": "🕓 Deux semaines plus tard",
+                "subject": {
+                  "placeholder": "Saisissez l'objet"
+                }
+              },
+              "header": "📧 Envoyez automatiquement ces emails aux nouveaux propriétaires de l'équipe créée"
+            },
+            "api": {
+              "title": "API",
+              "templateIdHeader": "🆔 du modèle",
+              "templateIdHeaderPlaceholder": "Ce modèle n'a pas encore d'identifiant",
+              "webHookPlaceholder": "URL de votre point d'accès",
+              "webHookHeader": "🔁 Webhook",
+              "webHookPayloadPrepend": "📄 Message d'exemple",
+              "webHookPayloadTestButton": "📤 Envoyer une requête de test",
+              "webHookHelp": "Une requête HTTP POST sera envoyée à cette URL à chaque usage de ce modèle",
+              "templateIdCopyButton": "📋 Copier",
+              "templateIdHelp": "Vous pouvez utiliser cet identifiant lors de vos appels aux API SalesTim"
+            }
+          },
+          "export": {
+            "button": "Exporter"
+          },
+          "import": {
+            "button": "Importer"
+          },
+          "delete": {
+            "button": "Supprimer"
+          },
+          "cancel": {
+            "button": "Annuler"
+          },
+          "save": {
+            "button": "<i class='fa fa-floppy-o'></i> Enregistrer"
+          }
+        },
+        "error": {
+          "title": "Erreur",
+          "message": "Impossible de créer votre modèle"
+        }
+      },
+      "gallery": {
+        "headlines": {
+          "editorsPick": "📌 Editor's pick"
+        },
+        "button": "Store",
+        "form": {
+          "title": "🎁 Solutions Store",
+          "close": {
+            "label": "💨 Close"
+          },
+          "cancel": {
+            "button": "🔙 Cancel"
+          }
+        },
+        "categories": {
+          "it-administration": {
+            "title": "👩🏼‍💻 TI et Administration"
+          },
+          "productivity": {
+            "title": "💪🏼 Productivité"
+          }
+        },
+        "title": "STORE",
+        "search": {
+          "placeholder": "Rechercher un modèle"
+        },
+        "picks": {
+          "previous": "⏪ Previous",
+          "next": "Next ⏩"
+        },
+        "lastPublished": "🕙 Last Published",
+        "item": {
+          "get": "📥 GET",
+          "more": "👓 MORE"
+        }
+      },
+      "search": {
+        "placeholder": "Rechercher des modèles",
+        "noTemplates": {
+          "title": "Je n'ai rien trouvé...",
+          "message": "Je ne trouve aucun modèle. Vous pouvez en créer à partir de notre 'Gallery' gratuite de modèles ou utilier le bouton 'Create'."
+        },
+        "button": "🔎"
+      },
+      "noTemplates": {
+        "title": "Aucune modèle",
+        "message": "Vous n'avez encore aucun modèle. Vous pouvez en créer à partir de notre 'Gallery' gratuite de modèles ou utilier le bouton 'Create'."
+      },
+      "loading": {
+        "error": {
+          "title": "Erreur",
+          "message": "Erreur de chargement de votre catalogue"
+        }
+      },
+      "refresh": {
+        "button": "🔄"
+      },
+      "logout": {
+        "button": "<i class='fa fa-sign-out'></i> Me déconnecter"
+      },
+      "LoginAnotherAccount": {
+        "button": "<i class='fa fa-sign-out'></i> Me connecter avec un autre compte"
+      },
+      "copyText": {
+        "notification": {
+          "title": "Copié<br>",
+          "message": "Texte copié dans le presse-papier 📋"
+        }
+      }
+    },
+    "integration": {
+      "title": "Intégration",
+      "hooks": {
+        "tab": {
+          "title": "Webhooks"
+        },
+        "title": "Vos webhooks",
+        "new": {
+          "button": "<i class='fa fa-plus-square'></i> Nouveau wehbook"
+        },
+        "save": {
+          "button": "<i class='fa fa-floppy-o'></i> Enregistrer"
+        },
+        "create": {
+          "button": "<i class='fa fa-floppy-o'></i> Créer"
+        },
+        "cancel": {
+          "button": "<i class='fa fa-ban'></i> Annuler"
+        },
+        "delete": {
+          "button": "<i class='fa fa-trash'></i> Supprimer"
+        }
+      }
+    },
+    "settings": {
+      "save": {
+        "success": {
+          "title": "Créée!",
+          "message": "Le modèle a été créée avec succès !"
+        }
+      },
+      "title": "Configuration",
+      "logout": {
+        "button": "💨 Me déconnecter"
+      },
+      "security": {
+        "title": "<i class='fa fa-shield'></i> Sécurité"
+      },
+      "approval": {
+        "tab": {
+          "title": "<i class='fa fa-check-circle-o'></i> Approbation"
+        },
+        "actionableMessage": {
+          "navbar": {
+            "title": "<i class='fa fa-envelope-o'></i> Messages Actionnables"
+          },
+          "save": {
+            "button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+            "waiting": "⏳ Enregistrement..."
+          },
+          "help": "Messages Actionnables: aide. Voir <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow d'Approbation</a></i></b> sur notre Tech Hub.",
+          "providerMode": {
+            "label": "Activer un fournisseur au niveau de l'organisation",
+            "help": "En sélectionnant cette option, l'email de notification sera envoyée par le compte de service même, en utilisant sa propre adresse email.",
+            "providerId": {
+              "input": {
+                "title": "Id du fournisseur (créateur)",
+                "placeholder": "Coller l'id du fournisseur"
+              }
+            }
+          }
+        }
+      },
+      "rbac": {
+        "tab": {
+          "title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+        },
+        "navbar": {
+          "title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+        },
+        "save": {
+          "button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+          "waiting": "⏳ Enregistrement..."
+        },
+        "catalogManagers": {
+          "label": "Gestionnaires de Catalogue",
+          "help": "Les gestionnaires de catalogue peuvent créer, mettre à jour et supprimer des modèles de votre catalogue.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires de catalogue.",
+          "placeholder": "Rechercher un utilisateur par son nom ou prénom..."
+        },
+        "integrationManagers": {
+          "label": "Gestionnaires d'intégration",
+          "help": "Les gestionnaires d'intégration peuvent créer, mettre à jour et supprimer des webhooks et configurer des applications connectées.<br />Vous pouvez sélectionner jusqu'à 50 gestionnaires d'intégration.",
+          "placeholder": "Rechercher un utilisateur par son nom ou prénom..."
+        },
+        "changeManagers": {
+          "label": "Responsables du changement",
+          "help": "Les responsables du changement peuvent se préparer aux futures mises à jour en testant et validant les nouvelles fonctionnalités avant qu'elles ne soient accessibles à tous les utilisateurs de l'organisation.<br />Vous pouvez sélectionner jusqu'à 50 responsables du changement.",
+          "placeholder": "Search for users by given name or surname..."
+        }
+      },
+      "serviceAccount": {
+        "title": "<i class='fa fa-user-secret'></i> Compte de service",
+        "help": "Compte de service Microsoft 365 : ",
+        "none": "Aucun compte de service défini.",
+        "idLabel": "Compte de service : ",
+        "input": {
+          "placeholder": "Utilisez le bouton 'Mettre à jour' pour sélectionner un compte de service",
+          "loading": "⏳ Chargement du compte de service",
+          "error": {
+            "title": "Erreur",
+            "message": "Erreur lors du chargement du compte de service"
+          }
+        },
+        "select": {
+          "button": "<i class='fa fa-sign-in'></i> Mettre à jour",
+          "waitMessage": "⏳ Mise à jour..."
+        },
+        "check": {
+          "button": "<i class='fa fa-check-circle-o'></i> Contrôler les prérequis",
+          "waitMessage": "⏳ Contrôle des prérequis..."
+        },
+        "delete": {
+          "button": "<span style='color: brown;>'<i class='fa fa-trash'></i></span> Supprimer",
+          "waitMessage": "⏳ Suppression du compte de service..."
+        }
+      },
+      "adminConsent": {
+        "check": {
+          "button": "<i class='fa fa-check-square-o'></i> Contrôler le consentement administrateur",
+          "waitMessage": "⏳ Contrôle du consentement administrateur..."
+        }
+      },
+      "advancedCustomization": {
+        "title": "🎨 Personnalisation"
+      },
+      "crm": {
+        "title": "🏆 CRM",
+        "provider": {
+          "title": "Fournisseurs"
+        },
+        "salesOrganization": {
+          "title": "Organisation commerciale"
+        },
+        "accounts": {
+          "title": "Comptes"
+        },
+        "opportunities": {
+          "title": "Oportunités"
+        },
+        "contacts": {
+          "title": "Contacts"
+        }
+      },
+      "api": {
+        "title": "👩🏼‍💻 API"
+      },
+      "targetedDeployment": {
+        "title": "🎯 Déploiements ciblés"
+      },
+      "systemInformation": {
+        "title": "<i class='fa fa-info-circle'></i> Informations système",
+        "environment": {
+          "title": "<i class='fa fa-server'></i> Environnement"
+        },
+        "knownIssues": {
+          "title": "🚩 Problèmes connus"
+        },
+        "license": {
+          "title": "<i class='fa fa-copyright'></i> License"
+        },
+        "usagerights": {
+          "title": "<i class='fa fa-balance-scale'></i> Informations juridiques (EN)"
+        },
+        "tos": {
+          "title": "<i class='fa fa-balance-scale'></i> Termes d'utilisation (EN)",
+          "url": "https://www.salestim.com/legal/tos"
+        },
+        "privacy": {
+          "title": "<i class='fa fa-shield'></i> Politique de confidentialité (EN)",
+          "url": "https://www.salestim.com/legal/privacy"
+        },
+        "changelog": {
+          "title": "tabs.settings.systemInformation.changelog.title"
+        },
+        "thirdParty": {
+          "title": "tabs.settings.systemInformation.thirdParty.title"
+        }
+      }
+    },
+    "analytics": {
+      "title": "Analyses",
+      "reports": {
+        "all": "Toutes",
+        "my": "Moi",
+        "public": "Publiques",
+        "private": "Privées",
+        "templatesUsage": "Par Solution",
+        "orphans": "Orphelines",
+        "unused": "Inutilisées"
+      },
+      "noData": {
+        "message": "Aucune donnée disponible"
+      }
+    }
+  },
+  "menu": {
+    "discovery": {
+      "title": "Accueil"
+    },
+    "requests": {
+      "title": "Demandes"
+    },
+    "approval": {
+      "title": "Approbation"
+    },
+    "settings": {
+      "title": "Paramètres"
+    },
+    "logout": {
+      "title": "Me déconnecter",
+      "waitMessage": "⏳ Déconnexion en cours..."
+    }
+  },
+  "request": {
+    "status": {
+      "saved": {
+        "label": "📮 Enregistrée",
+        "message": "Demande enregistrée avec l'ID '%s'"
+      },
+      "preprocessing": {
+        "label": "🔬 Préparation",
+        "message": "1️⃣ Préparation de la demande %s",
+        "steps": {
+          "serviceAccountOK": "🤖 Vérification du compte de service %s",
+          "serviceAccountKO": "🤖 Le compte de service n'est pas configuré",
+          "noTeamAsTemplate": "🎭 Aucune équipe n'est configurée comme source pour modèle",
+          "archivedTeam": "🎭 L'équipe source est 📦 archivée et ne peut être clonée",
+          "clonedTeamOK": "🎭 Vérification de l'équipe à dupliquer : %s",
+          "clonedTeamKO": "🎭 Impossible de vérifier l'équipe à dupliquer",
+          "partsToCloneOK": "Vérification des informations à cloner : %s",
+          "partsToCloneKO": "Les informations à dupliquer ne sont pas définies",
+          "namingConventionOK": "Conventions de nommage : %s",
+          "namingConventionKO": "Erreur dans les conventions de nommage : %s",
+          "checkFinalValuesOK": "Vérification des paramètres : %s",
+          "checkFinalValuesKO": "Erreur lors de la vérification des paramètres",
+          "setRequestLocaleOK": "Langue de la requête défini à '%s': %s",
+          "setRequestLocaleKO": "Erreur lors de la définition de la langue de la requête : %s"
+        }
+      },
+      "approval": {
+        "label": "⏸ Approbation",
+        "message": "Demande en attente d'approbation"
+      },
+      "rejected": {
+        "label": "⛔ Rejetée",
+        "message": "Requête rejetée par l'approbateur"
+      },
+      "approved": {
+        "label": "✅ Approuvée",
+        "message": "Demande approuvée par l'approbateur"
+      },
+      "processing": {
+        "label": "🕓 Exécution",
+        "message": "2️⃣ Exécution de la demande %s",
+        "steps": {
+          "done": "Demande traitée",
+          "teamCreated": "🚀 Equipe créée avec succès, id '%s'",
+          "tabConfiguration": "🧱 Onglet '%s' traité",
+          "tabNotification": "🧱 Je viens de mettre à jour l'onglet <b><a href='%s'>%s</a></b>!",
+          "allTabsConfigured": "🧱 Tous les onglets (%s) ont été traités %s",
+          "allTabsNotification": "🧱 Tous les onglets ont été traités!",
+          "teamPhotoCloned": "📸 La photo de l'équipe a été mise à jour avec succès",
+          "teamPhotoNotification": "📸 Je viens de mettre à jour la photo de cette équipe ! Ne vous inquiétez pas, cela peut prendre quelques minutes avant d'être visible...",
+          "filesCloned": "📚 Les fichiers de cette équipe ont été copiés",
+          "filesNotification": "📚 Je viens de copier les fichiers de cette équipe ! Ne vous inquiétez pas, cela peut prendre quelques minutes avant d'être visible...",
+          "mailNicknameUpdated": "📧 L'adresse email du groupe a été mise à jour",
+          "mailNicknameNotification": "📧 Je viens de mettre à jour l'adresse email du groupe!"
+        }
+      },
+      "postprocessing": {
+        "label": "🕙 Finalisation",
+        "message": "3️⃣ Finalisation de la demande %s",
+        "steps": {
+          "requesterMembership": "🔐 Ajout du demandeur '%s (%s)' en tant que membre / propriétaire",
+          "requesterAsMemberOK": "🥇 Demandeur ajouté en tant que membre: %s",
+          "requesterAsMemberKO": "🥇 Erreur ignorée lors de l'ajout du demandeur en tant que membre ⚠",
+          "requesterAsOwnerOK": "🥇 Demandeur ajouté en tant que propriétaire: %s",
+          "requesterAsOwnerKO": "🥇 Erreur ignorée lors de l'ajout du demandeur en tant que propriétaire ⚠",
+          "requestedMembers": "🔐 Ajout des membres demandés à l'équipe (%s)",
+          "requestedMembersOK": "🥈 Membres additionels ajoutés: %s",
+          "requestedMembersKO": "🥈 Erreur ignorée lors de l'ajout des membres additionnels ⚠",
+          "requestedOwners": "🔐 Ajout des propriétaires demandés à l'équipe (%s)",
+          "requestedOwnersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels ⚠",
+          "requestedOwnersAsMembersOK": "🥈 Propriétaires supplémentaires ajoutés en tant que membres: %s",
+          "requestedOwnersAsMembersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels en tant que membres ⚠",
+          "requestedOwnersAsOwnersOK": "🥈 Propriétaires additionels ajoutés en tant que propriétaires: %s",
+          "requestedOwnersAsOwnersKO": "🥈 Erreur ignorée lors de l'ajout des propriétaires additionnels en tant que propriétaires ⚠",
+          "permanentMembers": "🔐 Ajout des membres permanents (%s)",
+          "permanentMembersOK": "🥉 Membres ajoutés: %s",
+          "permanentMembersKO": "🥉 Erreur ignorée lors de l'ajout des membres permanents ⚠",
+          "permanentOwners": "🔐 Ajout des propriétaires permanents (%s)",
+          "permanentOwnersAsMembersOK": "🥉 Propriétaires permanents ajoutés en tant que membres: %s",
+          "permanentOwnersAsMembersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que membres ⚠",
+          "permanentOwnersAsOwnersOK": "🥉 Propriétaires permanents ajoutés en tant que propriétaires: %s",
+          "permanentOwnersAsOwnersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que propriétaires ⚠",
+          "privateChannelsOwners": "🔐 Ajout de %s propriétaires à %s canaux privés",
+          "privateChannelsOwnersOK": "🥉 Propriétaire %s ajoutés aux canal privé %s",
+          "privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout du propriétaire %s au canal privé %s ⚠"
+        }
+      },
+      "processed": {
+        "label": "📦 Traitée",
+        "message": "Demande traitée %s"
+      },
+      "error": {
+        "label": "🚩 Erreur",
+        "message": {
+          "standard": "Une erreur est survenur lors du traitement de la demande",
+          "ERROR_CONFIGURE_TAB": "🚩 Impossible de configurer l'onglet %s. 🌐: %s",
+          "ERROR_RETRIEVE_REQUESTER": "Impossible de retrouver les informations du demandeur",
+          "ERROR_RETRIEVE_CUSTOMER": "Impossible de retrouver les informations de l'organization du demandeur",
+          "ERROR_RETRIEVE_TEMPLATE": "Impossible de retrouver le template dans le catalogue",
+          "ERROR_SAVING_CACHE": "Impossible d'enregistrer la demande en cache",
+          "ERROR_CREATING_TEAM": "Impossible de créer l'équipe à partir du modèle",
+          "ERROR_CLONING_PHOTO": "Impossible de cloner la photo d'équipe",
+          "ERROR_CLONING_FILES": "Impossible de cloner les fichiers de l'équipe",
+          "ERROR_UPDATING_MAIL_NICKNAME": "Impossible de mettre à jour l'adresse email du groupe"
+        }
+      },
+      "unknown": {
+        "label": "🛸 Inconnu",
+        "message": "L'état de la demande est indéterminé"
+      }
+    },
+    "save": {
+      "success": {
+        "title": "Bravo !",
+        "message": "Votre demande a bien été enregistrée."
+      },
+      "error": {
+        "title": "request.save.error.title",
+        "message": "request.save.error.message"
+      }
+    }
+  },
+  "user": {
+    "save": {
+      "error": {
+        "title": "Une erreur est survenue :-(",
+        "message": "Une erreur est survenue lors de la mise à jour du profil utilisateur"
+      }
+    }
+  },
+  "settings": {
+    "save": {
+      "error": {
+        "title": "Erreur",
+        "message": "Une erreur est survenue lors de l'enregistrement de votre configuration."
+      },
+      "success": {
+        "title": "Succès",
+        "message": "Votre nouvelle configuration a bien été enregistrée."
+      }
+    }
+  },
+  "builtinTabs": {
+    "website": {
+      "title": "Site Web",
+      "auditLogMessage": "🧭 Onglet Site Web '%s' traité"
+    },
+    "planner": {
+      "title": "Planificateur",
+      "auditLogMessage": "📅 Onglet Planificateur '%s' traité"
+    },
+    "stream": {
+      "title": "Stream",
+      "auditLogMessage": "🎦 Onglet Stream '%s' traité"
+    },
+    "forms": {
+      "title": "Forms",
+      "auditLogMessage": "📋 Onglet Forms '%s' traité"
+    },
+    "word": {
+      "title": "Word",
+      "auditLogMessage": "📘 Onglet Word '%s' traité"
+    },
+    "excel": {
+      "title": "Excel",
+      "auditLogMessage": "📗 Onglet Excel '%s' traité"
+    },
+    "powerpoint": {
+      "title": "PowerPoint",
+      "auditLogMessage": "📕 Onglet PowerPoint '%s' traité"
+    },
+    "pdf": {
+      "title": "PDF",
+      "auditLogMessage": "💼 Onglet PDF '%s' traité"
+    },
+    "wiki": {
+      "title": "Wiki",
+      "auditLogMessage": "📝 Onglet Wiki '%s' traité"
+    },
+    "sharepointFiles": {
+      "title": "Bibliothèque de documents SharePoint",
+      "auditLogMessage": "📚 Onglet Bibliothèque de documents SharePoint '%s' traité"
+    },
+    "onenote": {
+      "title": "OneNote",
+      "auditLogMessage": "📑 Onglet OneNote '%s' traité"
+    },
+    "powerbi": {
+      "title": "Power BI",
+      "auditLogMessage": "📊 Onglet Power BI '%s' traité"
+    },
+    "sharepointPages": {
+      "title": "Page SharePoint",
+      "auditLogMessage": "📰 Onglet Page SharePoint '%s' traité"
+    },
+    "yammer": {
+      "title": "Yammer",
+      "auditLogMessage": "💬 Onglet Yammer '%s' traité"
+    },
+    "powerapps": {
+      "title": "PowerApps",
+      "auditLogMessage": "🧱 Onglet PowerApps '%s' traité"
+    },
+    "youtube": {
+      "title": "Youtube",
+      "auditLogMessage": "📺 Onglet Youtube '%s' traité"
+    }
+  },
+  "logout": {
+    "error": {
+      "catch": {
+        "title": "logout.error.catch.title",
+        "message": "logout.error.catch.message"
+      }
+    }
+  },
+  "manifests": {
+    "standalone": {
+      "name": {
+        "short": "SalesTim",
+        "full": "SalesTim Gouvernance Automatisée"
+      },
+      "description": {
+        "short": "Automatisation de la Gouvernance Microsoft Teams.",
+        "full": "Solutions métiers pour Microsoft Teams, automatisation de la gouvernance et de l'adoption."
+      },
+      "staticTabs": {
+        "0": {
+          "name": "Accueil"
+        },
+        "1": {
+          "name": "Catalogue"
+        },
+        "2": {
+          "name": "Configuration"
+        },
+        "3": {
+          "name": "Intégration"
+        }
+      }
+    },
+    "targeted": {
+      "home": {
+        "name": {
+          "short": "Accueil",
+          "full": "Accueil pour Microsoft Teams."
+        },
+        "description": {
+          "short": "Accueil pour Microsoft Teams",
+          "full": "Page d'accueil pour Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Accueil"
+          }
+        }
+      },
+      "approval": {
+        "name": {
+          "short": "Approbation",
+          "full": "Approbation pour Microsoft Teams."
+        },
+        "description": {
+          "short": "Application d'approbation",
+          "full": "Application d'approbation pour Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Approbation"
+          }
+        }
+      },
+      "catalog": {
+        "name": {
+          "short": "Catalogue",
+          "full": "Catalogue de modèles pour Microsoft Teams."
+        },
+        "description": {
+          "short": "Application de gestion de catalogue de modèles pour Microsoft Teams",
+          "full": "Application de gestion de catalogue de modèles pour Microsoft Teams."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Catalogue"
+          }
+        }
+      },
+      "settings": {
+        "name": {
+          "short": "Configuration",
+          "full": "Configuration SalesTim."
+        },
+        "description": {
+          "short": "Application de configuration SalesTim",
+          "full": "Application de configuration SalesTim."
+        },
+        "staticTabs": {
+          "0": {
+            "name": "Configuration"
+          }
+        }
+      }
+    }
+  },
+  "storeInstallPage": {
+    "title": "storeInstallPage.title"
+  },
+  "approval": {
+    "login": {
+      "title": "Demande d'approbation",
+      "meta": "",
+      "message": "Merci de vous connecter pour",
+      "button": {
+        "normal": "ME CONNECTER",
+        "waiting": "⏳ CONNEXION..."
+      }
+    },
+    "notifications": {
+      "approvers": {
+        "subject": "<%= request.request.requester.name %> vous a envoyé une demande d'approbation"
+      },
+      "requester": {
+        "subject": "Votre demande \"<%= request.team.name %>\" a été envoyée pour approbation"
+      },
+      "approved": {
+        "subject": "Votre demande \"<%= request.team.name %>\" a été approuvée"
+      },
+      "rejected": {
+        "subject": "Votre demande \"<%= request.team.name %>\" a été rejetée"
+      }
+    },
+    "card": {
+      "requester": {
+        "jobTitle": "Fonction",
+        "department": "Département"
+      },
+      "request": {
+        "template": "Modèle",
+        "requester": "Demandeur",
+        "approver": "Approbateur",
+        "approvalDate": "Approuvée le",
+        "rejectionDate": "Rejetée le",
+        "rejectionMessage": "Message",
+        "teamName": "Nom de l'équipe",
+        "teamDescription": "Description",
+        "welcomeMessage": "Message de bienvenue",
+        "teamNamePlaceholder": "Saisissez le nom de l'équipe",
+        "teamDescriptionPlaceholder": "Saisissez la description de l'équipe",
+        "welcomeMessagePlaceholder": "Saisissez un message de bienvenue",
+        "members": "Membres",
+        "owners": "Propriétaires",
+        "noMembers": "Aucun",
+        "noOwners": "Aucun",
+        "approvers": "Approbateurs",
+        "rejection": {
+          "from": "Message de"
+        }
+      },
+      "actions": {
+        "approve": "Approuver",
+        "approveMessage": "✅ La requête a été approuvée",
+        "edit": "Modifier la requête avant approbation",
+        "reject": "Rejeter",
+        "rejectMessage": "⛔ La requête a été rejetée",
+        "comment": "Ajoutez un commentaire pour motiver votre refus",
+        "open": "Ouvrir la requête",
+        "infos": "Requête",
+        "chat": {
+          "button": "Parler aux approbateurs",
+          "topic": "Requête: ",
+          "message": "Bonjour, j'ai une question à propos de ma requête "
+        }
+      }
+    },
+    "email": {
+      "footer": "Pour des raisons de sécurité, ce message est uniquement consultable depuis Outlook (Bureau, Web et Mobile). Si le contenu ne s'affiche pas, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installez l'add-in Outlook 'Actionable Messages Debugger'</a> pour diagnostiquer le problème.",
+      "copyright": "(c) Copyright 2020 SalesTim, tous droits réservés."
+    }
+  },
+  "tags": {
+    "app": {
+      "id": "Application: ID",
+      "name": "Application: Nom"
+    },
+    "user": {
+      "profile": {
+        "id": "Utilisateur : Identifiant unique (Identifiant unique Azure AD sous la forme d'un UUID)",
+        "city": "Utilisateur : Ville",
+        "companyName": "Utilisateur : Nom de l'entreprise",
+        "country": "Utilisateur : Pays",
+        "department": "Utilisateur : Département",
+        "displayName": "Utilisateur : Nom complet. Par exemple 'Alice Hawking'",
+        "employeeId": "Utilisateur : Matricule",
+        "givenName": "Utilisateur : Prénom",
+        "jobTitle": "Utilisateur : Fonction",
+        "mail": "Utilisateur : email",
+        "mailNickname": "Utilisateur : Préfixe email. Par exemple 'alice.hawking'",
+        "mobilePhone": "Utilisateur : Téléphone mobile",
+        "officeLocation": "Utilisateur : Bureau",
+        "postalCode": "Utilisateur : Code postal",
+        "preferredLanguage": "Utilisateur : Langue préférée. Par exemple 'en-US'",
+        "state": "Utilisateur : Etat",
+        "streetAddress": "Utilisateur : Adresse postale",
+        "surname": "Utilisateur : Nom de famille",
+        "usageLocation": "Utilisateur : Localisation de l'usage Microsoft 365. Par exemple 'US'",
+        "userPrincipalName": "Utilisateur : Nom d'utilisateur principal (UPN).",
+        "preferredDataLocation": "Utilisateur : Emplacement de Données Favori (PDL)",
+        "onPremisesExtensionAttributes": {
+          "extensionAttribute1": "Utilisateur : Attribut d'extension 'on-premises' 1",
+          "extensionAttribute2": "Utilisateur : Attribut d'extension 'on-premises' 2",
+          "extensionAttribute3": "Utilisateur : Attribut d'extension 'on-premises' 3",
+          "extensionAttribute4": "Utilisateur : Attribut d'extension 'on-premises' 4",
+          "extensionAttribute5": "Utilisateur : Attribut d'extension 'on-premises' 5",
+          "extensionAttribute6": "Utilisateur : Attribut d'extension 'on-premises' 6",
+          "extensionAttribute7": "Utilisateur : Attribut d'extension 'on-premises' 7",
+          "extensionAttribute8": "Utilisateur : Attribut d'extension 'on-premises' 8",
+          "extensionAttribute9": "Utilisateur : Attribut d'extension 'on-premises' 9",
+          "extensionAttribute10": "Utilisateur : Attribut d'extension 'on-premises' 10",
+          "extensionAttribute11": "Utilisateur : Attribut d'extension 'on-premises' 11",
+          "extensionAttribute12": "Utilisateur : Attribut d'extension 'on-premises' 12",
+          "extensionAttribute13": "Utilisateur : Attribut d'extension 'on-premises' 13",
+          "extensionAttribute14": "Utilisateur : Attribut d'extension 'on-premises' 14",
+          "extensionAttribute15": "Utilisateur : Attribut d'extension 'on-premises' 15"
+        }
+      },
+      "groups": {
+        "direct": "Groupes : Tous les groupes dont l'utilisateur est un membre DIRECT.",
+        "transitive": "Groupes : Tous les groupes dont l'utilisateur est membre, y compris par TRANSITIVITE."
+      }
+    },
+    "request": {
+      "team": {
+        "name": "Requête : Nom de l'équipe",
+        "description": "Requête : Description de l'équipe",
+        "welcomeMessage": "Requête : Message de bienvenue"
+      },
+      "template": {
+        "name": "Requête : Nom du modèle"
+      }
+    },
+    "uniqueId": {
+      "fromDate": "Identifiant unique : Un identifiant unique généré à partir de la date et l'heure courante. Par exemple '1597065805024'",
+      "uuid": "Identifiant unique : Un identifiant unique généré aléatoirement sous la forme d'un UUID. Par exemple '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+    }
+  }
 }

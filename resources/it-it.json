@@ -761,7 +761,7 @@
                 "placeholder": "Inserire regola Targeting (usare @ oppure # per includere gli attributi)",
                 "checkSyntax": {
                   "button": "Verifica la sintassi",
-									"selectUser":"Select a user profile to test your audience targeting rule:"
+                  "selectUser": "Select a user profile to test your audience targeting rule:"
                 }
               }
             },
@@ -777,10 +777,10 @@
                 "rules": {
                   "placeholder": "Enter classification (use @ or # to include dynamic content)"
                 },
-								"permissionsWarning": {
-									"message": "To access this feature, you need to grant SalesTim new permissions.",
-									"button": "Grant Permissions"
-								}
+                "permissionsWarning": {
+                  "message": "To access this feature, you need to grant SalesTim new permissions.",
+                  "button": "Grant Permissions"
+                }
               },
               "multigeo": {
                 "title": "🌎 Multi-Geo",
@@ -947,30 +947,30 @@
         }
       }
     },
-		"integration": {
-			"title": "Integration",
-			"hooks": {
-				"tab": {
-					"title": "Webhooks"
-				},
-				"title": "Your webhooks",
-				"new": {
-					"button": "<i class='fa fa-plus-square'></i> New wehbook"
-				},
-				"save":{
-					"button":"<i class='fa fa-floppy-o'></i> Save"
-				},
-				"create": {
-					"button": "<i class='fa fa-floppy-o'></i> Create"
-				},
-				"cancel":{
-					"button":"<i class='fa fa-ban'></i> Cancel"
-				},
-				"delete":{
-					"button":"<i class='fa fa-trash'></i> Delete"
-				}
-			}
-		},
+    "integration": {
+      "title": "Integration",
+      "hooks": {
+        "tab": {
+          "title": "Webhooks"
+        },
+        "title": "Your webhooks",
+        "new": {
+          "button": "<i class='fa fa-plus-square'></i> New wehbook"
+        },
+        "save": {
+          "button": "<i class='fa fa-floppy-o'></i> Save"
+        },
+        "create": {
+          "button": "<i class='fa fa-floppy-o'></i> Create"
+        },
+        "cancel": {
+          "button": "<i class='fa fa-ban'></i> Cancel"
+        },
+        "delete": {
+          "button": "<i class='fa fa-trash'></i> Delete"
+        }
+      }
+    },
     "settings": {
       "save": {
         "success": {
@@ -1031,11 +1031,11 @@
           "help": "Integration Managers can create, update and delete webhooks and configure connected apps.<br />You can select up to 50 catalog managers",
           "placeholder": "Search for users by given name or surname..."
         },
-				"changeManagers": {
-					"label": "Change Managers",
-					"help": "Change Managers can prepare for the upcoming changes by testing and validating new updates before they are released to all the users in the organization.<br />You can select up to 50 change managers",
-					"placeholder": "Search for users by given name or surname..."
-				}
+        "changeManagers": {
+          "label": "Change Managers",
+          "help": "Change Managers can prepare for the upcoming changes by testing and validating new updates before they are released to all the users in the organization.<br />You can select up to 50 change managers",
+          "placeholder": "Search for users by given name or surname..."
+        }
       },
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Account di servizio",
@@ -1396,9 +1396,9 @@
         "2": {
           "name": "Impostazioni"
         },
-				"3": {
-					"name": "Integration"
-				}
+        "3": {
+          "name": "Integration"
+        }
       }
     },
     "targeted": {
@@ -1540,6 +1540,10 @@
     }
   },
   "tags": {
+    "app": {
+      "id": "App: ID",
+      "name": "App: Name"
+    },
     "user": {
       "profile": {
         "id": "User: ID (Unique Azure AD identifier as a UUID)",
