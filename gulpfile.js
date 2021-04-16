@@ -79,6 +79,16 @@ const pushToMaster = (done) => {
   git.push('origin', 'master', done)
 }
 
+const createTag = (done) => {
+  git.tag(`v${pck.version}`, `Build Version: ${pck.version}`, function (err) {
+    if (!err) {
+      done()
+    } else {
+      done(err)
+    }
+  })
+}
+
 // #endregion PUSH
 
 // #region EXPORTS
@@ -86,6 +96,7 @@ exports.push = gulp.series(
   logInfos,
   bumpPackageJson,
   commitChanges,
-  pushToMaster
+  pushToMaster,
+  createTag
 )
 // #endregion EXPORTS
