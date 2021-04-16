@@ -96,7 +96,7 @@ exports.push = gulp.series(
   logInfos,
   bumpPackageJson,
   commitChanges,
-  pushToMaster,
-  createTag
+  createTag,
+  pushToMaster
 )
 // #endregion EXPORTS
