@@ -1050,6 +1050,9 @@
             "message": "Errore nel caricamento del tuo account di servizio"
           }
         },
+        "permissions": {
+          "help": "Granted Permissions:"
+        },
         "select": {
           "button": "<i class='fa fa-sign-in'></i> Aggiorna",
           "waitMessage": "⏳ Aggiornamento del tuo account di servizio..."

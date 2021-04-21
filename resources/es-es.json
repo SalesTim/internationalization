@@ -1050,6 +1050,9 @@
             "message": "Error al cargar tu cuenta de servicio"
           }
         },
+        "permissions": {
+          "help": "Granted Permissions:"
+        },
         "select": {
           "button": "<i class='fa fa-sign-in'></i> Actualizar",
           "waitMessage": "⏳ Actualizando Cuenta de Servicio..."

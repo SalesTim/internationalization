@@ -1050,6 +1050,9 @@
             "message": "Fehler beim Laden des Dienstkonto"
           }
         },
+        "permissions": {
+          "help": "Granted Permissions:"
+        },
         "select": {
           "button": "<i class='fa fa-Anmelden'></i> Update",
           "waitMessage": "⏳ Update des Dienstkonto..."

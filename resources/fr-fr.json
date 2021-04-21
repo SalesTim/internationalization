@@ -1050,6 +1050,9 @@
             "message": "Erreur lors du chargement du compte de service"
           }
         },
+        "permissions": {
+          "help": "Permissions Accordées:"
+        },
         "select": {
           "button": "<i class='fa fa-sign-in'></i> Mettre à jour",
           "waitMessage": "⏳ Mise à jour..."
