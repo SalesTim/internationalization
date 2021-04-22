@@ -983,7 +983,7 @@
             "message": "No integration available..."
           },
           "entities": {
-            "supported": "Supported Entities:"
+            "supported": "Connected Entities:"
           }
         },
         "configurations": {
