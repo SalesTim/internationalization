@@ -983,12 +983,12 @@
             "message": "No integration available..."
           },
           "entities": {
-            "supprted": "Supported Entities:"
+            "supported": "Supported Entities:"
           }
         },
         "configurations": {
           "none": {
-            "message": "You don't have any connected app...",
+            "message": "You don't have any Connected App...",
             "action": {
               "message": "Create a new one!"
             }
