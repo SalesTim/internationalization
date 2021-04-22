@@ -953,9 +953,9 @@
         "tab": {
           "title": "Webhooks"
         },
-        "title": "Your webhooks",
+        "title": "Webhooks",
         "new": {
-          "button": "<i class='far fa-plus-square'></i> New wehbook"
+          "button": "<i class='far fa-plus-square'></i> New Wehbook"
         },
         "save": {
           "button": "<i class='far fa-save'></i> Save"
