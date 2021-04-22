@@ -1033,11 +1033,11 @@
         "button": "💨 Sign-out"
       },
       "security": {
-        "title": "<i class='fa fa-shield-alt'></i> Security"
+        "title": "<i class='fas fa-shield-alt'></i> Security"
       },
       "approval": {
         "tab": {
-          "title": "<i class='fa fa-check-circle-o'></i> Approval"
+          "title": "<i class='far fa-check-circle'></i> Approval"
         },
         "actionableMessage": {
           "navbar": {
@@ -1062,10 +1062,10 @@
       },
       "rbac": {
         "tab": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "navbar": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "save": {
           "button": "<i class='far fa-save'></i> Save",
@@ -1108,7 +1108,7 @@
           "waitMessage": "⏳ Updating service account..."
         },
         "check": {
-          "button": "<i class='fa fa-check-circle-o'></i> Check requirements",
+          "button": "<i class='far fa-check-circle'></i> Check requirements",
           "waitMessage": "⏳ Checking requirements..."
         },
         "delete": {
@@ -1118,7 +1118,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square'></i> Check Admin Consent",
+          "button": "<i class='far fa-check-square'></i> Check Admin Consent",
           "waitMessage": "⏳ Checking Admin Consent..."
         }
       },
@@ -1150,9 +1150,9 @@
         "title": "🎯 Targeted deployments"
       },
       "systemInformation": {
-        "title": "<i class='fa fa-info-circle'></i> System Information",
+        "title": "<i class='fas fa-info-circle'></i> System Information",
         "environment": {
-          "title": "<i class='fa fa-server'></i> Environment"
+          "title": "<i class='fas fa-server'></i> Environment"
         },
         "knownIssues": {
           "title": "🚩 Known Issues"
@@ -1161,14 +1161,14 @@
           "title": "<i class='far fa-copyright'></i> License"
         },
         "usagerights": {
-          "title": "<i class='fa fa-balance-scale'></i> Legal"
+          "title": "<i class='fas fa-balance-scale'></i> Legal"
         },
         "tos": {
-          "title": "<i class='fa fa-balance-scale'></i> Terms of Service",
+          "title": "<i class='fas fa-balance-scale'></i> Terms of Service",
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield-alt'></i> Privacy",
+          "title": "<i class='fas fa-shield-alt'></i> Privacy",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {

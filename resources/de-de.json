@@ -983,11 +983,11 @@
         "button": "💨 Log aus"
       },
       "security": {
-        "title": "<i class='fa fa-shield-alt'></i> Sicherheit"
+        "title": "<i class='fas fa-shield-alt'></i> Sicherheit"
       },
       "approval": {
         "tab": {
-          "title": "<i class='fa fa-check-circle-o'></i>  Genehmigung"
+          "title": "<i class='far fa-check-circle'></i>  Genehmigung"
         },
         "actionableMessage": {
           "navbar": {
@@ -1012,10 +1012,10 @@
       },
       "rbac": {
         "tab": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "navbar": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "save": {
           "button": "<i class='far fa-save'></i> Save",
@@ -1058,7 +1058,7 @@
           "waitMessage": "⏳ Update des Dienstkonto..."
         },
         "check": {
-          "button": "<i class='fa fa-check-circle-o'></i> Prüfe Anforderungen",
+          "button": "<i class='far fa-check-circle'></i> Prüfe Anforderungen",
           "waitMessage": "⏳ Prüfe Anforderungen..."
         },
         "delete": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square'></i> Prüfe Admininhalte",
+          "button": "<i class='far fa-check-square'></i> Prüfe Admininhalte",
           "waitMessage": "⏳ Prüfe Admininhalte..."
         }
       },
@@ -1100,9 +1100,9 @@
         "title": "🎯 Zielgerichtete Einsätze"
       },
       "systemInformation": {
-        "title": "<i class='fa fa-info-circle'></i> System Information",
+        "title": "<i class='fas fa-info-circle'></i> System Information",
         "environment": {
-          "title": "<i class='fa fa-server'></i> Umgebung"
+          "title": "<i class='fas fa-server'></i> Umgebung"
         },
         "knownIssues": {
           "title": "🚩 Bekannte Probleme"
@@ -1111,14 +1111,14 @@
           "title": "<i class='far fa-copyright'></i> Lizenz"
         },
         "usagerights": {
-          "title": "<i class='fa fa-balance-scale'></i> Rechtliches"
+          "title": "<i class='fas fa-balance-scale'></i> Rechtliches"
         },
         "tos": {
-          "title": "<i class='fa fa-balance-scale'></i> Nutzungsbedingungen",
+          "title": "<i class='fas fa-balance-scale'></i> Nutzungsbedingungen",
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield-alt'></i> Datenschutz",
+          "title": "<i class='fas fa-shield-alt'></i> Datenschutz",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {

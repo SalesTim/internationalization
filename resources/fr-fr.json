@@ -983,11 +983,11 @@
         "button": "💨 Me déconnecter"
       },
       "security": {
-        "title": "<i class='fa fa-shield-alt'></i> Sécurité"
+        "title": "<i class='fas fa-shield-alt'></i> Sécurité"
       },
       "approval": {
         "tab": {
-          "title": "<i class='fa fa-check-circle-o'></i> Approbation"
+          "title": "<i class='far fa-check-circle'></i> Approbation"
         },
         "actionableMessage": {
           "navbar": {
@@ -1012,10 +1012,10 @@
       },
       "rbac": {
         "tab": {
-          "title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Rôles (RBAC)"
         },
         "navbar": {
-          "title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Rôles (RBAC)"
         },
         "save": {
           "button": "<i class='far fa-save'></i> Sauvegarder",
@@ -1058,7 +1058,7 @@
           "waitMessage": "⏳ Mise à jour..."
         },
         "check": {
-          "button": "<i class='fa fa-check-circle-o'></i> Contrôler les prérequis",
+          "button": "<i class='far fa-check-circle'></i> Contrôler les prérequis",
           "waitMessage": "⏳ Contrôle des prérequis..."
         },
         "delete": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square'></i> Contrôler le consentement administrateur",
+          "button": "<i class='far fa-check-square'></i> Contrôler le consentement administrateur",
           "waitMessage": "⏳ Contrôle du consentement administrateur..."
         }
       },
@@ -1100,9 +1100,9 @@
         "title": "🎯 Déploiements ciblés"
       },
       "systemInformation": {
-        "title": "<i class='fa fa-info-circle'></i> Informations système",
+        "title": "<i class='fas fa-info-circle'></i> Informations système",
         "environment": {
-          "title": "<i class='fa fa-server'></i> Environnement"
+          "title": "<i class='fas fa-server'></i> Environnement"
         },
         "knownIssues": {
           "title": "🚩 Problèmes connus"
@@ -1111,14 +1111,14 @@
           "title": "<i class='far fa-copyright'></i> License"
         },
         "usagerights": {
-          "title": "<i class='fa fa-balance-scale'></i> Informations juridiques (EN)"
+          "title": "<i class='fas fa-balance-scale'></i> Informations juridiques (EN)"
         },
         "tos": {
-          "title": "<i class='fa fa-balance-scale'></i> Termes d'utilisation (EN)",
+          "title": "<i class='fas fa-balance-scale'></i> Termes d'utilisation (EN)",
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield-alt'></i> Politique de confidentialité (EN)",
+          "title": "<i class='fas fa-shield-alt'></i> Politique de confidentialité (EN)",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {

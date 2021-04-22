@@ -983,11 +983,11 @@
         "button": "💨 Disconnettiti"
       },
       "security": {
-        "title": "<i class='fa fa-shield-alt'></i> Sicurezza"
+        "title": "<i class='fas fa-shield-alt'></i> Sicurezza"
       },
       "approval": {
         "tab": {
-          "title": "<i class='fa fa-check-circle-o'></i> Approvazione"
+          "title": "<i class='far fa-check-circle'></i> Approvazione"
         },
         "actionableMessage": {
           "navbar": {
@@ -1012,10 +1012,10 @@
       },
       "rbac": {
         "tab": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "navbar": {
-          "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
+          "title": "<i class='far fa-id-card'></i> Roles (RBAC)"
         },
         "save": {
           "button": "<i class='far fa-save'></i> Save",
@@ -1058,7 +1058,7 @@
           "waitMessage": "⏳ Aggiornamento del tuo account di servizio..."
         },
         "check": {
-          "button": "<i class='fa fa-check-circle-o'></i> Verifica prerequisiti",
+          "button": "<i class='far fa-check-circle'></i> Verifica prerequisiti",
           "waitMessage": "⏳ Verifica dei prerequisiti..."
         },
         "delete": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square'></i> Verifica autorizzazione dell'amministratore ",
+          "button": "<i class='far fa-check-square'></i> Verifica autorizzazione dell'amministratore ",
           "waitMessage": "⏳ Verifica dell'autorizzazione..."
         }
       },
@@ -1100,9 +1100,9 @@
         "title": "🎯 Deployment destinati"
       },
       "systemInformation": {
-        "title": "<i class='fa fa-info-circle'></i> Informazioni sul sistema",
+        "title": "<i class='fas fa-info-circle'></i> Informazioni sul sistema",
         "environment": {
-          "title": "<i class='fa fa-server'></i> Ambiente"
+          "title": "<i class='fas fa-server'></i> Ambiente"
         },
         "knownIssues": {
           "title": "🚩 Errori conosciuti"
@@ -1111,14 +1111,14 @@
           "title": "<i class='far fa-copyright'></i> Licenza"
         },
         "usagerights": {
-          "title": "<i class='fa fa-balance-scale'></i> Legale"
+          "title": "<i class='fas fa-balance-scale'></i> Legale"
         },
         "tos": {
-          "title": "<i class='fa fa-balance-scale'></i> Termini del Servizio",
+          "title": "<i class='fas fa-balance-scale'></i> Termini del Servizio",
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield-alt'></i> Privacy",
+          "title": "<i class='fas fa-shield-alt'></i> Privacy",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {
