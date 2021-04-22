@@ -985,9 +985,9 @@
         },
         "configurations": {
           "none": {
-            "message": "",
+            "message": "You don't have any connected app...",
             "action": {
-              "message": "Create a new Connected App!"
+              "message": "Create a new one!"
             }
           }
         },
