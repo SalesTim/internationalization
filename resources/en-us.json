@@ -969,6 +969,56 @@
         "delete": {
           "button": "<i class='fa fa-trash'></i> Delete"
         }
+      },
+      "connectedapps": {
+        "title": "Connected Apps",
+        "integrations": {
+          "show": {
+            "button": "<i class='fa fa-plus-square'></i> New Connected App"
+          },
+          "none": {
+            "message": "No integration available..."
+          },
+          "entities": {
+            "supprted": "Supported Entities:"
+          }
+        },
+        "configurations": {
+          "none": {
+            "message": "",
+            "action": {
+              "message": "Create a new Connected App!"
+            }
+          }
+        },
+        "save": {
+          "configurations": {
+            "button": "<i class='fa fa-floppy-o'></i> Save"
+          }
+        },
+        "cancel": {
+          "configurations": {
+            "button": "<i class='fa fa-ban'></i> Cancel"
+          }
+        },
+        "new": {
+          "title": "New Connected App"
+        },
+        "delete": {
+          "configuration": {
+            "button": "<i class='fa fa-trash'></i> Delete"
+          }
+        },
+        "learnmore": {
+          "integration": {
+            "button": "Learn more..."
+          }
+        },
+        "select": {
+          "integration": {
+            "button": "Select"
+          }
+        }
       }
     },
     "settings": {
