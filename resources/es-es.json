@@ -3,15 +3,15 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='fa fa-comments-o'></i> Habla con nuestro equipo de Soporte",
-        "notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
+        "button": "<i class='far fa-comments'></i> Habla con nuestro equipo de Soporte",
+        "notAdmin": "<i class='far fa-comments'></i> I'm not an administrator",
         "defaultMessage": "Hola, tengo un problema 😱, por favor ayúdame! [ Información Técnica: %s ]"
       },
       "backToHome": {
         "button": "<i class='fa fa-arrow-circle-o-left'></i> Volver a la página de inicio"
       },
       "cancel": {
-        "button": "<i class='fa fa-ban'></i> Cancelar"
+        "button": "<i class='fas fa-ban'></i> Cancelar"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
@@ -606,7 +606,7 @@
     "catalog": {
       "title": "Catálogo de Plantillas",
       "filters": {
-        "all": "<i class='fa fa-globe'></i>  Todo",
+        "all": "<i class='fas fa-globe'></i>  Todo",
         "disabled": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span>  APAGADO",
         "enabled": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span>  ENCENDIDO"
       },
@@ -655,10 +655,10 @@
         }
       },
       "newTemplate": {
-        "button": "<i class='fa fa-plus-square'></i> Nueva Plantilla",
+        "button": "<i class='far fa-plus-square'></i> Nueva Plantilla",
         "buttonEdit": "Guarda",
         "form": {
-          "title": "<i class='fa fa-copy'></i> Plantilla",
+          "title": "<i class='far fa-copy'></i> Plantilla",
           "titleEdit": "Edita la Plantilla \"",
           "selectTemplate": {
             "message": "Equipo seleccionado para ser clonado",
@@ -869,7 +869,7 @@
             "button": "Cancelar"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Guardar"
+            "button": "<i class='far fa-save'></i> Guardar"
           }
         },
         "error": {
@@ -955,16 +955,16 @@
         },
         "title": "Your webhooks",
         "new": {
-          "button": "<i class='fa fa-plus-square'></i> New wehbook"
+          "button": "<i class='far fa-plus-square'></i> New wehbook"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Save"
+          "button": "<i class='far fa-save'></i> Save"
         },
         "create": {
-          "button": "<i class='fa fa-floppy-o'></i> Create"
+          "button": "<i class='far fa-save'></i> Create"
         },
         "cancel": {
-          "button": "<i class='fa fa-ban'></i> Cancel"
+          "button": "<i class='fas fa-ban'></i> Cancel"
         },
         "delete": {
           "button": "<i class='fa fa-trash'></i> Delete"
@@ -983,7 +983,7 @@
         "button": "💨 Desconectar"
       },
       "security": {
-        "title": "<i class='fa fa-shield'></i> Seguridad"
+        "title": "<i class='fa fa-shield-alt'></i> Seguridad"
       },
       "approval": {
         "tab": {
@@ -994,7 +994,7 @@
             "title": "<i class='fa fa-envelope-o'></i> Mensaje procesable"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Save",
+            "button": "<i class='far fa-save'></i> Save",
             "waiting": "⏳ Guardando..."
           },
           "help": "Mensaje procesable ayuda. Ve <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>El flujo de trabajo de aprobación de creación de equipos/a></i></b> from our Tech Hub.",
@@ -1018,7 +1018,7 @@
           "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Save",
+          "button": "<i class='far fa-save'></i> Save",
           "waiting": "⏳ Saving..."
         },
         "catalogManagers": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square-o'></i> Verifica Consentimiento del Administrador",
+          "button": "<i class='fa fa-check-square'></i> Verifica Consentimiento del Administrador",
           "waitMessage": "⏳ Verificando Consentimiento del Administrador..."
         }
       },
@@ -1108,7 +1108,7 @@
           "title": "🚩 Problemas Conocidos"
         },
         "license": {
-          "title": "<i class='fa fa-copyright'></i> Licencia"
+          "title": "<i class='far fa-copyright'></i> Licencia"
         },
         "usagerights": {
           "title": "<i class='fa fa-balance-scale'></i> Legal"
@@ -1118,7 +1118,7 @@
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield'></i> Privacidad",
+          "title": "<i class='fa fa-shield-alt'></i> Privacidad",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {

@@ -3,15 +3,15 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='fa fa-comments-o'></i> Talk to our Support",
-        "notAdmin": "<i class='fa fa-comments-o'></i> I'm not an administrator",
+        "button": "<i class='far fa-comments'></i> Talk to our Support",
+        "notAdmin": "<i class='far fa-comments'></i> I'm not an administrator",
         "defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
       },
       "backToHome": {
         "button": "<i class='fa fa-arrow-circle-o-left'></i> Back to Home"
       },
       "cancel": {
-        "button": "<i class='fa fa-ban'></i> Cancel"
+        "button": "<i class='fas fa-ban'></i> Cancel"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
@@ -606,7 +606,7 @@
     "catalog": {
       "title": "Templates Catalog",
       "filters": {
-        "all": "<i class='fa fa-globe'></i>  All",
+        "all": "<i class='fas fa-globe'></i>  All",
         "disabled": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span>  OFF",
         "enabled": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span>  ON"
       },
@@ -655,10 +655,10 @@
         }
       },
       "newTemplate": {
-        "button": "<i class='fa fa-plus-square'></i> New template",
+        "button": "<i class='far fa-plus-square'></i> New template",
         "buttonEdit": "Save",
         "form": {
-          "title": "<i class='fa fa-copy'></i> Template",
+          "title": "<i class='far fa-copy'></i> Template",
           "titleEdit": "Edit template \"",
           "selectTemplate": {
             "message": "Selected team to be cloned",
@@ -869,7 +869,7 @@
             "button": "Cancel"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Save"
+            "button": "<i class='far fa-save'></i> Save"
           }
         },
         "error": {
@@ -955,16 +955,16 @@
         },
         "title": "Your webhooks",
         "new": {
-          "button": "<i class='fa fa-plus-square'></i> New wehbook"
+          "button": "<i class='far fa-plus-square'></i> New wehbook"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Save"
+          "button": "<i class='far fa-save'></i> Save"
         },
         "create": {
-          "button": "<i class='fa fa-floppy-o'></i> Create"
+          "button": "<i class='far fa-save'></i> Create"
         },
         "cancel": {
-          "button": "<i class='fa fa-ban'></i> Cancel"
+          "button": "<i class='fas fa-ban'></i> Cancel"
         },
         "delete": {
           "button": "<i class='fa fa-trash'></i> Delete"
@@ -983,7 +983,7 @@
         "button": "💨 Sign-out"
       },
       "security": {
-        "title": "<i class='fa fa-shield'></i> Security"
+        "title": "<i class='fa fa-shield-alt'></i> Security"
       },
       "approval": {
         "tab": {
@@ -994,7 +994,7 @@
             "title": "<i class='fa fa-envelope-o'></i> Actionable Message"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Save",
+            "button": "<i class='far fa-save'></i> Save",
             "waiting": "⏳ Saving..."
           },
           "help": "Actionable message help. See <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Team creation approval workflow</a></i></b> from our Tech Hub.",
@@ -1018,7 +1018,7 @@
           "title": "<i class='fa fa-id-card'></i> Roles (RBAC)"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Save",
+          "button": "<i class='far fa-save'></i> Save",
           "waiting": "⏳ Saving..."
         },
         "catalogManagers": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square-o'></i> Check Admin Consent",
+          "button": "<i class='fa fa-check-square'></i> Check Admin Consent",
           "waitMessage": "⏳ Checking Admin Consent..."
         }
       },
@@ -1108,7 +1108,7 @@
           "title": "🚩 Known Issues"
         },
         "license": {
-          "title": "<i class='fa fa-copyright'></i> License"
+          "title": "<i class='far fa-copyright'></i> License"
         },
         "usagerights": {
           "title": "<i class='fa fa-balance-scale'></i> Legal"
@@ -1118,7 +1118,7 @@
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield'></i> Privacy",
+          "title": "<i class='fa fa-shield-alt'></i> Privacy",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {

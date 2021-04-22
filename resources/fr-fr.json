@@ -3,15 +3,15 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='fa fa-comments-o'></i> Parler au support",
-        "notAdmin": "<i class='fa fa-comments-o'></i> Je ne suis pas administrateur",
+        "button": "<i class='far fa-comments'></i> Parler au support",
+        "notAdmin": "<i class='far fa-comments'></i> Je ne suis pas administrateur",
         "defaultMessage": "Bonjour, j'ai besoin d'aide!"
       },
       "backToHome": {
         "button": "<i class='fa fa-arrow-circle-o-left'></i> Retour à l'accueil"
       },
       "cancel": {
-        "button": "<i class='fa fa-ban'></i> Annuler"
+        "button": "<i class='fas fa-ban'></i> Annuler"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
@@ -606,7 +606,7 @@
     "catalog": {
       "title": "Catalogue de Modèles",
       "filters": {
-        "all": "<i class='fa fa-globe'></i>  Tous",
+        "all": "<i class='fas fa-globe'></i>  Tous",
         "disabled": "<span style='color: brown;'><i class='fa fa-toggle-off'></i></span>  Désactivés",
         "enabled": "<span style='color: green;'><i class='fa fa-toggle-on'></i></span>  Activés"
       },
@@ -655,10 +655,10 @@
         }
       },
       "newTemplate": {
-        "button": "<i class='fa fa-plus-square'></i> Nouveau modèle",
+        "button": "<i class='far fa-plus-square'></i> Nouveau modèle",
         "buttonEdit": "Enregistrer",
         "form": {
-          "title": "<i class='fa fa-copy'></i> Modèle",
+          "title": "<i class='far fa-copy'></i> Modèle",
           "titleEdit": "Modifier le modèle \"",
           "selectTemplate": {
             "message": "Selectionnez l'équipe à dupliquer",
@@ -869,7 +869,7 @@
             "button": "Annuler"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Enregistrer"
+            "button": "<i class='far fa-save'></i> Enregistrer"
           }
         },
         "error": {
@@ -955,16 +955,16 @@
         },
         "title": "Vos webhooks",
         "new": {
-          "button": "<i class='fa fa-plus-square'></i> Nouveau wehbook"
+          "button": "<i class='far fa-plus-square'></i> Nouveau wehbook"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Enregistrer"
+          "button": "<i class='far fa-save'></i> Enregistrer"
         },
         "create": {
-          "button": "<i class='fa fa-floppy-o'></i> Créer"
+          "button": "<i class='far fa-save'></i> Créer"
         },
         "cancel": {
-          "button": "<i class='fa fa-ban'></i> Annuler"
+          "button": "<i class='fas fa-ban'></i> Annuler"
         },
         "delete": {
           "button": "<i class='fa fa-trash'></i> Supprimer"
@@ -983,7 +983,7 @@
         "button": "💨 Me déconnecter"
       },
       "security": {
-        "title": "<i class='fa fa-shield'></i> Sécurité"
+        "title": "<i class='fa fa-shield-alt'></i> Sécurité"
       },
       "approval": {
         "tab": {
@@ -994,7 +994,7 @@
             "title": "<i class='fa fa-envelope-o'></i> Messages Actionnables"
           },
           "save": {
-            "button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+            "button": "<i class='far fa-save'></i> Sauvegarder",
             "waiting": "⏳ Enregistrement..."
           },
           "help": "Messages Actionnables: aide. Voir <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow d'Approbation</a></i></b> sur notre Tech Hub.",
@@ -1018,7 +1018,7 @@
           "title": "<i class='fa fa-id-card'></i> Rôles (RBAC)"
         },
         "save": {
-          "button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+          "button": "<i class='far fa-save'></i> Sauvegarder",
           "waiting": "⏳ Enregistrement..."
         },
         "catalogManagers": {
@@ -1068,7 +1068,7 @@
       },
       "adminConsent": {
         "check": {
-          "button": "<i class='fa fa-check-square-o'></i> Contrôler le consentement administrateur",
+          "button": "<i class='fa fa-check-square'></i> Contrôler le consentement administrateur",
           "waitMessage": "⏳ Contrôle du consentement administrateur..."
         }
       },
@@ -1108,7 +1108,7 @@
           "title": "🚩 Problèmes connus"
         },
         "license": {
-          "title": "<i class='fa fa-copyright'></i> License"
+          "title": "<i class='far fa-copyright'></i> License"
         },
         "usagerights": {
           "title": "<i class='fa fa-balance-scale'></i> Informations juridiques (EN)"
@@ -1118,7 +1118,7 @@
           "url": "https://www.salestim.com/legal/tos"
         },
         "privacy": {
-          "title": "<i class='fa fa-shield'></i> Politique de confidentialité (EN)",
+          "title": "<i class='fa fa-shield-alt'></i> Politique de confidentialité (EN)",
           "url": "https://www.salestim.com/legal/privacy"
         },
         "changelog": {
