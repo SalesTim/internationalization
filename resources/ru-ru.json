@@ -967,7 +967,7 @@
           "button": "<i class='fas fa-ban'></i> Cancel"
         },
         "delete": {
-          "button": "<i class='fa fa-trash'></i> Delete"
+          "button": "<i class='far fa-trash-alt'></i> Delete"
         }
       }
     },
@@ -991,7 +991,7 @@
         },
         "actionableMessage": {
           "navbar": {
-            "title": "<i class='fa fa-envelope-o'></i> Actionable Message"
+            "title": "<i class='far fa-envelope'></i> Actionable Message"
           },
           "save": {
             "button": "<i class='far fa-save'></i> Save",
@@ -1038,7 +1038,7 @@
         }
       },
       "serviceAccount": {
-        "title": "<i class='fa fa-user-secret'></i> Service Account",
+        "title": "<i class='fas fa-user-secret'></i> Service Account",
         "help": "Microsoft 365 Service Account: ",
         "none": "No service account defined.",
         "idLabel": "Service Account: ",
@@ -1054,7 +1054,7 @@
           "help": "Granted Permissions:"
         },
         "select": {
-          "button": "<i class='fa fa-sign-in'></i> Update",
+          "button": "<i class='fas fa-sign-in-alt'></i> Update",
           "waitMessage": "⏳ Updating service account..."
         },
         "check": {
@@ -1062,7 +1062,7 @@
           "waitMessage": "⏳ Checking requirements..."
         },
         "delete": {
-          "button": "<span style='color: brown;>'<i class='fa fa-trash'></i></span> Remove",
+          "button": "<span style='color: brown;>'<i class='far fa-trash-alt'></i></span> Remove",
           "waitMessage": "⏳ Removing service account..."
         }
       },

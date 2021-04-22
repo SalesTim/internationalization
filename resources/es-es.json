@@ -967,7 +967,7 @@
           "button": "<i class='fas fa-ban'></i> Cancel"
         },
         "delete": {
-          "button": "<i class='fa fa-trash'></i> Delete"
+          "button": "<i class='far fa-trash-alt'></i> Delete"
         }
       }
     },
@@ -991,7 +991,7 @@
         },
         "actionableMessage": {
           "navbar": {
-            "title": "<i class='fa fa-envelope-o'></i> Mensaje procesable"
+            "title": "<i class='far fa-envelope'></i> Mensaje procesable"
           },
           "save": {
             "button": "<i class='far fa-save'></i> Save",
@@ -1038,7 +1038,7 @@
         }
       },
       "serviceAccount": {
-        "title": "<i class='fa fa-user-secret'></i> Cuenta de Servicio",
+        "title": "<i class='fas fa-user-secret'></i> Cuenta de Servicio",
         "help": "Microsoft 365 Cuenta de Servicio: ",
         "none": "No cuenta de servicio definida.",
         "idLabel": "Cuenta de Servicio: ",
@@ -1054,7 +1054,7 @@
           "help": "Granted Permissions:"
         },
         "select": {
-          "button": "<i class='fa fa-sign-in'></i> Actualizar",
+          "button": "<i class='fas fa-sign-in-alt'></i> Actualizar",
           "waitMessage": "⏳ Actualizando Cuenta de Servicio..."
         },
         "check": {
@@ -1062,7 +1062,7 @@
           "waitMessage": "⏳ Verificando requisitos..."
         },
         "delete": {
-          "button": "<span style='color: brown;>'<i class='fa fa-trash'></i></span> Eliminar",
+          "button": "<span style='color: brown;>'<i class='far fa-trash-alt'></i></span> Eliminar",
           "waitMessage": "⏳ Eliminando Cuenta de Servicio..."
         }
       },

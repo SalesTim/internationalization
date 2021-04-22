@@ -967,7 +967,7 @@
           "button": "<i class='fas fa-ban'></i> Annuler"
         },
         "delete": {
-          "button": "<i class='fa fa-trash'></i> Supprimer"
+          "button": "<i class='far fa-trash-alt'></i> Supprimer"
         }
       }
     },
@@ -991,7 +991,7 @@
         },
         "actionableMessage": {
           "navbar": {
-            "title": "<i class='fa fa-envelope-o'></i> Messages Actionnables"
+            "title": "<i class='far fa-envelope'></i> Messages Actionnables"
           },
           "save": {
             "button": "<i class='far fa-save'></i> Sauvegarder",
@@ -1038,7 +1038,7 @@
         }
       },
       "serviceAccount": {
-        "title": "<i class='fa fa-user-secret'></i> Compte de service",
+        "title": "<i class='fas fa-user-secret'></i> Compte de service",
         "help": "Compte de service Microsoft 365 : ",
         "none": "Aucun compte de service défini.",
         "idLabel": "Compte de service : ",
@@ -1054,7 +1054,7 @@
           "help": "Permissions Accordées:"
         },
         "select": {
-          "button": "<i class='fa fa-sign-in'></i> Mettre à jour",
+          "button": "<i class='fas fa-sign-in-alt'></i> Mettre à jour",
           "waitMessage": "⏳ Mise à jour..."
         },
         "check": {
@@ -1062,7 +1062,7 @@
           "waitMessage": "⏳ Contrôle des prérequis..."
         },
         "delete": {
-          "button": "<span style='color: brown;>'<i class='fa fa-trash'></i></span> Supprimer",
+          "button": "<span style='color: brown;>'<i class='far fa-trash-alt'></i></span> Supprimer",
           "waitMessage": "⏳ Suppression du compte de service..."
         }
       },
