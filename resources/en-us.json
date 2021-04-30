@@ -1013,6 +1013,7 @@
               "version": "Version:"
             },
             "connection": {
+              "title": "Connection",
               "header": "Connection",
               "name": {
                 "label": "Connection Name",
@@ -1041,7 +1042,20 @@
               },
               "test": {
                 "button": "Test connection",
-                "message":"You have to test the connection before beeing able to enable a connected app."
+                "message": "You have to test the connection before beeing able to enable a connected app."
+              }
+            },
+            "entities": {
+              "actions": {
+                "header": "Actions",
+                "sync_with_team": {
+                  "label": "Sync with a team",
+                  "description": "Manage the entire lifecycle of a team based on what's happening to an entity."
+                },
+                "sync_with_channel": {
+                  "label": "Sync with a channel",
+                  "description": "Manage the entire lifecycle of a team's channel based on what's happening to an entity."
+                }
               }
             }
           }
