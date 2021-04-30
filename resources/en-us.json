@@ -1004,12 +1004,45 @@
               "message": "Create a new one!"
             }
           },
-          "connection": {
-            "header": "Connection",
-            "name": {
-              "label": "Connection Name",
-              "placeholder": "Type a connection name",
-              "help": "This name is purely informative and may help you differentiate multiple apps using the same provider."
+          "nav": {
+            "enabled": "enabled",
+            "disabled": "disabled"
+          },
+          "details": {
+            "integration": {
+              "version": "Version:"
+            },
+            "connection": {
+              "header": "Connection",
+              "name": {
+                "label": "Connection Name",
+                "placeholder": "Type a connection name",
+                "help": "This name is purely informative and may help you differentiate multiple apps using the same provider."
+              },
+              "clientId": {
+                "label": "Client ID",
+                "placeholder": "Type a client ID",
+                "help": "\"Client ID\" is sometimes also refered as \"Consumer Key\" by some providers."
+              },
+              "clientSecret": {
+                "label": "Client Secret",
+                "placeholder": "Type a client secret",
+                "help": "\"Client Secret\" is sometimes also refered as \"Consumer Secret\" by some providers."
+              },
+              "delete": {
+                "button": "Delete"
+              },
+              "state": {
+                "enabled": "Enabled",
+                "disabled": "Disabled"
+              },
+              "help": {
+                "button": "View Setup Guide"
+              },
+              "test": {
+                "button": "Test connection",
+                "message":"You have to test the connection before beeing able to enable a connected app."
+              }
             }
           }
         },
