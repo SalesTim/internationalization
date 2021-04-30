@@ -987,11 +987,21 @@
           }
         },
         "integrations": {
+          "title": "Connected Apps Gallery",
+          "loading": {
+            "message": "Loading Connected Apps Gallery..."
+          },
           "none": {
             "message": "No integration available..."
           },
           "entities": {
             "supported": "Connected Entities:"
+          },
+          "help": {
+            "button": "View Setup Guide"
+          },
+          "select": {
+            "button": "Connect"
           }
         },
         "configurations": {
@@ -1031,7 +1041,14 @@
                 "help": "\"Client Secret\" is sometimes also refered as \"Consumer Secret\" by some providers."
               },
               "delete": {
-                "button": "Delete"
+                "button": "Delete",
+                "confirmation": {
+                  "title": "Delete \"%s\"?",
+                  "message": "Are you really sure you want to delete the \"%s\" connected app?",
+                  "alert": "It will immediately stop all the related connected app agents and you won't be able to recover it later.",
+                  "cancel": "No",
+                  "confirm": "YES, DELETE \"%s\""
+                }
               },
               "state": {
                 "enabled": "Enabled",
@@ -1107,7 +1124,7 @@
                             "parent": "In the team of the parent entity"
                           }
                         },
-                        "specificTeam":{
+                        "specificTeam": {
                           "label": "Team",
                           "placeholder": "Search for a team by its display name",
                           "help": "N.B: Each team can have a maximum of 200 standard channels plus 30 private channels!"
@@ -1148,26 +1165,26 @@
                     "help": "This field follows the same syntax as our template audience targeting feature. See <b><a target='_blank' href='https://developers.salestim.com/nocode/audience-targeting'>this article</a></b> for reference."
                   }
                 }
+              },
+              "properties": {
+                "header": "Schema",
+                "system": {
+                  "header": "System Properties:",
+                  "none": "There is no system property defined for this entity."
+                },
+                "columns": {
+                  "id": {
+                    "label": "ID"
+                  },
+                  "name": {
+                    "label": "Name"
+                  },
+                  "label": {
+                    "label": "Label"
+                  }
+                }
               }
             }
-          }
-        },
-        "new": {
-          "title": "Connected Apps Gallery"
-        },
-        "delete": {
-          "configuration": {
-            "button": "<i class='far fa-trash-alt'></i> Delete"
-          }
-        },
-        "learnmore": {
-          "integration": {
-            "button": "<i class='far fa-question-circle'></i> Learn more..."
-          }
-        },
-        "select": {
-          "integration": {
-            "button": "<i class='fas fa-plug'></i> Connect"
           }
         }
       }
