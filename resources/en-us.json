@@ -1053,16 +1053,40 @@
                   "description": "Manage the entire lifecycle of a team based on what's happening to an entity.",
                   "events": {
                     "created": {
-                      "label": "`When '%s' is <b><i>created</i></b> or <b><i>updated</i></b>, create or update a team using this template:",
-                      "help": "N.B: You can update more template properties from your <b><a href='#' onclick='confirmOpenCatalog()'>Corporate catalog of collaboration templates</a></b>",
+                      "label": "When '%s' is <b><i>created</i></b> or <b><i>updated</i></b>, create or update a team using this template:",
+                      "help": "N.B: You can update more template properties from your <b><a href='#' onclick='state.confirmOpenCatalog()'>Corporate catalog of collaboration templates</a></b>",
                       "templates": {
                         "notLoaded": "Loading collaboration templates...",
                         "select": "Select a collaboration template",
                         "refresh": {
                           "title": "Refresh collaboration template list"
+                        },
+                        "teamName": {
+                          "label": "Team Name",
+                          "placeholder": "Enter team name (Use @ or # to include dynamic content)",
+                          "help": "N.B: This naming convention overrides the one defined at the template level."
+                        },
+                        "teamDescription": {
+                          "label": "Team Description",
+                          "placeholder": "Enter team description (Use @ or # to include dynamic content)",
+                          "help": "N.B: This description overrides the convention defined at the template level."
                         }
                       }
+                    },
+                    "deleted": {
+                      "label": "When '%s' is <b><i>deleted</i></b>, take this action:",
+                      "help": "To precisely understand the difference, please refer to <b><a target='_blank' href='https://docs.microsoft.com/en-us/microsoftteams/archive-or-delete-a-team'>\"Archive or delete a team in Microsoft Teams\"</a></b>.",
+                      "actions": {
+                        "none": "None",
+                        "delete": "🔥 Delete the team",
+                        "archive": "📦 Archive the team"
+                      }
                     }
+                  },
+                  "filters": {
+                    "label": "Only apply actions when 'Account' match the following conditions:",
+                    "placeholder": "Enter filters (Use @ or # to include dynamic content)",
+                    "help": "This field follows the same syntax as our template audience targeting feature. See <b><a target='_blank' href='https://developers.salestim.com/nocode/audience-targeting'>this article</a></b> for reference."
                   }
                 },
                 "sync_with_channel": {
