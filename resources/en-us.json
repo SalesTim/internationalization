@@ -975,10 +975,18 @@
           "title": "Connected Apps"
         },
         "title": "Connected Apps",
-        "integrations": {
-          "show": {
-            "button": "<i class='far fa-plus-square'></i> New Connected App"
+        "menu": {
+          "showIntegrations": {
+            "button": "New Connected App"
           },
+          "save": {
+            "button": "Save"
+          },
+          "cancel": {
+            "button": "Cancel"
+          }
+        },
+        "integrations": {
           "none": {
             "message": "No integration available..."
           },
@@ -987,21 +995,22 @@
           }
         },
         "configurations": {
+          "loading": {
+            "message": "Loading your configurations..."
+          },
           "none": {
             "message": "You don't have any Connected App...",
             "action": {
               "message": "Create a new one!"
             }
-          }
-        },
-        "save": {
-          "configurations": {
-            "button": "<i class='far fa-save'></i> Save"
-          }
-        },
-        "cancel": {
-          "configurations": {
-            "button": "<i class='fas fa-ban'></i> Cancel"
+          },
+          "connection": {
+            "header": "Connection",
+            "name": {
+              "label": "Connection Name",
+              "placeholder": "Type a connection name",
+              "help": "This name is purely informative and may help you differentiate multiple apps using the same provider."
+            }
           }
         },
         "new": {
