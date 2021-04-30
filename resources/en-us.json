@@ -948,6 +948,9 @@
       }
     },
     "integration": {
+      "launcher": {
+        "checking": "Checking your credentials and permissions..."
+      },
       "title": "Integration",
       "hooks": {
         "tab": {
@@ -1005,7 +1008,7 @@
             "supported": "Connected Entities:"
           },
           "help": {
-            "button": "View Setup Guide"
+            "button": "Setup Guide"
           },
           "select": {
             "button": "Connect"
@@ -1062,7 +1065,7 @@
                 "disabled": "Disabled"
               },
               "help": {
-                "button": "View Setup Guide"
+                "button": "Setup Guide"
               },
               "test": {
                 "button": "Test connection",
