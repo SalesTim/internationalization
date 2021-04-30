@@ -1055,7 +1055,7 @@
                     "created": {
                       "label": "When '%s' is <b><i>created</i></b> or <b><i>updated</i></b>, create or update a team using this template:",
                       "help": "N.B: You can update more template properties from your ",
-                      "catalogLink":"Corporate catalog of collaboration templates",
+                      "catalogLink": "Corporate catalog of collaboration templates",
                       "templates": {
                         "notLoaded": "Loading collaboration templates...",
                         "select": "Select a collaboration template",
@@ -1085,14 +1085,68 @@
                     }
                   },
                   "filters": {
-                    "label": "Only apply actions when 'Account' match the following conditions:",
+                    "label": "Only apply actions when '%s' match the following conditions:",
                     "placeholder": "Enter filters (Use @ or # to include dynamic content)",
                     "help": "This field follows the same syntax as our template audience targeting feature. See <b><a target='_blank' href='https://developers.salestim.com/nocode/audience-targeting'>this article</a></b> for reference."
                   }
                 },
                 "sync_with_channel": {
                   "label": "Sync with a channel",
-                  "description": "Manage the entire lifecycle of a team's channel based on what's happening to an entity."
+                  "description": "Manage the entire lifecycle of a team's channel based on what's happening to an entity.",
+                  "events": {
+                    "created": {
+                      "label": "When '%s' is <b><i>created</i></b> or <b><i>updated</i></b>, create or update a channel:",
+                      "help": "",
+                      "channel": {
+                        "location": {
+                          "label": "Where do you want to create the channel?",
+                          "select": "Select an option",
+                          "help": "N.B: If the parent entity (such as \"account\" for an \"opportunity\" in a CRM) doesn't have an associated team already, it will be automatically created.",
+                          "options": {
+                            "specific": "In a specific team",
+                            "parent": "In the team of the parent entity"
+                          }
+                        },
+                        "specificTeam":{
+                          "label": "Team",
+                          "placeholder": "Search for a team by its display name",
+                          "help": "N.B: Each team can have a maximum of 200 standard channels plus 30 private channels!"
+                        },
+                        "type": {
+                          "label": "What kind of channel do you want to create?",
+                          "select": "Select an option",
+                          "help": "N.B: Shared channels are coming soon, stay tuned.",
+                          "options": {
+                            "standard": "📢 Standard",
+                            "private": "🔐 Private"
+                          }
+                        },
+                        "channelName": {
+                          "label": "Channel Name",
+                          "placeholder": "Enter channel name (Use @ or # to include dynamic content)",
+                          "help": ""
+                        },
+                        "channelDescription": {
+                          "label": "Channel Description",
+                          "placeholder": "Enter channel description (Use @ or # to include dynamic content)",
+                          "help": ""
+                        }
+                      }
+                    },
+                    "deleted": {
+                      "label": "When '%s' is <b><i>deleted</i></b>, take this action:",
+                      "help": "",
+                      "actions": {
+                        "none": "None",
+                        "delete": "🔥 Delete the channel"
+                      }
+                    }
+                  },
+                  "filters": {
+                    "label": "Only apply actions when '%s' match the following conditions:",
+                    "placeholder": "Enter filters (Use @ or # to include dynamic content)",
+                    "help": "This field follows the same syntax as our template audience targeting feature. See <b><a target='_blank' href='https://developers.salestim.com/nocode/audience-targeting'>this article</a></b> for reference."
+                  }
                 }
               }
             }
