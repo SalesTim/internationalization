@@ -377,6 +377,11 @@
       "redirected": "Redirecting..."
     }
   },
+  "launcher": {
+    "checking": {
+      "message": "Checking your credentials and permissions..."
+    }
+  },
   "tabs": {
     "home": {
       "pagination": {
@@ -948,9 +953,6 @@
       }
     },
     "integration": {
-      "launcher": {
-        "checking": "Checking your credentials and permissions..."
-      },
       "title": "Integration",
       "hooks": {
         "tab": {
