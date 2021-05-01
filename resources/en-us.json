@@ -953,7 +953,7 @@
       }
     },
     "integration": {
-      "title": "Integration",
+      "title": "Connected Apps",
       "hooks": {
         "tab": {
           "title": "Webhooks"
@@ -1639,7 +1639,7 @@
           "name": "Settings"
         },
         "3": {
-          "name": "Integration"
+          "name": "Connected Apps"
         }
       }
     },
