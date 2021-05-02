@@ -1045,13 +1045,23 @@
               },
               "clientId": {
                 "label": "Client ID",
-                "placeholder": "Type a client ID",
+                "placeholder": "Enter a client ID",
                 "help": "\"Client ID\" is sometimes also refered as \"Consumer Key\" by some providers."
               },
               "clientSecret": {
                 "label": "Client Secret",
-                "placeholder": "Type a client secret",
+                "placeholder": "Enter a client secret",
                 "help": "\"Client Secret\" is sometimes also refered as \"Consumer Secret\" by some providers."
+              },
+              "baseUrl": {
+                "label": "Client Secret",
+                "placeholder": "Enter your API instance base URL",
+                "help": "Base URL of your API's instance."
+              },
+              "scope": {
+                "label": "Scope",
+                "placeholder": "Enter requester permissions",
+                "help": "Permissions granted during the OAuth authorization."
               },
               "delete": {
                 "button": "Delete",
