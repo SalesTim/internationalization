@@ -1054,7 +1054,7 @@
                 "help": "\"Client Secret\" is sometimes also refered as \"Consumer Secret\" by some providers."
               },
               "baseUrl": {
-                "label": "Client Secret",
+                "label": "Base URL",
                 "placeholder": "Enter your API instance base URL",
                 "help": "Base URL of your API's instance."
               },
@@ -1088,7 +1088,7 @@
                   "title": "Connected App successfully authorized"
                 },
                 "error": {
-                  "title": "Error authorizing connected app"
+                  "title": "Error authorizing connected app:"
                 }
               }
             },
