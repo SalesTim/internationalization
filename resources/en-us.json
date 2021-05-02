@@ -959,7 +959,7 @@
           "title": "Webhooks"
         },
         "title": "Webhooks",
-        "menu":{
+        "menu": {
           "new": {
             "button": "New Wehbook"
           },
@@ -970,7 +970,7 @@
             "button": "Cancel"
           }
         },
-        "webhooks":{
+        "webhooks": {
           "delete": {
             "button": "<i class='far fa-trash-alt'></i> Delete"
           }
@@ -1070,9 +1070,16 @@
               "help": {
                 "button": "Setup Guide"
               },
-              "test": {
+              "authorize": {
                 "button": "Test connection",
-                "message": "You have to test the connection before beeing able to enable a connected app."
+                "message": "You have to authorize the connection before beeing able to enable a connected app.",
+                "missing_fields": "Please provide a value for the \"Client ID\" and \"Client Secret\" fields.",
+                "success": {
+                  "title": "Connected App successfully authorized"
+                },
+                "error": {
+                  "title": "Error authorizing connected app"
+                }
               }
             },
             "entities": {
