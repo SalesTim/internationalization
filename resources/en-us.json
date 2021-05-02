@@ -959,20 +959,21 @@
           "title": "Webhooks"
         },
         "title": "Webhooks",
-        "new": {
-          "button": "<i class='far fa-plus-square'></i> New Wehbook"
+        "menu":{
+          "new": {
+            "button": "New Wehbook"
+          },
+          "save": {
+            "button": "Save"
+          },
+          "cancel": {
+            "button": "Cancel"
+          }
         },
-        "save": {
-          "button": "<i class='far fa-save'></i> Save"
-        },
-        "create": {
-          "button": "<i class='far fa-save'></i> Create"
-        },
-        "cancel": {
-          "button": "<i class='fas fa-ban'></i> Cancel"
-        },
-        "delete": {
-          "button": "<i class='far fa-trash-alt'></i> Delete"
+        "webhooks":{
+          "delete": {
+            "button": "<i class='far fa-trash-alt'></i> Delete"
+          }
         }
       },
       "connectedapps": {
