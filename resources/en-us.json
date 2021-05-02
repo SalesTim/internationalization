@@ -1060,7 +1060,7 @@
               },
               "scope": {
                 "label": "Scope",
-                "placeholder": "Enter requester permissions",
+                "placeholder": "Enter requested permissions",
                 "help": "Permissions granted during the OAuth authorization."
               },
               "delete": {
