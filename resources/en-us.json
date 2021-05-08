@@ -1233,6 +1233,26 @@
         },
         "title": "Audit Trails",
         "menu": {
+          "search": {
+            "placeholder": "🔍 Search..."
+          },
+          "pagination": {
+            "previous": "⬅️",
+            "next": "➡️",
+            "showing": "Displaying",
+            "results": "records",
+            "navigate": "Page %s of %s",
+            "page": "Page %s",
+            "of": "of",
+            "to": "to"
+          },
+          "sort": {
+            "sortAsc": "Sort column ascending",
+            "sortDesc": "Sort column descending"
+          },
+          "loading": "Loading...",
+          "noRecordsFound": "No matching records found",
+          "error": "An error happened while fetching the data",
           "download": {
             "button": "Download"
           }
