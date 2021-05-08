@@ -1231,7 +1231,7 @@
         "tab": {
           "title": "Audit Trails"
         },
-        "title": "Audit Trails",
+        "title": "Audit Trail:",
         "menu": {
           "search": {
             "placeholder": "Search..."
@@ -1253,6 +1253,9 @@
           "loading": "Loading...",
           "noRecordsFound": "No matching records found",
           "error": "An error happened while fetching the data",
+          "sync": {
+            "button": "Refresh"
+          },
           "download": {
             "button": "Download"
           }
