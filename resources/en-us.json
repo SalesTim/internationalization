@@ -1226,6 +1226,17 @@
             "confirm": "YES, DISCARD MY UPDATES"
           }
         }
+      },
+      "auditTrails": {
+        "tab": {
+          "title": "Audit Trails"
+        },
+        "title": "Audit Trails",
+        "menu": {
+          "download": {
+            "button": "Download"
+          }
+        }
       }
     },
     "settings": {
