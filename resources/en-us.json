@@ -1234,11 +1234,11 @@
         "title": "Audit Trails",
         "menu": {
           "search": {
-            "placeholder": "🔍 Search..."
+            "placeholder": "Search..."
           },
           "pagination": {
-            "previous": "⬅️",
-            "next": "➡️",
+            "previous": "Previous",
+            "next": "Next",
             "showing": "Displaying",
             "results": "records",
             "navigate": "Page %s of %s",
