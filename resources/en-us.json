@@ -1011,9 +1011,13 @@
             "supported": "Connected Entities:"
           },
           "alert": {
-            "button": "Alert me when available",
-            "subscription_success": "👋 Thanks, we'll notifiy you as soon as this integration is available",
-            "subscription_failed": "🤔 Looks like we can't subscribe you right now... Please try again later"
+            "button": "Notify me when available",
+            "subscription":{
+              "subscribed": "Subscribed",
+              "ok": "OK",
+              "success": "👋 Thanks, we'll notifiy you as soon as this integration is available",
+              "failed": "🤔 Looks like we can't subscribe you right now... Please try again later"  
+            }
           },
           "help": {
             "button": "Setup Guide"
