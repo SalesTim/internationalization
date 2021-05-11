@@ -1010,6 +1010,9 @@
           "entities": {
             "supported": "Connected Entities:"
           },
+          "alert":{
+            "button":"Alert me when available"
+          },
           "help": {
             "button": "Setup Guide"
           },
