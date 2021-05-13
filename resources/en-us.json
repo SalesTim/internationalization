@@ -1012,11 +1012,11 @@
           },
           "alert": {
             "button": "Notify me when available",
-            "subscription":{
+            "subscription": {
               "subscribed": "Subscribed",
               "ok": "OK",
               "success": "👋 Thanks, we'll notifiy you as soon as this integration is available",
-              "failed": "🤔 Looks like we can't subscribe you right now... Please try again later"  
+              "failed": "🤔 Looks like we can't subscribe you right now... Please try again later"
             }
           },
           "help": {
@@ -1845,6 +1845,21 @@
     "email": {
       "footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
       "copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
+    }
+  },
+  "releaseNotes": {
+    "link": {
+      "label": "👋 We've got some news"
+    },
+    "widget": {
+      "title": "🚀 Release Notes",
+      "readMore": "Read more",
+      "labels": {
+        "new": "New",
+        "improvement": "Improvement",
+        "fix": "Fixes"
+      },
+      "footer": "Read more 👉"
     }
   },
   "tags": {
