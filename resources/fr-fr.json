@@ -1542,6 +1542,21 @@
       "copyright": "(c) Copyright 2020 SalesTim, tous droits réservés."
     }
   },
+  "releaseNotes": {
+    "link": {
+      "label": "👋 Quoi de neuf ?"
+    },
+    "widget": {
+      "title": "🚀 Nouveautés",
+      "readMore": "En savoir plus",
+      "labels": {
+        "new": "Nouveauté",
+        "improvement": "Amélioration",
+        "fix": "Correctif"
+      },
+      "footer": "En savoir plus 👉"
+    }
+  },
   "tags": {
     "app": {
       "id": "Application: ID",

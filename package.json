@@ -1,6 +1,6 @@
 {
   "name": "tech-hub",
-  "version": "0.0.155",
+  "version": "0.0.156",
   "description": "SalesTim Tech Hub",
   "scripts": {
     "push": "gulp push"
