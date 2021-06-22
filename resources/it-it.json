@@ -4,7 +4,7 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='far fa-comments'></i> Richiedi assistenza",
-        "notAdmin": "<i class='far fa-comments'></i> I'm not an administrator",
+        "notAdmin": "I'm not an administrator",
         "defaultMessage": "Ciao, sto avendo un problema 😱, aiuto! [ Technical Information: %s ]"
       },
       "backToHome": {
@@ -1401,6 +1401,9 @@
         },
         "3": {
           "name": "Integration"
+        },
+        "4": {
+          "name": "Governance"
         }
       }
     },

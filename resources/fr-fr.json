@@ -3,8 +3,8 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='far fa-comments'></i> Parler au support",
-        "notAdmin": "<i class='far fa-comments'></i> Je ne suis pas administrateur",
+        "button": "Parler au support",
+        "notAdmin": "Je ne suis pas administrateur",
         "defaultMessage": "Bonjour, j'ai besoin d'aide!"
       },
       "backToHome": {
@@ -1401,6 +1401,9 @@
         },
         "3": {
           "name": "Applications Connectées"
+        },
+        "4": {
+          "name": "Gouvernance"
         }
       }
     },

@@ -4,7 +4,7 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='far fa-comments'></i> Talk to our Support",
-        "notAdmin": "<i class='far fa-comments'></i> I'm not an administrator",
+        "notAdmin": "I'm not an administrator",
         "defaultMessage": "Hi, I need help!"
       },
       "backToHome": {
@@ -1706,6 +1706,9 @@
         },
         "3": {
           "name": "Connected Apps"
+        },
+        "4": {
+          "name": "Governance"
         }
       }
     },

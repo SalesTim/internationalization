@@ -4,7 +4,7 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='far fa-comments'></i> Sprechen Sie mit unserer Support",
-        "notAdmin": "<i class='far fa-comments'></i> I'm not an administrator",
+        "notAdmin": "I'm not an administrator",
         "defaultMessage": "Hallo, ich stehe vor einem Problem 😱, bitte helf Sie mir! [ Technical Information: %s ]"
       },
       "backToHome": {
@@ -1401,7 +1401,10 @@
         },
 				"3": {
 					"name": "Integration"
-				}
+				},
+        "4": {
+          "name": "Governance"
+        }
       }
     },
     "targeted": {
