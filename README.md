@@ -1,17 +1,14 @@
 ![classification:PUBLIC](https://img.shields.io/badge/classification-PUBLIC-blue)
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/salestim/internationalization)
-![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
+![semver](https://img.shields.io/badge/semver-2.0.0-informational?style=flat)
 ![GitHub last commit](https://img.shields.io/github/last-commit/salestim/internationalization)
-![GitHub Release Date](https://img.shields.io/github/release-date/salestim/internationalization)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/internationalization)
 [![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
 [![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
-[![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
 
 *"SalesTim Internationalization" is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).*
 
-# Welcome to the SalesTim Internationalization (i18n) repo
+# 👋 Welcome to the SalesTim Internationalization (i18n) repo
 
 ## ABSTRACT
 
@@ -21,9 +18,9 @@ Here is the current status of this localization effort:
 
 [![](https://img.shields.io/static/v1?label=en-us&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/en-us.json)
 [![](https://img.shields.io/static/v1?label=fr-fr&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/fr-fr.json)
-[![](https://img.shields.io/static/v1?label=es-es&message=100%%20beta&color=important)](https://github.com/SalesTim/internationalization/blob/master/resources/es-es.json)
-[![](https://img.shields.io/static/v1?label=it-it&message=100%%20beta&color=important)](https://github.com/SalesTim/internationalization/blob/master/resources/it-it.json)
-[![](https://img.shields.io/static/v1?label=de-de&message=0%&color=informational)](https://github.com/SalesTim/internationalization/blob/master/resources/de-de.json)
+[![](https://img.shields.io/static/v1?label=es-es&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/es-es.json)
+[![](https://img.shields.io/static/v1?label=it-it&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/it-it.json)
+[![](https://img.shields.io/static/v1?label=de-de&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/de-de.json)
 [![](https://img.shields.io/static/v1?label=ru-ru&message=0%&color=informational)](https://github.com/SalesTim/internationalization/blob/master/resources/de-de.json)
 
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
@@ -58,7 +55,29 @@ There is a json file for each language/region pair in the `resources` folder:
 │   └── <language>-<region>.json  # language/region pair. For example: "en-us".
 ```
 
-### Fallbacks
+### Structural overview
+Locale files are multi-level JSON objects containing key-value pairs organized in groups and sections, for instance:
+```yaml
+"home": {
+  "myRequests": {
+    "opened": "My requests",
+    "closed": "Home"
+  },
+  "newTeam": {
+    "opened": "New Team",
+    "canceled": "Home",
+    "saved": "Home"
+  },
+  "searched": "Search",
+  "team": {
+    "opened": "Opening...",
+    "initiateTalkToOwners": "Starting conversation..."
+  },
+  "loggedOut": "Sign-out..."
+}
+```
+
+### Fallback principles
 
 SalesTim takes care of fallback, such as:
 - Language without region: ```en``` -> ```en-us```
@@ -71,7 +90,7 @@ To determine the language to be used, SalesTim is using these information by des
 3. ``` en-us ``` in last resort
 
 In addition to regular text, individual strings could use the following features:
-- HTML (For some specific keys)
+- HTML (For some specific keys, not recommended)
 - Emojis
 - Variables
 - Plurals
