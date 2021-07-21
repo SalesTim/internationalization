@@ -1073,6 +1073,21 @@
             "confirm": "YES, DISCARD MY UPDATES"
           }
         }
+      }
+    },
+    "governance": {
+      "title": "Governance",
+      "teams": {
+        "tab": {
+          "title": "Teams Management"
+        },
+        "title": "Teams Management:",
+        "loading": "Teams Management Loading",
+        "menu": {},
+        "teamsList": {
+          "loading": "Loading teams",
+          "zero": "Zero teams"
+        }
       },
       "auditTrails": {
         "tab": {
