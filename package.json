@@ -1,24 +1,26 @@
 {
-  "name": "tech-hub",
-  "version": "0.0.160",
-  "description": "SalesTim Tech Hub",
-  "scripts": {
-    "push": "gulp push"
-  },
+  "name": "@salestim/i18n",
+  "version": "3.5.48",
+  "description": "I18n module for the SalesTim platform",
+  "keywords": [
+    "salestim",
+    "i18n",
+    "internationalization"
+  ],
   "author": "Guillaume Meyer <gmeyer@salestim.com> (https://www.salestim.com)",
-  "license": "MIT",
-  "private": true,
+  "license": "UNLICENSED",
+  "private": "true",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SalesTim/internationalization.git"
+    "url": "https://github.com/SalesTim/i18n"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "figlet": "^1.5.0",
-    "gulp": "^4.0.2",
-    "gulp-bump": "^3.2.0",
-    "gulp-git": "^2.10.0",
-    "moment": "^2.29.1",
-    "standard": "^14.3.4"
-  }
+  "bugs": {
+    "url": "https://github.com/SalesTim/i18n/issues"
+  },
+  "homepage": "https://github.com/SalesTim/i18n/README.md",
+  "main": "./src/index.js",
+  "dependencies": {
+    "i18n": "^0.13.3"
+  },
+  "devDependencies": {}
 }
