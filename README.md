@@ -15,12 +15,12 @@ This repository contains resource files used to localize the [SalesTim Platform]
 
 Here is the current status of this localization effort:  
 
-[![](https://img.shields.io/static/v1?label=en-us&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/resources/en-us.json)
-[![](https://img.shields.io/static/v1?label=fr-fr&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/resources/fr-fr.json)
-[![](https://img.shields.io/static/v1?label=es-es&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/resources/es-es.json)
-[![](https://img.shields.io/static/v1?label=it-it&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/resources/it-it.json)
-[![](https://img.shields.io/static/v1?label=de-de&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/resources/de-de.json)
-[![](https://img.shields.io/static/v1?label=ru-ru&message=0%&color=informational)](https://github.com/SalesTim/i18n/blob/master/resources/ru-ru.json)
+[![](https://img.shields.io/static/v1?label=en-us&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/locales/en-us.json)
+[![](https://img.shields.io/static/v1?label=fr-fr&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/locales/fr-fr.json)
+[![](https://img.shields.io/static/v1?label=es-es&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/locales/es-es.json)
+[![](https://img.shields.io/static/v1?label=it-it&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/locales/it-it.json)
+[![](https://img.shields.io/static/v1?label=de-de&message=100%&color=success)](https://github.com/SalesTim/i18n/blob/master/locales/de-de.json)
+[![](https://img.shields.io/static/v1?label=ru-ru&message=0%&color=informational)](https://github.com/SalesTim/i18n/blob/master/locales/ru-ru.json)
 
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
 
@@ -32,7 +32,7 @@ If you want to integrate your contents or applications with the SalesTim Platfor
 I18n in SalesTim is implemented as resource files.  
 Resource files are plain [JSON Files](https://en.wikipedia.org/wiki/JSON), which is an open standard file format that guarantees portability.  
 
-There is a json file for each language/region pair in the `resources` folder:
+There is a json file for each language/region pair in the `locales` folder:
 ```sh
 .
 ├── resources

@@ -19,10 +19,6 @@ const I18n = function (options, constructorCallback) {
 I18n.localeCache = {}
 
 I18n.prototype = {
-  // defaultLocale: window.i18nConfig.defaultLocale,
-  // directory: window.i18nConfig.localesDirectory,
-  // extension: window.i18nConfig.extension,
-
   getLocale: function () {
     return this.locale
   },
@@ -59,7 +55,6 @@ I18n.prototype = {
         validLocale = fallbackLocale
       }
       this.locale = validLocale
-      // window.$.getJSON(this.directory + '/' + validLocale + this.extension)
       window.$.getJSON(CDN_PUBLICURL + '/clients/locales/' + validLocale + this.extension)
         .done(function (data) {
           // Identified by security/detect-object-injection, but safe as no value holds user input

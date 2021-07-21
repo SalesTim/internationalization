@@ -1,8 +1,6 @@
 'use strict'
 /**
- * Mail module for the SalesTim platform
- * Provides an abstraction layer to the underlying mail module.
- * Current implementation using SendGrid.
+ * I18n module for the SalesTim platform
 */
 
 // #region DECLARATIONS
